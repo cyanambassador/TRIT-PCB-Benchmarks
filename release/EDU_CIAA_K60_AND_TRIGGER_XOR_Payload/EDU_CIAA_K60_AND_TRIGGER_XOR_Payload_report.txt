@@ -1,0 +1,37 @@
+EDU_CIAA_K60_AND_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
++USB_JTAG_1V8 /CPU/LED3 "Net-(U10-Pad61)" "Net-(U5-Pad48)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/RS232_RXD
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/JTAG/USB_JTAG_DP /CPU/TEC_F0 "Net-(Q5-PadD)" "Net-(R49-Pad2)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(C31-Pad1)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U10-Pad15)" "Net-(U10-Pad119)" "Net-(R6-Pad2)" "Net-(U5-Pad45)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/GPIO/GPIO3
+
+************************************************************

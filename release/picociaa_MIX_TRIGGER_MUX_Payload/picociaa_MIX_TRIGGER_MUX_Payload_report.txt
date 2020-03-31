@@ -1,0 +1,46 @@
+picociaa_MIX_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(J1-Pad45)" "Net-(J1-Pad51)" "Net-(J1-Pad12)" /IO9 "Net-(U2-Pad30)" /P0_31 "Net-(U2-Pad18)" /IO36 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(LED1-Pad2)"
+Effect : The signal that is leaked...
+/Reg_3.3V
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/IO3 /IO9 "Net-(J1-Pad28)" /IO7 "Net-(U2-Pad12)" "Net-(C22-Pad1)" "Net-(C21-Pad1)" "Net-(C20-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/Debugger/DBG_~RST~
+Effect : The signal that is leaked...
+"Net-(C6-Pad1)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/IO30 "Net-(J1-Pad24)" "Net-(J1-Pad14)" /IO8 "Net-(U2-Pad33)" "Net-(J1-Pad7)" /IO41 /Debugger/PIO0_11 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(C7-Pad1)"
+Effect : The signal that is leaked...
+"/Target-CPU/SWO/TDO"
+
+************************************************************

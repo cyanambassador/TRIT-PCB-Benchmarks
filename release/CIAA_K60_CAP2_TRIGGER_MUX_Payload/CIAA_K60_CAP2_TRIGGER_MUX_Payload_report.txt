@@ -1,0 +1,46 @@
+CIAA_K60_CAP2_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/RESET /GPIO/USR_5V "Net-(R307-Pad1)" /CPU/ETH_RXD1 "Net-(R921-Pad1)" "Net-(U302-Pad28)" "Net-(JP905-Pad1)" /JTAG/FT_RST 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/USB_DM
+Effect : The signal that is leaked...
+/CPU/USB_DP
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/AIN1 "Net-(J301-Pad10)" "Net-(Q806-Pad1)" "Net-(C314-Pad1)" "Net-(C906-Pad2)" "Net-(Q807-Pad1)" "/USB OTG/USB0_PWR_FAULT" "Net-(R304-Pad2)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(Q1201-Pad3)"
+Effect : The signal that is leaked...
+"Net-(R1201-Pad2)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPIFI_MISO /CPU/GPIO0 "Net-(U1302-Pad43)" "Net-(J1303-Pad7)" "Net-(J603-Pad6)" "Net-(U1301-Pad7)" +24V /CPU/ETH_MDC 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"/Entradas Digitales/IN3"
+Effect : The signal that is leaked...
+"Net-(Q1202-Pad3)"
+
+************************************************************

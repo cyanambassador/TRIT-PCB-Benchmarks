@@ -1,0 +1,37 @@
+ciaa-z3r0_CAP1_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(C9-Pad1)" /B_USB- "Net-(R1-Pad1)" "Net-(C7-Pad1)" /vusb "Net-(D3-Pad2)" /PB14 +3V3 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/vusb
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/PB8 "Net-(C9-Pad1)" "Net-(U2-Pad4)" /PD4 "Net-(D3-Pad2)" /PA9 /PD5 /PF5 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/PB7
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(D3-Pad2)" /PC4 /USB- /PE12 /PD7 GND /PC9 "Net-(J3-Pad4)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(C7-Pad1)"
+
+************************************************************

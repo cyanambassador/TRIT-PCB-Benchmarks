@@ -1,0 +1,37 @@
+ciaa_acc_CAP1_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANK_502/DDR_CLK_N /Principal/BANK_0/LPC_UART_RX "Net-(J5-PadB40)" "Net-(U11-Pad15)" /Principal/BANK_0/TDI "Net-(J5-PadK1)" "Net-(J5-PadB5)" "Net-(DS7-Pad2)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Principal/BANKS_HR/FMC_LA_10_P
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(R115-Pad2)" /Principal/BANKS_HR/DIN1 "Net-(R49-Pad2)" "Net-(J5-PadA38)" "Net-(J12-Pad2)" /Principal/BANK_502/DDR_A2 /Principal/OneBank/MGTXTX0_B_N "Net-(U46-Pad13)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Principal/BANK_501/ETH_LED2
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U1-PadG14)" /Principal/Expansion/GPIO7_B /Principal/BANKS_HP/FMC_HB_10_N "Net-(U1-PadB11)" "Net-(C112-Pad2)" "Net-(R2-Pad1)" "Net-(Q3-Pad3)" /Principal/BANKS_HP/FMC_HB_13_N 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Principal/BANKS_HR/FMC_LA_6_N
+
+************************************************************

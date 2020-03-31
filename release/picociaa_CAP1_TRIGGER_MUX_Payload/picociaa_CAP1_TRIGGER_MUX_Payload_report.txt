@@ -1,0 +1,46 @@
+picociaa_CAP1_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(C6-Pad1)" "Net-(J1-Pad39)" /RST /CHASSIS /Debugger/PIO1_24 "Net-(U2-Pad33)" /IO17 "Net-(R9-Pad2)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/IO31
+Effect : The signal that is leaked...
+/IO33
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/Debugger/PIO1_13 "Net-(U2-Pad42)" "Net-(C7-Pad1)" "Net-(LED1-Pad2)" /IO1 "Net-(U2-Pad34)" "Net-(U2-Pad9)" "Net-(J1-Pad30)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/Debugger/TGT_TXD
+Effect : The signal that is leaked...
+/IO20
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(R4-Pad1)" /IO40 /Reg_3.3V "/Target-CPU/SWDIO" "Net-(U2-Pad43)" /IO7 /P0_30 /IO1 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/Debugger/DBG_~ISP~
+Effect : The signal that is leaked...
+/IO40
+
+************************************************************

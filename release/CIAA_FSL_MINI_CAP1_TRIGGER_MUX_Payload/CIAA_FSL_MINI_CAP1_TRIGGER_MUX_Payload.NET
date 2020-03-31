@@ -1,0 +1,5724 @@
+(export (version D)
+  (design
+    (source /home/aritrab97/Hardware-master/PCB/FSL-MINI/CIAA_FSL_MINI.sch)
+    (date "Fri 28 Feb 2020 06:00:15 PM EST")
+    (tool "Eeschema 5.1.5-52549c5~84~ubuntu18.04.1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "CIAA Freescale MINI - Esquemático jerárquico")
+        (company "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL-MINI (K60)")
+        (rev "CORDOBA 0.1")
+        (date 2016-06-02)
+        (source CIAA_FSL_MINI.sch)
+        (comment (number 1) (value "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA.txt'"))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value ""))))
+    (sheet (number 2) (name /Ethernet/) (tstamps /52C34F34/)
+      (title_block
+        (title "CIAA Ethernet")
+        (company)
+        (rev 1.0)
+        (date "11 may 2015")
+        (source ethernet.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value ""))))
+    (sheet (number 3) (name "/USB OTG/") (tstamps /52C66C60/)
+      (title_block
+        (title "USB OTG")
+        (company "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL-MINI (K60)")
+        (rev "CORDOBA 0.1")
+        (date 2016-06-02)
+        (source usb_otg.sch)
+        (comment (number 1) (value "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA.txt'"))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value ""))))
+    (sheet (number 4) (name /memories/) (tstamps /52C256D0/)
+      (title_block
+        (title "CIAA Memorias NV")
+        (company "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL-MINI (K60)")
+        (rev "CORDOBA 0.1")
+        (date 2016-06-02)
+        (source memories.sch)
+        (comment (number 1) (value "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA.txt'"))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value ""))))
+    (sheet (number 5) (name /Fuente/) (tstamps /52C2B8A1/)
+      (title_block
+        (title "Fuente de Alimentación")
+        (company "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL-MINI (K60)")
+        (rev "CORDOBA 0.1")
+        (date 2016-06-02)
+        (source fuente.sch)
+        (comment (number 1) (value "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA.txt'"))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value ""))))
+    (sheet (number 6) (name /CPU/) (tstamps /52C1CAF4/)
+      (title_block
+        (title "Microcontrolador Freescale K60")
+        (company "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL-MINI (K60)")
+        (rev "CORDOBA 0.1")
+        (date 2016-06-02)
+        (source cpu.sch)
+        (comment (number 1) (value "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA.txt'"))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value ""))))
+    (sheet (number 7) (name /I/O/) (tstamps /5756CD3E/)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source IO.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref F101)
+      (value FIDUCIAL)
+      (footprint FSL-MINI:Fiducial_1mm)
+      (fields
+        (field (name Descripcion) FIDUCIAL)
+        (field (name Digikey/Mouser) ~)
+        (field (name Fabricante) ~)
+        (field (name "Footprint estandar") ~)
+        (field (name "Nro. parte") ~)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part FIDUCIAL) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5398FDD1))
+    (comp (ref H101)
+      (value PCB_HOLE)
+      (footprint FSL-MINI:PCB_HOLE)
+      (fields
+        (field (name Descripcion) "PCB HOLE")
+        (field (name Digikey/Mouser) ~)
+        (field (name Fabricante) ~)
+        (field (name "Footprint estandar") ~)
+        (field (name "Nro. parte") ~)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part PCB_HOLE) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53992816))
+    (comp (ref F102)
+      (value FIDUCIAL)
+      (footprint FSL-MINI:Fiducial_1mm)
+      (fields
+        (field (name Descripcion) FIDUCIAL)
+        (field (name Digikey/Mouser) ~)
+        (field (name Fabricante) ~)
+        (field (name "Footprint estandar") ~)
+        (field (name "Nro. parte") ~)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part FIDUCIAL) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 539948B8))
+    (comp (ref F103)
+      (value FIDUCIAL)
+      (footprint FSL-MINI:Fiducial_1mm)
+      (fields
+        (field (name Descripcion) FIDUCIAL)
+        (field (name Digikey/Mouser) ~)
+        (field (name Fabricante) ~)
+        (field (name "Footprint estandar") ~)
+        (field (name "Nro. parte") ~)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part FIDUCIAL) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 539948C4))
+    (comp (ref H102)
+      (value PCB_HOLE)
+      (footprint FSL-MINI:PCB_HOLE)
+      (fields
+        (field (name Descripcion) "PCB HOLE")
+        (field (name Digikey/Mouser) ~)
+        (field (name Fabricante) ~)
+        (field (name "Footprint estandar") ~)
+        (field (name "Nro. parte") ~)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part PCB_HOLE) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5399859C))
+    (comp (ref H103)
+      (value PCB_HOLE)
+      (footprint FSL-MINI:PCB_HOLE)
+      (fields
+        (field (name Descripcion) "PCB HOLE")
+        (field (name Digikey/Mouser) ~)
+        (field (name Fabricante) ~)
+        (field (name "Footprint estandar") ~)
+        (field (name "Nro. parte") ~)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part PCB_HOLE) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 539985A8))
+    (comp (ref H104)
+      (value PCB_HOLE)
+      (footprint FSL-MINI:PCB_HOLE)
+      (fields
+        (field (name Descripcion) "PCB HOLE")
+        (field (name Digikey/Mouser) ~)
+        (field (name Fabricante) ~)
+        (field (name "Footprint estandar") ~)
+        (field (name "Nro. parte") ~)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part PCB_HOLE) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 539985B4))
+    (comp (ref G102)
+      (value OSHWA)
+      (footprint FSL-MINI:OSHWA)
+      (fields
+        (field (name Descripcion) "LOGO DE OPEN SOURCE HARDWARE")
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part OSHWA) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53A0DEBC))
+    (comp (ref G101)
+      (value LOGO_CIAA)
+      (footprint FSL-MINI:LOGO-CIAA)
+      (fields
+        (field (name Descripcion) "LOGO CIAA")
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part LOGO_CIAA) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53E44CA2))
+    (comp (ref P103)
+      (value CONN_02X05)
+      (footprint Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part CONN_02X05) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58F5C0ED))
+    (comp (ref R101)
+      (value 270)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RESISTOR 270R 1/10W 5% 0603")
+        (field (name Digikey/Mouser) ~)
+        (field (name Fabricante) YAGEO)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") ~)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58F9AAB5))
+    (comp (ref U201)
+      (value LAN8720A-CP)
+      (footprint Housings_DFN_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part LAN8720A-CP) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F7082))
+    (comp (ref C207)
+      (value 470pF)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F7097))
+    (comp (ref C208)
+      (value 1uF)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F70A6))
+    (comp (ref C206)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F7101))
+    (comp (ref C202)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F71A7))
+    (comp (ref C203)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F71AD))
+    (comp (ref L201)
+      (value BK1608HS220-T)
+      (footprint FSL-MINI:fb_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part INDUCTOR) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F720A))
+    (comp (ref R212)
+      (value 22)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F7377))
+    (comp (ref R201)
+      (value 1k5)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F7386))
+    (comp (ref R202)
+      (value 50)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F75AC))
+    (comp (ref R203)
+      (value 50)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F75BB))
+    (comp (ref C209)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F75CA))
+    (comp (ref R204)
+      (value 50)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F7742))
+    (comp (ref R205)
+      (value 50)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F7748))
+    (comp (ref C210)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F774E))
+    (comp (ref C211)
+      (value 18pF)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F7A1A))
+    (comp (ref C212)
+      (value 18pF)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F7AA0))
+    (comp (ref C213)
+      (value 18pF)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F7AAD))
+    (comp (ref C214)
+      (value 18pF)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F7ABA))
+    (comp (ref R218)
+      (value 270)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F7EB8))
+    (comp (ref R216)
+      (value 270)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F7EC7))
+    (comp (ref R219)
+      (value "12.1k 1%")
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F809E))
+    (comp (ref C215)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F82E9))
+    (comp (ref R206)
+      (value 0)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F8A77))
+    (comp (ref R207)
+      (value 0)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F8A86))
+    (comp (ref R208)
+      (value 0)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F8AE4))
+    (comp (ref R209)
+      (value 22)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F8AEA))
+    (comp (ref R210)
+      (value 22)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F8AFC))
+    (comp (ref R211)
+      (value 22)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F8B02))
+    (comp (ref R213)
+      (value 0)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F8E9C))
+    (comp (ref R214)
+      (value 0)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F8EA2))
+    (comp (ref C204)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 529F967C))
+    (comp (ref U202)
+      (value SI502)
+      (footprint FSL-MINI:Oscillator_7.0x5.0mm)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part Si50X) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 52BC24C2))
+    (comp (ref R220)
+      (value 24.9)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 52BC2833))
+    (comp (ref R215)
+      (value 10k)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 52BC2A10))
+    (comp (ref R217)
+      (value 10k)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 52BC2A34))
+    (comp (ref R221)
+      (value 100k)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 52BC2C7C))
+    (comp (ref C205)
+      (value 10uF)
+      (footprint FSL-MINI:c_1206POL)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part CP1-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 52C688A8))
+    (comp (ref C201)
+      (value 10uF)
+      (footprint FSL-MINI:c_1206POL)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part CP1-RESCUE-ciaa-nxp) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 52C688B7))
+    (comp (ref P201)
+      (value SI-52003-F)
+      (footprint FSL-MINI:RJ45_SI-52003-F_PoE_ETH)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part SI-52003-F) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 5775A728))
+    (comp (ref R222)
+      (value R)
+      (footprint FSL-MINI:r_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 582422B6))
+    (comp (ref C216)
+      (value 100nf)
+      (footprint FSL-MINI:c_0603)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
+      (tstamp 58242952))
+    (comp (ref U301)
+      (value MIC2025-2YM)
+      (footprint FSL-MINI:SOIC-8)
+      (fields
+        (field (name Descripcion) "IC SINGLE CHANNEL POWER DISTRIBUTION SWITCH 500mA")
+        (field (name Digikey/Mouser) 576-1058-ND)
+        (field (name Fabricante) MICREL)
+        (field (name "Footprint estandar") SOIC-8)
+        (field (name "Nro. parte") MIC2025-2YM)
+        (field (name "Path datasheet") ../datasheets/ic/mic2025.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part MIC2025) (description ""))
+      (sheetpath (names "/USB OTG/") (tstamps /52C66C60/))
+      (tstamp 52BC30A4))
+    (comp (ref U302)
+      (value PRTR5V0U2X)
+      (footprint FSL-MINI:SOT-143-4)
+      (fields
+        (field (name Descripcion) "IC TVS DIODE 2 CHANNEL 10V CLAMP SOT1434")
+        (field (name Digikey/Mouser) CM1213A-02SROSCT-ND)
+        (field (name Fabricante) "ON SEMICONDUCTOR")
+        (field (name "Footprint estandar") SOT-143-4)
+        (field (name "Nro. parte") CM1213A-02SR)
+        (field (name "Path datasheet") ../datasheets/passive/protect/CM1213A-D.PDF)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part PRTR5V0U2X) (description ""))
+      (sheetpath (names "/USB OTG/") (tstamps /52C66C60/))
+      (tstamp 52BC3F78))
+    (comp (ref C302)
+      (value 4,7uF)
+      (footprint FSL-MINI:c_1206POL)
+      (fields
+        (field (name Descripcion) "CAP TANT 4,7uF 6,3V 10% 1206 ")
+        (field (name Digikey/Mouser) 399-9717-1-ND)
+        (field (name Fabricante) KEMET)
+        (field (name "Footprint estandar") 1206)
+        (field (name "Nro. parte") T491A475K006AT)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part CAPAPOL) (description ""))
+      (sheetpath (names "/USB OTG/") (tstamps /52C66C60/))
+      (tstamp 52BC4098))
+    (comp (ref C301)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0,1UF 16V X7R 10% 0603")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) KEMET)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names "/USB OTG/") (tstamps /52C66C60/))
+      (tstamp 52BC4969))
+    (comp (ref FB302)
+      (value MMZ1608B601C)
+      (footprint FSL-MINI:fb_0603)
+      (fields
+        (field (name Descripcion) "FERRITE CHIP 600 OHM 500MA 0603")
+        (field (name Digikey/Mouser) 445-2166-1-ND)
+        (field (name Fabricante) TDK)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") MMZ1608B601C)
+        (field (name "Path datasheet") ../datasheets/passive/Ferrite/E9412_MMZ.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part FILTER) (description ""))
+      (sheetpath (names "/USB OTG/") (tstamps /52C66C60/))
+      (tstamp 52C75800))
+    (comp (ref R302)
+      (value 10k)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RESISTOR 10k 1/10W 5% 0603 ")
+        (field (name Digikey/Mouser) 311-10KGRCT-ND)
+        (field (name Fabricante) YAGEO)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-0710KL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names "/USB OTG/") (tstamps /52C66C60/))
+      (tstamp 52C9D8D3))
+    (comp (ref R301)
+      (value 10k)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RESISTOR 10k 1/10W 5% 0603 ")
+        (field (name Digikey/Mouser) 311-10KGRCT-ND)
+        (field (name Fabricante) YAGEO)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-0710KL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names "/USB OTG/") (tstamps /52C66C60/))
+      (tstamp 52C9D9F8))
+    (comp (ref FB301)
+      (value BLM18KG221SN1D)
+      (footprint FSL-MINI:fb_0603)
+      (fields
+        (field (name Descripcion) "FERRITE CHIP 220 OHM 2200MA 0603")
+        (field (name Digikey/Mouser) 490-5255-1-ND)
+        (field (name Fabricante) MURATA)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") BLM18KG221SN1D)
+        (field (name "Path datasheet") ../datasheets/passive/Ferrite/L0110S0100BLM18K.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part FILTER) (description ""))
+      (sheetpath (names "/USB OTG/") (tstamps /52C66C60/))
+      (tstamp 52DDB16D))
+    (comp (ref TR301)
+      (value SRF2012)
+      (footprint FSL-MINI:SRF2012)
+      (fields
+        (field (name Descripcion) "INDUCTOR COMMON MODE 90 OHM SMD")
+        (field (name Digikey/Mouser) SRF2012-900YCT-ND)
+        (field (name Fabricante) BOURNS)
+        (field (name "Footprint estandar") ~)
+        (field (name "Nro. parte") SRF2012-900Y)
+        (field (name "Path datasheet") ../datasheets/passive/inductor/SFR2012.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part TRASF_UNIP) (description ""))
+      (sheetpath (names "/USB OTG/") (tstamps /52C66C60/))
+      (tstamp 52DDB29E))
+    (comp (ref C303)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0,1UF 16V X7R 10% 0603")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) KEMET)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names "/USB OTG/") (tstamps /52C66C60/))
+      (tstamp 539A2BA7))
+    (comp (ref D301)
+      (value SMAJ5.0A)
+      (footprint FSL-MINI:DO-214AC_SMA)
+      (fields
+        (field (name Descripcion) "TVS DIODE 5VWM SMD")
+        (field (name Digikey/Mouser) SMAJ5.0ABCT-ND)
+        (field (name Fabricante) "Bourns Inc.")
+        (field (name "Footprint estandar") SMA)
+        (field (name "Nro. parte") SMAJ5.0A)
+        (field (name "Path datasheet") ../datasheets/passive/protect/SMAJ.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part ZENER) (description ""))
+      (sheetpath (names "/USB OTG/") (tstamps /52C66C60/))
+      (tstamp 53BB50B0))
+    (comp (ref J301)
+      (value "USB OTG")
+      (footprint FSL-MINI:USB_MicroAB)
+      (fields
+        (field (name Descripcion) "CONNECTOR RECEPTACLE MICRO USB AB SMD BOTTOM MOUNT")
+        (field (name Digikey/Mouser) H11635TR-ND)
+        (field (name Fabricante) "HIROSE ELECTRIC")
+        (field (name "Footprint estandar") ~)
+        (field (name "Nro. parte") "ZX62-AB-5PA(11)")
+        (field (name "Path datasheet") ../datasheets/connectors/MICRO_USB_AB.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part MICRO_USB) (description ""))
+      (sheetpath (names "/USB OTG/") (tstamps /52C66C60/))
+      (tstamp 539AA84B))
+    (comp (ref R403)
+      (value 10k)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 10K OHM 1/10W 5% 0603 SMD")
+        (field (name Digikey/Mouser) 311-10KGRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-0710KL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 52BC7354))
+    (comp (ref R404)
+      (value 10k)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 10K OHM 1/10W 5% 0603 SMD")
+        (field (name Digikey/Mouser) 311-10KGRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-0710KL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 52BC759C))
+    (comp (ref R405)
+      (value 10k)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 10K OHM 1/10W 5% 0603 SMD")
+        (field (name Digikey/Mouser) 311-10KGRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-0710KL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 52BC75A2))
+    (comp (ref Q401)
+      (value FDN340P)
+      (footprint FSL-MINI:SOT-23)
+      (fields
+        (field (name Descripcion) "MOSFET P-CH 20V 2A SSOT3")
+        (field (name Digikey/Mouser) FDN340PCT-ND)
+        (field (name Fabricante) "ON Semiconductor")
+        (field (name "Footprint estandar") SOT-23)
+        (field (name "Nro. parte") FDN340P)
+        (field (name "Path datasheet") ../datasheets/device/FDN340P.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part MOSFET_P) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 52BC7785))
+    (comp (ref R401)
+      (value 10k)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 10K OHM 1/10W 5% 0603 SMD")
+        (field (name Digikey/Mouser) 311-10KGRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-0710KL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 52BC7883))
+    (comp (ref R408)
+      (value 680)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 680 OHM 1/10W 5% 0603 SMD")
+        (field (name Digikey/Mouser) 311-680GRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-07680RL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 52BC792A))
+    (comp (ref R407)
+      (value 10k)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 10K OHM 1/10W 5% 0603 SMD")
+        (field (name Digikey/Mouser) 311-10KGRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-0710KL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 52BC793C))
+    (comp (ref C402)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0,1UF 16V 10% X7R 0603")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 52BC7944))
+    (comp (ref C401)
+      (value 10uF)
+      (footprint FSL-MINI:c_1206POL)
+      (fields
+        (field (name Descripcion) "CAP TANT 10UF 6.3V 10% 1206")
+        (field (name Digikey/Mouser) 399-10116-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 1206)
+        (field (name "Nro. parte") T491A106K006AT7280)
+        (field (name "Path datasheet") ../datasheets/passive/Capacitores/KEM_TC111_SPACE.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 52BC795D))
+    (comp (ref D401)
+      (value "SD CARD")
+      (footprint FSL-MINI:LED-0603)
+      (fields
+        (field (name Descripcion) "LED GRN WATER CLEAR 0603 SMD")
+        (field (name Digikey/Mouser) 1080-1399-1-ND)
+        (field (name Fabricante) "Everlight Electronics Co Ltd")
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") QTLP600C4TR)
+        (field (name "Path datasheet") ../datasheets/passive/diode/ds300084.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part LED) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 52BC816D))
+    (comp (ref R406)
+      (value 10k)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 10K OHM 1/10W 5% 0603 SMD")
+        (field (name Digikey/Mouser) 311-10KGRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-0710KL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 52BC8408))
+    (comp (ref J401)
+      (value "SD CARD")
+      (footprint FSL-MINI:MicroSD_Hinged)
+      (fields
+        (field (name Descripcion) "CONN MEMORY CARD R/A 8POS SMD")
+        (field (name Digikey/Mouser) WM6698CT-ND)
+        (field (name Fabricante) "Molex Inc.")
+        (field (name "Footprint estandar") ~)
+        (field (name "Nro. parte") 0472192001)
+        (field (name "Path datasheet") ../datasheets/connectors/472192001_sd.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part SD-CON) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 52C511EC))
+    (comp (ref U402)
+      (value 24AA1025)
+      (footprint FSL-MINI:SOIC-8)
+      (fields
+        (field (name Descripcion) "IC EEPROM 1MBIT 400KHZ 8SOIC")
+        (field (name Digikey/Mouser) 24AA1025-I/SN-ND)
+        (field (name Fabricante) "Microchip Technology")
+        (field (name "Footprint estandar") "8-SOIC N")
+        (field (name "Nro. parte") 24AA1025-I/SN)
+        (field (name "Path datasheet") ../datasheets/ic/20001941L.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part 24C512) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5328A60C))
+    (comp (ref U403)
+      (value 24AA025E48)
+      (footprint FSL-MINI:SOIC-8)
+      (fields
+        (field (name Descripcion) "IC EEPROM 2KBIT 400KHZ 8SOIC")
+        (field (name Digikey/Mouser) 24AA025E48-I/SN-ND)
+        (field (name Fabricante) "Microchip Technology")
+        (field (name "Footprint estandar") "8-SOIC N")
+        (field (name "Nro. parte") 24AA025E48-I/SN)
+        (field (name "Path datasheet") ../datasheets/ic/20002124E.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part 24C512) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5328A61B))
+    (comp (ref R411)
+      (value 0R)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 0.0 OHM 1/10W JUMP 0603 SMD")
+        (field (name Digikey/Mouser) 311-0.0GRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-070RL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5328A628))
+    (comp (ref R409)
+      (value 0R)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 0.0 OHM 1/10W JUMP 0603 SMD")
+        (field (name Digikey/Mouser) 311-0.0GRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-070RL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5328A63E))
+    (comp (ref R410)
+      (value 0R)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 0.0 OHM 1/10W JUMP 0603 SMD")
+        (field (name Digikey/Mouser) 311-0.0GRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-070RL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5328A644))
+    (comp (ref R413)
+      (value 0R)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 0.0 OHM 1/10W JUMP 0603 SMD")
+        (field (name Digikey/Mouser) 311-0.0GRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-070RL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5328A736))
+    (comp (ref R414)
+      (value 0R)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 0.0 OHM 1/10W JUMP 0603 SMD")
+        (field (name Digikey/Mouser) 311-0.0GRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-070RL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5328A73C))
+    (comp (ref R412)
+      (value 0R)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 0.0 OHM 1/10W JUMP 0603 SMD")
+        (field (name Digikey/Mouser) 311-0.0GRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-070RL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5328A742))
+    (comp (ref R415)
+      (value 0R)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 0.0 OHM 1/10W JUMP 0603 SMD")
+        (field (name Digikey/Mouser) 311-0.0GRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-070RL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5328A99D))
+    (comp (ref R416)
+      (value 0R)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 0.0 OHM 1/10W JUMP 0603 SMD")
+        (field (name Digikey/Mouser) 311-0.0GRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-070RL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5328AA05))
+    (comp (ref C405)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0,1UF 16V 10% X7R 0603")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5328AA6A))
+    (comp (ref C404)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0,1UF 16V 10% X7R 0603")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5328AAE5))
+    (comp (ref U401)
+      (value S25FL032P0XMFI013)
+      (footprint FSL-MINI:SOIC-8_WIDE)
+      (fields
+        (field (name Descripcion) "IC NOR FLASH 32MBIT 104MHZ")
+        (field (name Digikey/Mouser) S25FL032P0XMFI013-ND)
+        (field (name Fabricante) "Spansion Inc.")
+        (field (name "Footprint estandar") "SOIC-8 WIDE")
+        (field (name "Nro. parte") S25FL032P0XMFI013)
+        (field (name "Path datasheet") ../datasheets/ic/S25FL032P.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part S25FL032P0XMFI013) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5336D94C))
+    (comp (ref C403)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0,1UF 16V 10% X7R 0603")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 5397D330))
+    (comp (ref R402)
+      (value 750k)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 750K OHM 1/10W 5% 0603 SMD")
+        (field (name Digikey/Mouser) 311-750KGRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-07750KL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /memories/) (tstamps /52C256D0/))
+      (tstamp 53B7AD7B))
+    (comp (ref C503)
+      (value 10uF)
+      (footprint FSL-MINI:c_1206POL)
+      (fields
+        (field (name Descripcion) "CAP TANT 10UF 6.3V 10% 1206")
+        (field (name Digikey/Mouser) 399-10116-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 1206)
+        (field (name "Nro. parte") T491A106K006AT7280)
+        (field (name "Path datasheet") ../datasheets/passive/Capacitores/KEM_TC111_SPACE.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part CAPAPOL) (description ""))
+      (sheetpath (names /Fuente/) (tstamps /52C2B8A1/))
+      (tstamp 52B78D18))
+    (comp (ref FB501)
+      (value MMZ1608B601C)
+      (footprint FSL-MINI:fb_0603)
+      (fields
+        (field (name Descripcion) "FERRITE CHIP 600 OHM 500MA 0603")
+        (field (name Digikey/Mouser) 445-2166-1-ND)
+        (field (name Fabricante) "TDK Corporation")
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") MMZ1608B601C)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part FILTER) (description ""))
+      (sheetpath (names /Fuente/) (tstamps /52C2B8A1/))
+      (tstamp 52D8A97B))
+    (comp (ref FB502)
+      (value MMZ1608B601C)
+      (footprint FSL-MINI:fb_0603)
+      (fields
+        (field (name Descripcion) "FERRITE CHIP 600 OHM 500MA 0603")
+        (field (name Digikey/Mouser) 445-2166-1-ND)
+        (field (name Fabricante) "TDK Corporation")
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") MMZ1608B601C)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part FILTER) (description ""))
+      (sheetpath (names /Fuente/) (tstamps /52C2B8A1/))
+      (tstamp 52DEAAB0))
+    (comp (ref D502)
+      (value MBRS130LT3G)
+      (footprint FSL-MINI:DO-214AA_SMB)
+      (fields
+        (field (name Descripcion) "DIODE SCHOTTKY 30V 2A SMB")
+        (field (name Digikey/Mouser) MBRS130LT3GOSCT-ND)
+        (field (name Fabricante) "ON Semiconductor")
+        (field (name "Footprint estandar") "DO-214AA, SMB")
+        (field (name "Nro. parte") MBRS130LT3G)
+        (field (name "Path datasheet") ../datasheets/passive/diode/MBRS130LT3-D.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part DIODESCH) (description ""))
+      (sheetpath (names /Fuente/) (tstamps /52C2B8A1/))
+      (tstamp 52EACD2B))
+    (comp (ref U501)
+      (value NCP1117ST33T3G)
+      (footprint FSL-MINI:SOT-223)
+      (fields
+        (field (name Descripcion) "IC REG LDO 3.3V 1A SOT223")
+        (field (name Digikey/Mouser) NCP1117ST33T3GOSCT-ND)
+        (field (name Fabricante) "ON Semiconductor")
+        (field (name "Footprint estandar") SOT-223)
+        (field (name "Nro. parte") NCP1117ST33T3G)
+        (field (name "Path datasheet") ../datasheets/ic/NCP1117-D.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part NCP1117ST50T3G) (description ""))
+      (sheetpath (names /Fuente/) (tstamps /52C2B8A1/))
+      (tstamp 53866029))
+    (comp (ref D503)
+      (value BAT54C)
+      (footprint FSL-MINI:SOT-23)
+      (fields
+        (field (name Descripcion) "DIODE SCHOTTKY 30V 200MA")
+        (field (name Digikey/Mouser) BAT54FSCT-ND)
+        (field (name Fabricante) "Fairchild Semiconductor")
+        (field (name "Footprint estandar") SOT23-3)
+        (field (name "Nro. parte") BAT54)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part BAT54_C) (description ""))
+      (sheetpath (names /Fuente/) (tstamps /52C2B8A1/))
+      (tstamp 5391261E))
+    (comp (ref C502)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0,1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /Fuente/) (tstamps /52C2B8A1/))
+      (tstamp 5391263C))
+    (comp (ref C501)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /Fuente/) (tstamps /52C2B8A1/))
+      (tstamp 53ACAAEC))
+    (comp (ref D501)
+      (value MBRS130LT3G)
+      (footprint FSL-MINI:DO-214AA_SMB)
+      (fields
+        (field (name Descripcion) "DIODE SCHOTTKY 30V 2A SMB")
+        (field (name Digikey/Mouser) MBRS130LT3GOSCT-ND)
+        (field (name Fabricante) "ON Semiconductor")
+        (field (name "Footprint estandar") "DO-214AA, SMB")
+        (field (name "Nro. parte") MBRS130LT3G)
+        (field (name "Path datasheet") ../datasheets/passive/diode/MBRS130LT3-D.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part DIODESCH) (description ""))
+      (sheetpath (names /Fuente/) (tstamps /52C2B8A1/))
+      (tstamp 575E4F18))
+    (comp (ref FB601)
+      (value ACML0603101)
+      (footprint FSL-MINI:fb_0603)
+      (fields
+        (field (name Descripcion) "FERRITE CHIP 100 OHM 200MA 0603")
+        (field (name Digikey/Mouser) ACML-0603-101-TCT-ND)
+        (field (name Fabricante) "Abracon Corporation")
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") ACML-0603-101-T)
+        (field (name "Path datasheet") ../datasheets/passive/Ferrite/ACML-0603.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part FILTER) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 52C1C275))
+    (comp (ref C613)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 52C1C2AB))
+    (comp (ref C612)
+      (value 10uF)
+      (footprint FSL-MINI:c_1206POL)
+      (fields
+        (field (name Descripcion) "CAP TANT 10UF 6.3V 10%")
+        (field (name Digikey/Mouser) 399-10116-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 1206)
+        (field (name "Nro. parte") T491A106K006AT7280)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part CAPAPOL) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 52C1C2D0))
+    (comp (ref C615)
+      (value 2.2uF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 2.2UF 10V 10% X7R 0603")
+        (field (name Digikey/Mouser) 587-2983-1-ND)
+        (field (name Fabricante) "Taiyo Yuden")
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") LMK107B7225KA-T)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A2ECE))
+    (comp (ref C619)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A2F0F))
+    (comp (ref C614)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A2F22))
+    (comp (ref C602)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A2F7D))
+    (comp (ref C603)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A2F87))
+    (comp (ref C604)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A2F91))
+    (comp (ref C606)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A2F9B))
+    (comp (ref C607)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A2FA5))
+    (comp (ref C608)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A2FAF))
+    (comp (ref C609)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A2FB9))
+    (comp (ref C610)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A2FC3))
+    (comp (ref C617)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A3898))
+    (comp (ref C620)
+      (value 10nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 10000PF 50V 10% X7R")
+        (field (name Digikey/Mouser) 399-1091-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C103K5RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A4051))
+    (comp (ref R607)
+      (value 10K)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 4.7K OHM 1/10W 5%")
+        (field (name Digikey/Mouser) 311-10KGRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-0710KL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A4EA5))
+    (comp (ref X601)
+      (value 32.768KHZ)
+      (footprint FSL-MINI:4SOJ)
+      (fields
+        (field (name Descripcion) "CRYSTAL 32.768KHZ 12.5PF")
+        (field (name Digikey/Mouser) 535-9166-1-ND)
+        (field (name Fabricante) "Abracon Corporation")
+        (field (name "Footprint estandar") ~)
+        (field (name "Nro. parte") ABS25-32.768KHZ-T)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part CRYSTAL_4Pin_Mini_GND) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A5594))
+    (comp (ref C601)
+      (value 18pF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 18PF 50V 5% NP0 0603")
+        (field (name Digikey/Mouser) 399-1052-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C180J5GACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A5E6A))
+    (comp (ref R602)
+      (value 2K2)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 2.2K OHM 1/10W 5%")
+        (field (name Digikey/Mouser) 311-2.2KGRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-072K2L)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A6DD0))
+    (comp (ref R604)
+      (value 2K2)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 2.2K OHM 1/10W 5%")
+        (field (name Digikey/Mouser) 311-2.2KGRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-072K2L)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A6E49))
+    (comp (ref R605)
+      (value 22)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 22 OHM 1/10W 5%")
+        (field (name Digikey/Mouser) 311-22GRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-0722RL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A7FE9))
+    (comp (ref FB602)
+      (value ACML0603101)
+      (footprint FSL-MINI:fb_0603)
+      (fields
+        (field (name Descripcion) "FERRITE CHIP 100 OHM 200MA 0603")
+        (field (name Digikey/Mouser) ACML-0603-101-TCT-ND)
+        (field (name Fabricante) "Abracon Corporation")
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") ACML-0603-101-T)
+        (field (name "Path datasheet") ../datasheets/passive/Ferrite/ACML-0603.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part FILTER) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 53A07F52))
+    (comp (ref C611)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 538A2FCD))
+    (comp (ref C616)
+      (value 10nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 10000PF 50V 10% X7R")
+        (field (name Digikey/Mouser) 399-1091-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C103K5RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 52C1C2B1))
+    (comp (ref SW601)
+      (value RESET)
+      (footprint FSL-MINI:TACT_SMD_4)
+      (fields
+        (field (name Descripcion) "SWITCH TACTILE SPST-NO 0.05A 12V")
+        (field (name Digikey/Mouser) 2-1437565-9)
+        (field (name Fabricante) "TE Connectivity")
+        (field (name "Footprint estandar") "SMD 4")
+        (field (name "Nro. parte") 2-1437565-9)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part SW_PUSH) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 5397929E))
+    (comp (ref D603)
+      (value LL4148)
+      (footprint FSL-MINI:SOD-123)
+      (fields
+        (field (name Descripcion) "DIODE SMALL SIG 100V 0.2A")
+        (field (name Digikey/Mouser) LL4148FSCT-ND)
+        (field (name Fabricante) Fairchild)
+        (field (name "Footprint estandar") "SOD80 - Minimelf")
+        (field (name "Nro. parte") LL4148)
+        (field (name "Path datasheet") ../datasheets/passive/diode/LL4148.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part DIODE) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 5398EE53))
+    (comp (ref C605)
+      (value 18pF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 18PF 50V 5% NP0 0603")
+        (field (name Digikey/Mouser) 399-1052-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C180J5GACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 53993378))
+    (comp (ref D601)
+      (value ST1)
+      (footprint FSL-MINI:LED-0603)
+      (fields
+        (field (name Descripcion) "LED GRN WATER CLEAR 0603 SMD")
+        (field (name Digikey/Mouser) 1080-1399-1-ND)
+        (field (name Fabricante) "Everlight Electronics Co Ltd")
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") QTLP600C4TR)
+        (field (name "Path datasheet") ../datasheets/passive/diode/ds300084.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part LED) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 53B6BB2B))
+    (comp (ref D602)
+      (value ST2)
+      (footprint FSL-MINI:LED-0603)
+      (fields
+        (field (name Descripcion) "LED ALG RED WTR CLR 0603 SMD")
+        (field (name Digikey/Mouser) 1080-1400-1-ND)
+        (field (name Fabricante) "Everlight Electronics Co Ltd")
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") QTLP600C7TR)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part LED) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 53B6C92E))
+    (comp (ref R603)
+      (value 680)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 680 OHM 1/10W 5% 0603 SMD")
+        (field (name Digikey/Mouser) 311-680GRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-07680RL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 53B6E51D))
+    (comp (ref R601)
+      (value 680)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 680 OHM 1/10W 5% 0603 SMD")
+        (field (name Digikey/Mouser) 311-680GRCT-ND)
+        (field (name Fabricante) Yageo)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-07680RL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 53B6E529))
+    (comp (ref U602)
+      (value SI501)
+      (footprint FSL-MINI:SI501_C)
+      (fields
+        (field (name Descripcion) "OSC MEMS 12.000MHZ CMOS SMD")
+        (field (name Digikey/Mouser) 336-2889-ND)
+        (field (name Fabricante) "Silicon Laboratories")
+        (field (name "Footprint estandar") DFN-4)
+        (field (name "Nro. parte") 501HCA12M0000CAG)
+        (field (name "Path datasheet") ../datasheets/ic/Si501.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part OSCILADOR) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 540E3C2A))
+    (comp (ref C618)
+      (value 100nF)
+      (footprint FSL-MINI:c_0603)
+      (fields
+        (field (name Descripcion) "CAP CER 0.1UF 16V 10% X7R")
+        (field (name Digikey/Mouser) 399-1096-1-ND)
+        (field (name Fabricante) Kemet)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") C0603C104K4RACTU)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part C) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 540E3C8C))
+    (comp (ref R606)
+      (value 100)
+      (footprint FSL-MINI:r_0603)
+      (fields
+        (field (name Descripcion) "RES 100 OHM 1/10W 5% 0603 SMD")
+        (field (name Digikey/Mouser) 311-100GRCT-ND)
+        (field (name Fabricante) YAGEO)
+        (field (name "Footprint estandar") 0603)
+        (field (name "Nro. parte") RC0603JR-07100RL)
+        (field (name "Path datasheet") ~)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part R) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 547F999C))
+    (comp (ref JP601)
+      (value VrefHSel)
+      (footprint Pin_Headers:Pin_Header_Straight_1x03)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part JUMPER3) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 575FA96C))
+    (comp (ref U601)
+      (value MK60FX512VLQ15)
+      (footprint FSL-MINI:LQFP144)
+      (fields
+        (field (name Descripcion) "MCU ARM 512KB FLASH")
+        (field (name Digikey/Mouser) MK60FX512VLQ15-ND)
+        (field (name Fabricante) "Freescale Semiconductor")
+        (field (name "Footprint estandar") ~)
+        (field (name "Nro. parte") MCIMX6D5EYM10AC)
+        (field (name "Path datasheet") ../datasheets/K60/K60P144M150SF3RM.pdf)
+)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part MK60FX512VLQ15-RESCUE-CIAA_FSL_MINI) (description ""))
+      (sheetpath (names /CPU/) (tstamps /52C1CAF4/))
+      (tstamp 5390F219))
+    (comp (ref SH701)
+      (value CONN_EXP)
+      (footprint FSL-MINI:ARDUINO_as_UNO_R3)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part ARDUINO_as_UNO-RESCUE-CIAA_FSL_MINI) (description ""))
+      (sheetpath (names /I/O/) (tstamps /5756CD3E/))
+      (tstamp 5760AB8D))
+    (comp (ref P702)
+      (value CONN_01X30)
+      (footprint Pin_Headers:Pin_Header_Straight_1x30)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part CONN_01X30) (description ""))
+      (sheetpath (names /I/O/) (tstamps /5756CD3E/))
+      (tstamp 57BE48D0))
+    (comp (ref P701)
+      (value CONN_01X30)
+      (footprint Pin_Headers:Pin_Header_Straight_1x30)
+      (libsource (lib CIAA_FSL_MINI-rescue) (part CONN_01X30) (description ""))
+      (sheetpath (names /I/O/) (tstamps /5756CD3E/))
+      (tstamp 57BEBB2B))
+    (comp (ref T22_T1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5DDAF9CE))
+    (comp (ref R35_T2)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5DDB1635))
+    (comp (ref R52_T1)
+      (value 20k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E59BBB6))
+    (comp (ref R58_T1)
+      (value 402)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E59C579))
+    (comp (ref R57_T1)
+      (value 503.0)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E59CF0C))
+    (comp (ref D2)
+      (value OPAMP)
+      (footprint Package_TO_SOT_SMD:TSOT-23-5_HandSoldering)
+      (libsource (lib pspice) (part OPAMP) (description "OPAmp symbol for simulation only"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E59F096))
+    (comp (ref C8)
+      (value 100uF)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
+      (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E5A3494))
+    (comp (ref R36_T2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 5DCE00D8))
+    (comp (ref R37_T2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 5DCE0EF8))
+    (comp (ref R38_T2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 5DCE11B9))
+    (comp (ref R39_T2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 5DCE154F))
+    (comp (ref R40_T2)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 5DCE1825))
+    (comp (ref T18_T2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 5DCE1D64))
+    (comp (ref T19_T2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 5DCE3DA4))
+    (comp (ref T20_T2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 5DCE42AF))
+    (comp (ref T21_T2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 5DCE456F))
+    (comp (ref T10_T1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBEAA9E))
+    (comp (ref T11_T1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBEBDD3))
+    (comp (ref T12_T1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBEC10A))
+    (comp (ref T13_T1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBEC81C))
+    (comp (ref T14_T1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBED34D))
+    (comp (ref T15_T1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBED6B2))
+    (comp (ref T16_T1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBED8C4))
+    (comp (ref T17_T1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBEDDF7))
+    (comp (ref R23_T1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBEE461))
+    (comp (ref R27_T1)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF20D9))
+    (comp (ref R28_T1)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF24BC))
+    (comp (ref R29_T1)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF27DB))
+    (comp (ref R25_T1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF2A69))
+    (comp (ref R24_T1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF2EBA))
+    (comp (ref R26_T1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF31EE))
+    (comp (ref R30_T1)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF34A0))
+    (comp (ref R31_T1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF3A21))
+    (comp (ref R32_T1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF3F4F))
+    (comp (ref R33_T1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF454B))
+    (comp (ref R34_T1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF49DB))
+    (comp (ref R35_T1)
+      (value 2003.5)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF4EBB))
+    (comp (ref R35_T1_T)
+      (value 2003.5)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF4EBB))
+    (comp (ref R35_T1_T)
+      (value 2003.5)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 5DBF4EBB))
+    (comp (ref R57_T1_T)
+      (value 503.0)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E59CF0C))
+    (comp (ref T23_P1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4B317E))
+    (comp (ref T24_P1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4B3E53))
+    (comp (ref T27_P1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4B524C))
+    (comp (ref T28_P1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4B578F))
+    (comp (ref T25_P1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4B606D))
+    (comp (ref T29_P1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4B69FD))
+    (comp (ref R44_P1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4B9C0E))
+    (comp (ref R46_P1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4BBCEB))
+    (comp (ref R51_P1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4BC1BF))
+    (comp (ref R52_P1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4BC67C))
+    (comp (ref R48_P1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4BCAC5))
+    (comp (ref R53_P1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4BCF1D))
+    (comp (ref R45_P1)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4C228C))
+    (comp (ref R43_P1)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4C2B68))
+    (comp (ref R49_P1)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4C3135))
+    (comp (ref T26_P1)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4C5BA7))
+    (comp (ref R47_P1)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4CAE28))
+    (comp (ref R50_P1)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E4CBB88))
+    (comp (ref T22_T1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 1))
+    (comp (ref R35_T2_2)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 2))
+    (comp (ref R52_T1_2)
+      (value 20k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 3))
+    (comp (ref R58_T1_2)
+      (value 402)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4))
+    (comp (ref R57_T1_2)
+      (value 503.0)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5))
+    (comp (ref D2_2)
+      (value OPAMP)
+      (footprint Package_TO_SOT_SMD:TSOT-23-5_HandSoldering)
+      (libsource (lib pspice) (part OPAMP) (description "OPAmp symbol for simulation only"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 6))
+    (comp (ref C8_2)
+      (value 100uF)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
+      (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 7))
+    (comp (ref R36_T2_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 8))
+    (comp (ref R37_T2_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 9))
+    (comp (ref R38_T2_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 10))
+    (comp (ref R39_T2_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 11))
+    (comp (ref R40_T2_2)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 12))
+    (comp (ref T18_T2_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 13))
+    (comp (ref T19_T2_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 14))
+    (comp (ref T20_T2_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 15))
+    (comp (ref T21_T2_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 16))
+    (comp (ref T10_T1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 17))
+    (comp (ref T11_T1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 18))
+    (comp (ref T12_T1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 19))
+    (comp (ref T13_T1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 20))
+    (comp (ref T14_T1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 21))
+    (comp (ref T15_T1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 22))
+    (comp (ref T16_T1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 23))
+    (comp (ref T17_T1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 24))
+    (comp (ref R23_T1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 25))
+    (comp (ref R27_T1_2)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 26))
+    (comp (ref R28_T1_2)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 27))
+    (comp (ref R29_T1_2)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 28))
+    (comp (ref R25_T1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 29))
+    (comp (ref R24_T1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 30))
+    (comp (ref R26_T1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 31))
+    (comp (ref R30_T1_2)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 32))
+    (comp (ref R31_T1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 33))
+    (comp (ref R32_T1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 34))
+    (comp (ref R33_T1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 35))
+    (comp (ref R34_T1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 36))
+    (comp (ref R35_T1_2)
+      (value 2003.5)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 37))
+    (comp (ref R35_T1_T_2)
+      (value 2003.5)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 38))
+    (comp (ref R35_T1_T_2)
+      (value 2003.5)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 39))
+    (comp (ref R57_T1_T_2)
+      (value 503.0)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 40))
+    (comp (ref T23_P1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 41))
+    (comp (ref T24_P1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 42))
+    (comp (ref T27_P1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 43))
+    (comp (ref T28_P1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 44))
+    (comp (ref T25_P1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 45))
+    (comp (ref T29_P1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 46))
+    (comp (ref R44_P1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 47))
+    (comp (ref R46_P1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 48))
+    (comp (ref R51_P1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 49))
+    (comp (ref R52_P1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50))
+    (comp (ref R48_P1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 51))
+    (comp (ref R53_P1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52))
+    (comp (ref R45_P1_2)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53))
+    (comp (ref R43_P1_2)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 54))
+    (comp (ref R49_P1_2)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 55))
+    (comp (ref T26_P1_2)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 56))
+    (comp (ref R47_P1_2)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 57))
+    (comp (ref R50_P1_2)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58))
+    (comp (ref T22_T1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 59))
+    (comp (ref R35_T2_3)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 60))
+    (comp (ref R52_T1_3)
+      (value 20k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 61))
+    (comp (ref R58_T1_3)
+      (value 402)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 62))
+    (comp (ref R57_T1_3)
+      (value 503.0)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 63))
+    (comp (ref D2_3)
+      (value OPAMP)
+      (footprint Package_TO_SOT_SMD:TSOT-23-5_HandSoldering)
+      (libsource (lib pspice) (part OPAMP) (description "OPAmp symbol for simulation only"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 64))
+    (comp (ref C8_3)
+      (value 100uF)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
+      (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 65))
+    (comp (ref R36_T2_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 66))
+    (comp (ref R37_T2_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 67))
+    (comp (ref R38_T2_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 68))
+    (comp (ref R39_T2_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 69))
+    (comp (ref R40_T2_3)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 70))
+    (comp (ref T18_T2_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 71))
+    (comp (ref T19_T2_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 72))
+    (comp (ref T20_T2_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 73))
+    (comp (ref T21_T2_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /NOR_TRIGGER/) (tstamps /5DCDCB0B/))
+      (tstamp 74))
+    (comp (ref T10_T1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 75))
+    (comp (ref T11_T1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 76))
+    (comp (ref T12_T1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 77))
+    (comp (ref T13_T1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 78))
+    (comp (ref T14_T1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 79))
+    (comp (ref T15_T1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 80))
+    (comp (ref T16_T1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 81))
+    (comp (ref T17_T1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 82))
+    (comp (ref R23_T1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 83))
+    (comp (ref R27_T1_3)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 84))
+    (comp (ref R28_T1_3)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 85))
+    (comp (ref R29_T1_3)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 86))
+    (comp (ref R25_T1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 87))
+    (comp (ref R24_T1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 88))
+    (comp (ref R26_T1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 89))
+    (comp (ref R30_T1_3)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 90))
+    (comp (ref R31_T1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 91))
+    (comp (ref R32_T1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 92))
+    (comp (ref R33_T1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 93))
+    (comp (ref R34_T1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 94))
+    (comp (ref R35_T1_3)
+      (value 2003.5)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 95))
+    (comp (ref R35_T1_T_3)
+      (value 2003.5)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 96))
+    (comp (ref R35_T1_T_3)
+      (value 2003.5)
+      (footprint Resistor_SMD:R_0603_1608Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /AND_TRIGGER/) (tstamps /5DDF117C/))
+      (tstamp 97))
+    (comp (ref R57_T1_T_3)
+      (value 503.0)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 98))
+    (comp (ref T23_P1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 99))
+    (comp (ref T24_P1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 100))
+    (comp (ref T27_P1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 101))
+    (comp (ref T28_P1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 102))
+    (comp (ref T25_P1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 103))
+    (comp (ref T29_P1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 104))
+    (comp (ref R44_P1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 105))
+    (comp (ref R46_P1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 106))
+    (comp (ref R51_P1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 107))
+    (comp (ref R52_P1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 108))
+    (comp (ref R48_P1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 109))
+    (comp (ref R53_P1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 110))
+    (comp (ref R45_P1_3)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 111))
+    (comp (ref R43_P1_3)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 112))
+    (comp (ref R49_P1_3)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 113))
+    (comp (ref T26_P1_3)
+      (value 2N3904)
+      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (libsource (lib Transistor_BJT) (part 2N3904) (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 114))
+    (comp (ref R47_P1_3)
+      (value 4k7)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 115))
+    (comp (ref R50_P1_3)
+      (value 10k)
+      (footprint Resistor_SMD:R_0201_0603Metric)
+      (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 116))
+)
+  (libparts
+    (libpart (lib CIAA_FSL_MINI-rescue) (part 24C512)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) 24C512)
+)
+      (pins
+        (pin (num 1) (name A0) (type input))
+        (pin (num 2) (name A1) (type input))
+        (pin (num 3) (name A2) (type input))
+        (pin (num 4) (name GND) (type power_in))
+        (pin (num 5) (name SDA) (type BiDi))
+        (pin (num 6) (name SCL) (type input))
+        (pin (num 7) (name WP) (type input))
+        (pin (num 8) (name VCC) (type power_in))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part ARDUINO_as_UNO-RESCUE-CIAA_FSL_MINI)
+      (fields
+        (field (name Reference) SH)
+        (field (name Value) ARDUINO_as_UNO-RESCUE-CIAA_FSL_MINI)
+)
+      (pins
+        (pin (num 0) (name "RX_0") (type input))
+        (pin (num 1) (name "TX_1") (type input))
+        (pin (num 2) (name 2) (type input))
+        (pin (num 3) (name "*_3") (type input))
+        (pin (num 4) (name 4) (type input))
+        (pin (num 5) (name "*_5") (type input))
+        (pin (num 5V) (name 5V) (type input))
+        (pin (num 6) (name "*_6") (type input))
+        (pin (num 7) (name 7) (type input))
+        (pin (num 8) (name 8) (type input))
+        (pin (num 9) (name "*_9") (type input))
+        (pin (num 10) (name "*_10") (type input))
+        (pin (num 11) (name "*/MOSI_11") (type input))
+        (pin (num 12) (name "MISO_12") (type input))
+        (pin (num 13) (name "SCK_13") (type input))
+        (pin (num 3V3) (name 3V3) (type input))
+        (pin (num A0) (name A0) (type output))
+        (pin (num A1) (name A1) (type output))
+        (pin (num A2) (name A2) (type output))
+        (pin (num A3) (name A3) (type output))
+        (pin (num A4/1) (name "A4_SDA/1") (type BiDi))
+        (pin (num A4/2) (name "2/SDAA4") (type BiDi))
+        (pin (num A5/1) (name "A5_SCL/1") (type BiDi))
+        (pin (num A5/2) (name "2/SCLA5") (type BiDi))
+        (pin (num AREF) (name AREF) (type input))
+        (pin (num GND1) (name GND/1) (type input))
+        (pin (num GND2) (name GND/2) (type input))
+        (pin (num GND3) (name 3/GND) (type input))
+        (pin (num IREF) (name IOREF) (type input))
+        (pin (num NC) (name NC) (type NotConnected))
+        (pin (num RST) (name RESET) (type input))
+        (pin (num VIN) (name VIN) (type input))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part BAT54_C)
+      (fields
+        (field (name Reference) D)
+        (field (name Value) BAT54_C)
+        (field (name Footprint) SOT23)
+        (field (name "Nro parte") BAT54)
+        (field (name Digikey/Mouser) BAT54FSCT-ND)
+        (field (name Descripcion) "DIODE SCHOTTKY 30V 0.2A")
+        (field (name Fabricante) "Fairchild Semiconductor")
+        (field (name "Footprint estandar") SOT23)
+)
+      (pins
+        (pin (num 1) (name B) (type passive))
+        (pin (num 2) (name A) (type passive))
+        (pin (num 3) (name C) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part C)
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C)
+)
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part C-RESCUE-ciaa-nxp)
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1)
+)
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C-RESCUE-ciaa-nxp)
+)
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part CAPAPOL)
+      (footprints
+        (fp CP*)
+        (fp SM*)
+)
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CAPAPOL)
+        (field (name Footprint) c_elec_13.7x13x13.5)
+)
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part CONN_01X30)
+      (footprints
+        (fp Pin_Header_Straight_1X*)
+        (fp Pin_Header_Angled_1X*)
+        (fp Socket_Strip_Straight_1X*)
+        (fp Socket_Strip_Angled_1X*)
+)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) CONN_01X30)
+)
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))
+        (pin (num 9) (name P9) (type passive))
+        (pin (num 10) (name P10) (type passive))
+        (pin (num 11) (name P11) (type passive))
+        (pin (num 12) (name P12) (type passive))
+        (pin (num 13) (name P13) (type passive))
+        (pin (num 14) (name P14) (type passive))
+        (pin (num 15) (name P15) (type passive))
+        (pin (num 16) (name P16) (type passive))
+        (pin (num 17) (name P17) (type passive))
+        (pin (num 18) (name P18) (type passive))
+        (pin (num 19) (name P19) (type passive))
+        (pin (num 20) (name P20) (type passive))
+        (pin (num 21) (name P21) (type passive))
+        (pin (num 22) (name P22) (type passive))
+        (pin (num 23) (name P23) (type passive))
+        (pin (num 24) (name P24) (type passive))
+        (pin (num 25) (name P25) (type passive))
+        (pin (num 26) (name P26) (type passive))
+        (pin (num 27) (name P27) (type passive))
+        (pin (num 28) (name P28) (type passive))
+        (pin (num 29) (name P29) (type passive))
+        (pin (num 30) (name P30) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part CONN_02X05)
+      (footprints
+        (fp Pin_Header_Straight_2X*)
+        (fp Pin_Header_Angled_2X*)
+        (fp Socket_Strip_Straight_2X*)
+        (fp Socket_Strip_Angled_2X*)
+        (fp IDC_Header_Straight_*)
+)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) CONN_02X05)
+)
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))
+        (pin (num 9) (name P9) (type passive))
+        (pin (num 10) (name P10) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part CP1-RESCUE-ciaa-nxp)
+      (footprints
+        (fp CP*)
+        (fp SM*)
+)
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP1-RESCUE-ciaa-nxp)
+)
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part CRYSTAL_4Pin_Mini_GND)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) CRYSTAL_4Pin_Mini_GND)
+        (field (name Footprint) 4SOJ)
+        (field (name Digikey/Mouser) 535-9166-1-ND)
+        (field (name Fabricante) "Abracon Corporation")
+        (field (name "Nro parte") ABS25-32.768KHZ-T)
+        (field (name Descripcion) "CRYSTAL 32.768KHZ 12.5PF")
+)
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name GND) (type passive))
+        (pin (num 3) (name B) (type passive))
+        (pin (num 4) (name GND) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part DIODE)
+      (fields
+        (field (name Reference) D)
+        (field (name Value) DIODE)
+)
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part DIODESCH)
+      (fields
+        (field (name Reference) D)
+        (field (name Value) DIODESCH)
+)
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part FIDUCIAL)
+      (fields
+        (field (name Reference) F)
+        (field (name Value) FIDUCIAL)
+        (field (name Descripcion) FIDUCIAL)
+)
+      (pins
+        (pin (num 1) (name 1) (type NotConnected))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part FILTER)
+      (fields
+        (field (name Reference) FB)
+        (field (name Value) FILTER)
+)
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part INDUCTOR)
+      (fields
+        (field (name Reference) L)
+        (field (name Value) INDUCTOR)
+)
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part JUMPER3)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) JUMPER3)
+)
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part LAN8720A-CP)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) LAN8720A-CP)
+)
+      (pins
+        (pin (num 1) (name VDD2A) (type power_in))
+        (pin (num 2) (name LED2/NINTSEL) (type BiDi))
+        (pin (num 3) (name LED1/REGOFF) (type BiDi))
+        (pin (num 4) (name XTAL2) (type output))
+        (pin (num 5) (name XTAL1/CLKIN) (type input))
+        (pin (num 6) (name VDDCR) (type power_out))
+        (pin (num 7) (name RXD1/MODE1) (type BiDi))
+        (pin (num 8) (name RXDO/MODE0) (type BiDi))
+        (pin (num 9) (name VDDIO) (type power_in))
+        (pin (num 10) (name RXER/PHYAD0) (type BiDi))
+        (pin (num 11) (name CRS_DV/MODE2) (type BiDi))
+        (pin (num 12) (name MDIO) (type BiDi))
+        (pin (num 13) (name MDC) (type input))
+        (pin (num 14) (name NINT/REFCLK0) (type BiDi))
+        (pin (num 15) (name NRST) (type input))
+        (pin (num 16) (name TXEN) (type input))
+        (pin (num 17) (name TXD0) (type input))
+        (pin (num 18) (name TXD1) (type input))
+        (pin (num 19) (name VDD1A) (type power_in))
+        (pin (num 20) (name TXN) (type BiDi))
+        (pin (num 21) (name TXP) (type BiDi))
+        (pin (num 22) (name RXN) (type BiDi))
+        (pin (num 23) (name RXP) (type BiDi))
+        (pin (num 24) (name RBIAS) (type input))
+        (pin (num GND) (name GND) (type power_in))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part LED)
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED)
+)
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part MIC2025)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MIC2025)
+)
+      (pins
+        (pin (num 1) (name EN) (type input))
+        (pin (num 2) (name FLG) (type output))
+        (pin (num 3) (name GND) (type power_in))
+        (pin (num 4) (name NC) (type NotConnected))
+        (pin (num 5) (name NC) (type NotConnected))
+        (pin (num 6) (name OUT) (type passive))
+        (pin (num 7) (name IN) (type power_in))
+        (pin (num 8) (name OUT) (type power_out))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part MICRO_USB)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) MICRO_USB)
+        (field (name Descripcion) "CONNECTOR RECEPTACLE MICRO USB AB SMD")
+)
+      (pins
+        (pin (num 1) (name VBUS) (type power_in))
+        (pin (num 2) (name USB_DN) (type BiDi))
+        (pin (num 3) (name USB_DP) (type BiDi))
+        (pin (num 4) (name USB_ID) (type input))
+        (pin (num 5) (name GND) (type power_in))
+        (pin (num 6) (name S2) (type power_in))
+        (pin (num 7) (name S1) (type power_in))
+        (pin (num 8) (name S3) (type power_in))
+        (pin (num 9) (name S4) (type power_in))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part MK60FX512VLQ15-RESCUE-CIAA_FSL_MINI)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MK60FX512VLQ15-RESCUE-CIAA_FSL_MINI)
+        (field (name Footprint) TQFP144)
+        (field (name Descripcion) "MCU ARM 512KB FLASH")
+        (field (name Fabricante) "Freescale Semiconductor")
+        (field (name "Nro. parte") MCIMX6D5EYM10AC)
+        (field (name "Path datasheet") ../datasheets/K60/K60P144M150SF3RM.pdf)
+        (field (name Digikey/Mouser) MK60FX512VLQ15-ND)
+)
+      (pins
+        (pin (num 1) (name PTE0/SDHC0_D1) (type BiDi))
+        (pin (num 2) (name PTE1/LLWU_P0/SDHC0_D0) (type BiDi))
+        (pin (num 3) (name PTE2/LLWU_P1/SDHC0_DCLK) (type output))
+        (pin (num 4) (name PTE3/SDHC0_CMD) (type output))
+        (pin (num 5) (name VDD) (type power_in))
+        (pin (num 6) (name VSS) (type power_in))
+        (pin (num 7) (name PTE4/LLWU_P2/SDHC0_D3) (type BiDi))
+        (pin (num 8) (name PTE5/SDHC0_D2) (type BiDi))
+        (pin (num 9) (name PTE6) (type input))
+        (pin (num 10) (name PTE7) (type output))
+        (pin (num 11) (name PTE8/UART5_TX) (type output))
+        (pin (num 12) (name PTE9/UART5_RX) (type input))
+        (pin (num 13) (name PTE10) (type output))
+        (pin (num 14) (name PTE11) (type input))
+        (pin (num 15) (name PTE12) (type BiDi))
+        (pin (num 16) (name VDD) (type power_in))
+        (pin (num 17) (name VSS) (type power_in))
+        (pin (num 18) (name VSS) (type power_in))
+        (pin (num 19) (name USB0_DP) (type BiDi))
+        (pin (num 20) (name USB0_DM) (type BiDi))
+        (pin (num 21) (name VOUT33) (type power_out))
+        (pin (num 22) (name VREGIN) (type power_in))
+        (pin (num 23) (name PGA2_DP) (type BiDi))
+        (pin (num 24) (name PGA2_DM) (type BiDi))
+        (pin (num 25) (name PGA3_DP) (type BiDi))
+        (pin (num 26) (name PGA3_DM) (type BiDi))
+        (pin (num 27) (name PGA0_DP) (type BiDi))
+        (pin (num 28) (name PGA0_DM) (type BiDi))
+        (pin (num 29) (name PGA1_DP) (type BiDi))
+        (pin (num 30) (name PGA1_DM) (type BiDi))
+        (pin (num 31) (name VDDA) (type power_in))
+        (pin (num 32) (name VREFH) (type power_in))
+        (pin (num 33) (name VREFL) (type power_in))
+        (pin (num 34) (name VSSA) (type power_in))
+        (pin (num 35) (name ADC1_SE16) (type input))
+        (pin (num 36) (name ADC0_SE16) (type input))
+        (pin (num 37) (name VREF_OUT) (type power_out))
+        (pin (num 38) (name DAC0_OUT) (type BiDi))
+        (pin (num 39) (name DAC1_OUT/ADC1_SE23) (type BiDi))
+        (pin (num 40) (name XTAL32) (type output))
+        (pin (num 41) (name EXTAL32) (type input))
+        (pin (num 42) (name VBAT) (type power_in))
+        (pin (num 43) (name VDD) (type power_in))
+        (pin (num 44) (name VSS) (type power_in))
+        (pin (num 45) (name PTE24/EXTAL1) (type input))
+        (pin (num 46) (name PTE25/XTAL1/ADC0_SE18) (type BiDi))
+        (pin (num 47) (name PTE26) (type BiDi))
+        (pin (num 48) (name PTE27) (type BiDi))
+        (pin (num 49) (name PTE28) (type BiDi))
+        (pin (num 50) (name PTA0/JTAG_TCLK) (type input))
+        (pin (num 51) (name PTA1/JTAG_TDI) (type input))
+        (pin (num 52) (name PTA2/JTAG_TDO) (type output))
+        (pin (num 53) (name PTA3/JTAG_TMS) (type BiDi))
+        (pin (num 54) (name PTA4/LLWU_P3) (type BiDi))
+        (pin (num 55) (name PTA5/RMII0_RXER) (type input))
+        (pin (num 56) (name VDD) (type power_in))
+        (pin (num 57) (name VSS) (type power_in))
+        (pin (num 58) (name PTA6) (type BiDi))
+        (pin (num 59) (name PTA7) (type BiDi))
+        (pin (num 60) (name PTA8) (type BiDi))
+        (pin (num 61) (name PTA9) (type BiDi))
+        (pin (num 62) (name PTA10) (type BiDi))
+        (pin (num 63) (name PTA11) (type BiDi))
+        (pin (num 64) (name PTA12/RMII0_RXD1) (type input))
+        (pin (num 65) (name PTA13/RMII0_RXD0) (type input))
+        (pin (num 66) (name PTA14/RMII0_CRS_DV) (type input))
+        (pin (num 67) (name PTA15/RMII0_TXEN) (type output))
+        (pin (num 68) (name PTA16/RMII0_TXD0) (type output))
+        (pin (num 69) (name PTA17/RMII0_TXD1) (type output))
+        (pin (num 70) (name VDD) (type power_in))
+        (pin (num 71) (name VSS) (type power_in))
+        (pin (num 72) (name PTA18/EXTAL0) (type input))
+        (pin (num 73) (name PTA19) (type BiDi))
+        (pin (num 74) (name ~RESET) (type input))
+        (pin (num 75) (name PTA24) (type BiDi))
+        (pin (num 76) (name PTA25) (type BiDi))
+        (pin (num 77) (name PTA26/ADC2_SE15) (type input))
+        (pin (num 78) (name PTA27/ADC2_SE14) (type input))
+        (pin (num 79) (name PTA28/ADC2_SE13) (type input))
+        (pin (num 80) (name PTA29/ADC2_SE12) (type input))
+        (pin (num 81) (name PTB0/LLWU_P5/RMII0_MDIO) (type BiDi))
+        (pin (num 82) (name PTB1/RMII0_MDC) (type output))
+        (pin (num 83) (name PTB2/ADC0_SE12) (type input))
+        (pin (num 84) (name PTB3/ADC0_SE13) (type input))
+        (pin (num 85) (name PTB4/ADC1_SE10) (type BiDi))
+        (pin (num 86) (name PTB5/ADC1_SE11) (type input))
+        (pin (num 87) (name PTB6) (type BiDi))
+        (pin (num 88) (name PTB7) (type BiDi))
+        (pin (num 89) (name PTB8/~UART3_RTS) (type BiDi))
+        (pin (num 90) (name PTB9/~UART3_CTS) (type BiDi))
+        (pin (num 91) (name PTB10/UART3_RX) (type BiDi))
+        (pin (num 92) (name PTB11/UART3_TX) (type BiDi))
+        (pin (num 93) (name VSS) (type power_in))
+        (pin (num 94) (name VDD) (type power_in))
+        (pin (num 95) (name PTB16) (type BiDi))
+        (pin (num 96) (name PTB17) (type BiDi))
+        (pin (num 97) (name PTB18/CAN0_TX) (type BiDi))
+        (pin (num 98) (name PTB19/CAN0_RX) (type BiDi))
+        (pin (num 99) (name PTB20) (type BiDi))
+        (pin (num 100) (name PTB21) (type BiDi))
+        (pin (num 101) (name PTB22) (type BiDi))
+        (pin (num 102) (name PTB23) (type BiDi))
+        (pin (num 103) (name PTC0) (type BiDi))
+        (pin (num 104) (name PTC1/LLWU_P6) (type BiDi))
+        (pin (num 105) (name PTC2) (type BiDi))
+        (pin (num 106) (name PTC3/LLWU_P7) (type BiDi))
+        (pin (num 107) (name VSS) (type power_in))
+        (pin (num 108) (name VDD) (type power_in))
+        (pin (num 109) (name PTC4/LLWU_P8) (type BiDi))
+        (pin (num 110) (name PTC5/LLWU_P9) (type BiDi))
+        (pin (num 111) (name PTC6/LLWU_P10) (type BiDi))
+        (pin (num 112) (name PTC7) (type BiDi))
+        (pin (num 113) (name PTC8) (type BiDi))
+        (pin (num 114) (name PTC9) (type BiDi))
+        (pin (num 115) (name PTC10) (type BiDi))
+        (pin (num 116) (name PTC11/LLWU_P11) (type BiDi))
+        (pin (num 117) (name PTC12) (type output))
+        (pin (num 118) (name PTC13) (type input))
+        (pin (num 119) (name PTC14) (type input))
+        (pin (num 120) (name PTC15) (type output))
+        (pin (num 121) (name VSS) (type power_in))
+        (pin (num 122) (name VDD) (type power_in))
+        (pin (num 123) (name PTC16) (type input))
+        (pin (num 124) (name PTC17) (type BiDi))
+        (pin (num 125) (name PTC18) (type output))
+        (pin (num 126) (name PTC19) (type BiDi))
+        (pin (num 127) (name PTD0/LLWU_P12/SPI0_PCS0/~UART2_RTS) (type output))
+        (pin (num 128) (name PTD1/SPI0_SCK/~UART2_CTS) (type output))
+        (pin (num 129) (name PTD2/LLWU_P13/SPI0_SOUT/UART2_RX) (type output))
+        (pin (num 130) (name PTD3/SPI0_SIN/UART2_TX) (type output))
+        (pin (num 131) (name PTD4/LLWU_P14) (type BiDi))
+        (pin (num 132) (name PTD5) (type BiDi))
+        (pin (num 133) (name PTD6/LLWU_P15/UART0_RX) (type input))
+        (pin (num 134) (name VSS) (type power_in))
+        (pin (num 135) (name VDD) (type power_in))
+        (pin (num 136) (name PTD7/UART0_TX) (type output))
+        (pin (num 137) (name PTD8/I2C0_SCL) (type output))
+        (pin (num 138) (name PTD9/I2C0_SDA) (type BiDi))
+        (pin (num 139) (name PTD10) (type output))
+        (pin (num 140) (name PTD11/SPI2_PCS0) (type output))
+        (pin (num 141) (name PTD12/SPI2_SCK) (type output))
+        (pin (num 142) (name PTD13/SPI2_SOUT) (type output))
+        (pin (num 143) (name PTD14/SPI2_SIN) (type input))
+        (pin (num 144) (name PTD15/SPI2_PCS1) (type output))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part MOSFET_P)
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) MOSFET_P)
+)
+      (pins
+        (pin (num 1) (name G) (type passive))
+        (pin (num 2) (name S) (type passive))
+        (pin (num 3) (name D) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part NCP1117ST50T3G)
+      (footprints
+        (fp SOT223)
+)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) NCP1117ST50T3G)
+)
+      (pins
+        (pin (num 1) (name GND) (type power_in))
+        (pin (num 2) (name VO) (type power_out))
+        (pin (num 3) (name VI) (type power_in))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part OSCILADOR)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) OSCILADOR)
+)
+      (pins
+        (pin (num 1) (name EN) (type input))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name OUT) (type output))
+        (pin (num 4) (name VDD) (type power_in))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part PCB_HOLE)
+      (fields
+        (field (name Reference) H)
+        (field (name Value) PCB_HOLE)
+        (field (name Datasheet) "PCB HOLE")
+)
+      (pins
+        (pin (num 1) (name 1) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part PRTR5V0U2X)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) PRTR5V0U2X)
+)
+      (pins
+        (pin (num 1) (name GND) (type power_in))
+        (pin (num 2) (name I/O) (type passive))
+        (pin (num 3) (name I/O) (type passive))
+        (pin (num 4) (name VCC) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part R)
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R)
+)
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part R-RESCUE-ciaa-nxp)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206)
+)
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R-RESCUE-ciaa-nxp)
+)
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part S25FL032P0XMFI013)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) S25FL032P0XMFI013)
+)
+      (pins
+        (pin (num 1) (name nCS) (type input))
+        (pin (num 2) (name DO/IO1) (type BiDi))
+        (pin (num 3) (name nWP/IO2) (type BiDi))
+        (pin (num 4) (name GND) (type power_in))
+        (pin (num 5) (name DI/IO0) (type BiDi))
+        (pin (num 6) (name CLK) (type input))
+        (pin (num 7) (name nHOLD/IO3) (type BiDi))
+        (pin (num 8) (name VCC) (type power_in))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part SD-CON)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) SD-CON)
+        (field (name Footprint) sdcard)
+)
+      (pins
+        (pin (num 1) (name DAT2) (type BiDi))
+        (pin (num 2) (name CD/DAT3) (type BiDi))
+        (pin (num 3) (name CMD) (type input))
+        (pin (num 4) (name VDD) (type power_in))
+        (pin (num 5) (name CLK) (type input))
+        (pin (num 6) (name VSS) (type power_in))
+        (pin (num 7) (name DAT0) (type BiDi))
+        (pin (num 8) (name DAT1) (type BiDi))
+        (pin (num 9) (name SHLD1) (type power_in))
+        (pin (num 10) (name SHLD2) (type power_in))
+        (pin (num 11) (name SHLD3) (type power_in))
+        (pin (num 12) (name SHLD4) (type power_in))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part SI-52003-F)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) SI-52003-F)
+)
+      (pins
+        (pin (num 1) (name TD+) (type passive))
+        (pin (num 2) (name CT) (type passive))
+        (pin (num 3) (name TD-) (type passive))
+        (pin (num 4) (name RD+) (type passive))
+        (pin (num 5) (name RD-) (type passive))
+        (pin (num 6) (name NC) (type passive))
+        (pin (num 7) (name NC) (type passive))
+        (pin (num 8) (name VC+) (type passive))
+        (pin (num 9) (name VC-) (type passive))
+        (pin (num 10) (name VC+) (type passive))
+        (pin (num 11) (name VC-) (type passive))
+        (pin (num 12) (name LED1_A) (type passive))
+        (pin (num 13) (name LED1_K) (type passive))
+        (pin (num 14) (name LED2_A) (type passive))
+        (pin (num 15) (name LED2_K) (type passive))
+        (pin (num 16) (name SHIELD) (type passive))
+        (pin (num 17) (name SHIELD) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part SW_PUSH)
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_PUSH)
+)
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part Si50X)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) Si50X)
+)
+      (pins
+        (pin (num 1) (name FS/OE) (type input))
+        (pin (num 2) (name GND) (type input))
+        (pin (num 3) (name CLK) (type output))
+        (pin (num 4) (name Vdd) (type input))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part TRASF_UNIP)
+      (fields
+        (field (name Reference) TR)
+        (field (name Value) TRASF_UNIP)
+)
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))
+        (pin (num 3) (name ~) (type input))
+        (pin (num 4) (name ~) (type input))
+))
+    (libpart (lib CIAA_FSL_MINI-rescue) (part ZENER)
+      (fields
+        (field (name Reference) D)
+        (field (name Value) ZENER)
+)
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))
+))
+    (libpart (lib Device) (part C_Small)
+      (description "Unpolarized capacitor, small symbol")
+      (docs ~)
+      (footprints
+        (fp C_*)
+)
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C_Small)
+)
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+))
+    (libpart (lib Device) (part R_Small)
+      (description "Resistor, small symbol")
+      (docs ~)
+      (footprints
+        (fp R_*)
+)
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R_Small)
+)
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+))
+    (libpart (lib Transistor_BJT) (part 2N3904)
+      (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92")
+      (docs https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf)
+      (footprints
+        (fp TO?92*)
+)
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) 2N3904)
+        (field (name Footprint) Package_TO_SOT_THT:TO-92_Inline)
+)
+      (pins
+        (pin (num 1) (name E) (type passive))
+        (pin (num 2) (name B) (type passive))
+        (pin (num 3) (name C) (type passive))
+))
+    (libpart (lib pspice) (part OPAMP)
+      (description "OPAmp symbol for simulation only")
+      (docs abc)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) OPAMP)
+)
+      (pins
+        (pin (num 1) (name +) (type input))
+        (pin (num 2) (name -) (type input))
+        (pin (num 3) (name ~) (type output))
+        (pin (num 4) (name V+) (type power_in))
+        (pin (num 5) (name V-) (type power_in))
+))
+    (libpart (lib Device) (part R_Small)
+      (description "Resistor, small symbol")
+      (docs ~)
+      (footprints
+        (fp R_*)
+)
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R_Small)
+)
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+))
+    (libpart (lib Transistor_BJT) (part 2N3904)
+      (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92")
+      (docs https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf)
+      (footprints
+        (fp TO?92*)
+)
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) 2N3904)
+        (field (name Footprint) Package_TO_SOT_THT:TO-92_Inline)
+)
+      (pins
+        (pin (num 1) (name E) (type passive))
+        (pin (num 2) (name B) (type passive))
+        (pin (num 3) (name C) (type passive))
+))
+)
+  (libraries
+    (library CIAA_FSL_MINI-rescue)
+      (uri /home/aritrab97/Hardware-master/PCB/FSL-MINI/CIAA_FSL_MINI-rescue.lib))
+)
+
+  (nets
+    (net (code 0) (name /CPU/SPIFI_CLK)
+      (node (ref U401) (pin 6))
+
+      (node (ref U601) (pin 141)))
+
+    (net (code 1) (name /CPU/SPIFI_MOSI)
+      (node (ref U601) (pin 142))
+
+      (node (ref U401) (pin 5)))
+
+    (net (code 2) (name /CPU/SPIFI_MISO)
+      (node (ref U401) (pin 2))
+
+      (node (ref U601) (pin 143)))
+
+    (net (code 3) (name /CPU/SPIFI_WP)
+      (node (ref U601) (pin 139))
+
+      (node (ref U401) (pin 3)))
+
+    (net (code 4) (name /CPU/SPIFI_HOLD)
+      (node (ref U401) (pin 7))
+
+      (node (ref U601) (pin 144)))
+
+    (net (code 5) (name /Fuente/USB_VBUS)
+      (node (ref U301) (pin 6))
+
+      (node (ref FB301) (pin 1))
+
+      (node (ref C302) (pin 1))
+
+      (node (ref U302) (pin 4))
+
+      (node (ref D502) (pin 1))
+
+      (node (ref C303) (pin 1))
+
+      (node (ref U601) (pin 22)))
+
+    (net (code 6) (name /CPU/USB_ID)
+      (node (ref U601) (pin 123))
+
+      (node (ref D301) (pin 2))
+
+      (node (ref J301) (pin 4)))
+
+    (net (code 7) (name /CPU/SPIFI_CS)
+      (node (ref U401) (pin 1))
+
+      (node (ref U601) (pin 140)))
+
+    (net (code 8) (name GNDPWR)
+      (node (ref P201) (pin 7))
+
+      (node (ref H101) (pin 1))
+
+      (node (ref H103) (pin 1))
+
+      (node (ref H104) (pin 1))
+
+      (node (ref H102) (pin 1))
+
+      (node (ref R222) (pin 1))
+
+      (node (ref C216) (pin 1)))
+
+    (net (code 9) (name /CPU/SD_CLK)
+      (node (ref J401) (pin 5))
+
+      (node (ref R605) (pin 2)))
+
+    (net (code 10) (name /CPU/AIN3)
+      (node (ref P702) (pin 22))
+
+      (node (ref U601) (pin 80)))
+
+    (net (code 11) (name /CPU/ETH_RXD1)
+      (node (ref U601) (pin 64))
+
+      (node (ref R210) (pin 1)))
+
+    (net (code 12) (name /CPU/AIN2)
+      (node (ref U601) (pin 79))
+
+      (node (ref P702) (pin 23)))
+
+    (net (code 13) (name /CPU/USBD_P)
+      (node (ref U601) (pin 19))
+
+      (node (ref R44_P1_2) (pin 2))
+
+      (node (ref TR301) (pin 2)))
+
+    (net (code 14) (name /CPU/USBD_N)
+      (node (ref U601) (pin 20))
+
+      (node (ref TR301) (pin 3))
+
+      (node (ref U302) (pin 2)))
+
+    (net (code 15) (name "/USB OTG/USB0_PPWR")
+      (node (ref U601) (pin 125))
+
+      (node (ref U301) (pin 1))
+
+      (node (ref R301) (pin 2)))
+
+    (net (code 16) (name "/USB OTG/USB0_PWR_FAULT")
+      (node (ref U301) (pin 2))
+
+      (node (ref U601) (pin 124))
+
+      (node (ref R302) (pin 2)))
+
+    (net (code 17) (name /CPU/ETH_TXD0)
+      (node (ref R206) (pin 1))
+
+      (node (ref U601) (pin 68)))
+
+    (net (code 18) (name /CPU/ETH_TXD1)
+      (node (ref R207) (pin 1))
+
+      (node (ref U601) (pin 69)))
+
+    (net (code 19) (name /CPU/ETH_TXEN)
+      (node (ref R208) (pin 1))
+
+      (node (ref U601) (pin 67)))
+
+    (net (code 20) (name /CPU/ETH_RXD0)
+      (node (ref R209) (pin 1))
+
+      (node (ref U601) (pin 65))
+
+      (node (ref R24_T1_3) (pin 1)))
+
+    (net (code 21) (name /CPU/DAC_OUT)
+      (node (ref U601) (pin 38))
+
+      (node (ref P701) (pin 18))
+
+      (node (ref R24_T1_2) (pin 1)))
+
+    (net (code 22) (name /CPU/ETH_RXER)
+      (node (ref U601) (pin 55))
+
+      (node (ref R212) (pin 2)))
+
+    (net (code 23) (name /CPU/ETH_CRS_DV)
+      (node (ref R211) (pin 1))
+
+      (node (ref U601) (pin 66)))
+
+    (net (code 24) (name /CPU/ETH_MDC)
+      (node (ref U601) (pin 82))
+
+      (node (ref R214) (pin 1)))
+
+    (net (code 25) (name /CPU/ETH_MDIO)
+      (node (ref U601) (pin 81))
+
+      (node (ref R213) (pin 1)))
+
+    (net (code 26) (name /CPU/ETH_REF_CLK)
+      (node (ref U201) (pin 5))
+
+      (node (ref R220) (pin 2))
+
+      (node (ref U601) (pin 72)))
+
+    (net (code 27) (name /CPU/ETH_RST)
+      (node (ref U601) (pin 73))
+
+      (node (ref U201) (pin 15)))
+
+    (net (code 28) (name /CPU/SD_POW)
+      (node (ref Q401) (pin 1))
+
+      (node (ref U601) (pin 126))
+
+      (node (ref R401) (pin 2)))
+
+    (net (code 29) (name /CPU/SD_CMD)
+      (node (ref J401) (pin 3))
+
+      (node (ref U601) (pin 4))
+
+      (node (ref R404) (pin 2)))
+
+    (net (code 30) (name /CPU/SD_DAT0)
+      (node (ref U601) (pin 2))
+
+      (node (ref J401) (pin 7))
+
+      (node (ref R405) (pin 2)))
+
+    (net (code 31) (name /CPU/SD_DAT1)
+      (node (ref U601) (pin 1))
+
+      (node (ref J401) (pin 8))
+
+      (node (ref R406) (pin 2)))
+
+    (net (code 32) (name /CPU/SD_DAT2)
+      (node (ref J401) (pin 1))
+
+      (node (ref U601) (pin 8))
+
+      (node (ref R403) (pin 2)))
+
+    (net (code 33) (name /CPU/SD_DAT3)
+      (node (ref J401) (pin 2))
+
+      (node (ref U601) (pin 7))
+
+      (node (ref R402) (pin 1))
+
+      (node (ref R52_P1_2) (pin 2)))
+
+    (net (code 34) (name /CPU/PGA1_DM)
+      (node (ref P701) (pin 22))
+
+      (node (ref U601) (pin 30)))
+
+    (net (code 35) (name /TMS)
+      (node (ref P103) (pin 2))
+
+      (node (ref U601) (pin 53)))
+
+    (net (code 36) (name /BATPIN)
+      (node (ref P701) (pin 20))
+
+      (node (ref D503) (pin 1)))
+
+    (net (code 37) (name /5VPIN)
+      (node (ref D501) (pin 1))
+
+      (node (ref P701) (pin 19))
+
+      (node (ref R23_T1_2) (pin 1)))
+
+    (net (code 38) (name /TCK)
+      (node (ref U601) (pin 50))
+
+      (node (ref P103) (pin 4)))
+
+    (net (code 39) (name /CPU/PGA1_DP)
+      (node (ref P701) (pin 21))
+
+      (node (ref U601) (pin 29)))
+
+    (net (code 40) (name /CPU/PTB5)
+      (node (ref P702) (pin 15))
+
+      (node (ref U601) (pin 86)))
+
+    (net (code 41) (name /CPU/GPIO13)
+      (node (ref P702) (pin 6))
+
+      (node (ref U601) (pin 105)))
+
+    (net (code 42) (name /CPU/GPIO11)
+      (node (ref U601) (pin 104))
+
+      (node (ref P702) (pin 7)))
+
+    (net (code 43) (name /CPU/GPIO6)
+      (node (ref P701) (pin 3))
+
+      (node (ref U601) (pin 113)))
+
+    (net (code 44) (name /CPU/EC_GPIO2)
+      (node (ref SH701) (pin 4))
+
+      (node (ref U601) (pin 85)))
+
+    (net (code 45) (name /CPU/EC_PWM5)
+      (node (ref U601) (pin 15))
+
+      (node (ref SH701) (pin 9)))
+
+    (net (code 46) (name /CPU/EC_PWM4)
+      (node (ref SH701) (pin 10))
+
+      (node (ref U601) (pin 54)))
+
+    (net (code 47) (name /CPU/EC_GPIO1)
+      (node (ref U601) (pin 75))
+
+      (node (ref SH701) (pin 7)))
+
+    (net (code 48) (name /CPU/EC_GPIO0)
+      (node (ref U601) (pin 76))
+
+      (node (ref SH701) (pin 8)))
+
+    (net (code 49) (name /CPU/GPIO15)
+      (node (ref P701) (pin 14))
+
+      (node (ref U601) (pin 106)))
+
+    (net (code 50) (name /CPU/GPIO14)
+      (node (ref U601) (pin 109))
+
+      (node (ref P702) (pin 3)))
+
+    (net (code 51) (name /USB_JTAG_UART_RXD)
+      (node (ref P701) (pin 16))
+
+      (node (ref U601) (pin 12))
+
+      (node (ref P103) (pin 7)))
+
+    (net (code 52) (name GND)
+      (node (ref R413) (pin 2))
+
+      (node (ref R410) (pin 2))
+
+      (node (ref R411) (pin 2))
+
+      (node (ref U403) (pin 4))
+
+      (node (ref SH701) (pin GND3))
+
+      (node (ref R414) (pin 2))
+
+      (node (ref R301) (pin 1))
+
+      (node (ref C303) (pin 2))
+
+      (node (ref U601) (pin 6))
+
+      (node (ref J301) (pin 5))
+
+      (node (ref D602) (pin 2))
+
+      (node (ref D601) (pin 2))
+
+      (node (ref C302) (pin 2))
+
+      (node (ref P702) (pin 1))
+
+      (node (ref C301) (pin 2))
+
+      (node (ref FB302) (pin 1))
+
+      (node (ref U301) (pin 3))
+
+      (node (ref C618) (pin 2))
+
+      (node (ref U602) (pin 2))
+
+      (node (ref R218) (pin 1))
+
+      (node (ref P701) (pin 30))
+
+      (node (ref U501) (pin 1))
+
+      (node (ref FB502) (pin 1))
+
+      (node (ref C502) (pin 2))
+
+      (node (ref C215) (pin 2))
+
+      (node (ref R219) (pin 2))
+
+      (node (ref C212) (pin 2))
+
+      (node (ref C209) (pin 2))
+
+      (node (ref U201) (pin GND))
+
+      (node (ref C206) (pin 2))
+
+      (node (ref C208) (pin 2))
+
+      (node (ref C207) (pin 2))
+
+      (node (ref C213) (pin 2))
+
+      (node (ref C214) (pin 2))
+
+      (node (ref U202) (pin 2))
+
+      (node (ref C204) (pin 2))
+
+      (node (ref C211) (pin 2))
+
+      (node (ref C203) (pin 2))
+
+      (node (ref C202) (pin 2))
+
+      (node (ref C210) (pin 2))
+
+      (node (ref U402) (pin 4))
+
+      (node (ref J401) (pin 9))
+
+      (node (ref C205) (pin 2))
+
+      (node (ref C201) (pin 2))
+
+      (node (ref D401) (pin 2))
+
+      (node (ref C405) (pin 2))
+
+      (node (ref R416) (pin 2))
+
+      (node (ref R415) (pin 2))
+
+      (node (ref C401) (pin 2))
+
+      (node (ref C402) (pin 2))
+
+      (node (ref R407) (pin 2))
+
+      (node (ref C503) (pin 2))
+
+      (node (ref C501) (pin 2))
+
+      (node (ref R222) (pin 2))
+
+      (node (ref C216) (pin 2))
+
+      (node (ref R402) (pin 2))
+
+      (node (ref C403) (pin 2))
+
+      (node (ref U401) (pin 4))
+
+      (node (ref C404) (pin 2))
+
+      (node (ref C607) (pin 2))
+
+      (node (ref C606) (pin 2))
+
+      (node (ref C602) (pin 2))
+
+      (node (ref C612) (pin 2))
+
+      (node (ref X601) (pin 4))
+
+      (node (ref C611) (pin 2))
+
+      (node (ref C601) (pin 2))
+
+      (node (ref SW601) (pin 2))
+
+      (node (ref C604) (pin 2))
+
+      (node (ref C603) (pin 2))
+
+      (node (ref C615) (pin 2))
+
+      (node (ref C605) (pin 2))
+
+      (node (ref P103) (pin 5))
+
+      (node (ref C617) (pin 1))
+
+      (node (ref C610) (pin 2))
+
+      (node (ref C608) (pin 2))
+
+      (node (ref C609) (pin 2)))
+
+    (net (code 53) (name /TDI/EC_UART_RX)
+      (node (ref SH701) (pin 0))
+
+      (node (ref U601) (pin 51))
+
+      (node (ref P103) (pin 8))
+
+      (node (ref R36_T2_3) (pin 1)))
+
+    (net (code 54) (name /TDO/EC_UART_TX)
+      (node (ref U601) (pin 52))
+
+      (node (ref SH701) (pin 1))
+
+      (node (ref P103) (pin 6)))
+
+    (net (code 55) (name "Net-(P103-Pad9)")
+      (node (ref R101) (pin 2))
+
+      (node (ref P103) (pin 9)))
+
+    (net (code 56) (name /USB_JTAG_UART_TXD)
+      (node (ref P701) (pin 15))
+
+      (node (ref R101) (pin 1))
+
+      (node (ref U601) (pin 11)))
+
+    (net (code 57) (name /CPU/AIN1)
+      (node (ref U601) (pin 78))
+
+      (node (ref P702) (pin 24)))
+
+    (net (code 58) (name +3.3V)
+      (node (ref U501) (pin 2))
+
+      (node (ref R401) (pin 1))
+
+      (node (ref C612) (pin 1))
+
+      (node (ref U402) (pin 8))
+
+      (node (ref R604) (pin 1))
+
+      (node (ref R602) (pin 1))
+
+      (node (ref Q401) (pin 2))
+
+      (node (ref R607) (pin 1))
+
+      (node (ref C610) (pin 1))
+
+      (node (ref C609) (pin 1))
+
+      (node (ref C405) (pin 1))
+
+      (node (ref C404) (pin 1))
+
+      (node (ref U403) (pin 8))
+
+      (node (ref C503) (pin 1))
+
+      (node (ref FB501) (pin 1))
+
+      (node (ref U401) (pin 8))
+
+      (node (ref C403) (pin 1))
+
+      (node (ref U201) (pin 9))
+
+      (node (ref C206) (pin 1))
+
+      (node (ref L201) (pin 1))
+
+      (node (ref R201) (pin 1))
+
+      (node (ref P103) (pin 1))
+
+      (node (ref SH701) (pin 3V3))
+
+      (node (ref R302) (pin 1))
+
+      (node (ref C205) (pin 1))
+
+      (node (ref U202) (pin 4))
+
+      (node (ref R215) (pin 1))
+
+      (node (ref R216) (pin 2))
+
+      (node (ref C215) (pin 1))
+
+      (node (ref D503) (pin 2))
+
+      (node (ref C204) (pin 1))
+
+      (node (ref R221) (pin 2))
+
+      (node (ref C606) (pin 1))
+
+      (node (ref U602) (pin 4))
+
+      (node (ref C602) (pin 1))
+
+      (node (ref C603) (pin 1))
+
+      (node (ref C604) (pin 1))
+
+      (node (ref U601) (pin 122))
+
+      (node (ref C607) (pin 1))
+
+      (node (ref C608) (pin 1))
+
+      (node (ref C611) (pin 1))
+
+      (node (ref R409) (pin 2))
+
+      (node (ref C618) (pin 1))
+
+      (node (ref R412) (pin 1))
+
+      (node (ref R38_T2) (pin 1))
+
+      (node (ref R23_T1_3) (pin 1)))
+
+    (net (code 59) (name /RESET)
+      (node (ref P103) (pin 10))
+
+      (node (ref P701) (pin 17))
+
+      (node (ref SH701) (pin RST))
+
+      (node (ref D603) (pin 2)))
+
+    (net (code 60) (name /CPU/EC_I2C_SDA)
+      (node (ref U601) (pin 84))
+
+      (node (ref SH701) (pin A4/1)))
+
+    (net (code 61) (name /CPU/EC_I2C_SCL)
+      (node (ref U601) (pin 83))
+
+      (node (ref SH701) (pin A5/2))
+
+      (node (ref R26_T1_3) (pin 1)))
+
+    (net (code 62) (name /CPU/EC_AI2)
+      (node (ref U601) (pin 39))
+
+      (node (ref SH701) (pin A2)))
+
+    (net (code 63) (name /CPU/EC_PWM3)
+      (node (ref U601) (pin 63))
+
+      (node (ref SH701) (pin 2)))
+
+    (net (code 64) (name /CPU/EC_PWM2)
+      (node (ref U601) (pin 62))
+
+      (node (ref SH701) (pin 3)))
+
+    (net (code 65) (name /CPU/EC_PWM1)
+      (node (ref SH701) (pin 5))
+
+      (node (ref U601) (pin 61)))
+
+    (net (code 66) (name /CPU/EC_PWM0)
+      (node (ref U601) (pin 60))
+
+      (node (ref SH701) (pin 6)))
+
+    (net (code 67) (name /CPU/EC_AI1)
+      (node (ref SH701) (pin A1))
+
+      (node (ref U601) (pin 36)))
+
+    (net (code 68) (name /CPU/EC_AI0)
+      (node (ref U601) (pin 35))
+
+      (node (ref SH701) (pin A0)))
+
+    (net (code 69) (name /CPU/I2C_SDA)
+      (node (ref U403) (pin 5))
+
+      (node (ref U601) (pin 138))
+
+      (node (ref R602) (pin 2))
+
+      (node (ref U402) (pin 5)))
+
+    (net (code 70) (name /CPU/I2C_SCL)
+      (node (ref U402) (pin 6))
+
+      (node (ref R604) (pin 2))
+
+      (node (ref U601) (pin 137))
+
+      (node (ref U403) (pin 6))
+
+      (node (ref R52_P1_3) (pin 2)))
+
+    (net (code 71) (name /CPU/VBAT)
+      (node (ref D503) (pin 3))
+
+      (node (ref C502) (pin 1))
+
+      (node (ref U601) (pin 42)))
+
+    (net (code 72) (name /CPU/EC_AI3)
+      (node (ref U601) (pin 46))
+
+      (node (ref SH701) (pin A3))
+
+      (node (ref R26_T1_2) (pin 1)))
+
+    (net (code 73) (name /CPU/DIN3)
+      (node (ref P701) (pin 24))
+
+      (node (ref U601) (pin 14)))
+
+    (net (code 74) (name /CPU/DIN2)
+      (node (ref P701) (pin 23))
+
+      (node (ref U601) (pin 13)))
+
+    (net (code 75) (name /CPU/DIN1)
+      (node (ref P702) (pin 14))
+
+      (node (ref U601) (pin 10)))
+
+    (net (code 76) (name /CPU/DIN0)
+      (node (ref U601) (pin 9))
+
+      (node (ref P702) (pin 13)))
+
+    (net (code 77) (name /CPU/GPIO4)
+      (node (ref U601) (pin 114))
+
+      (node (ref P701) (pin 2)))
+
+    (net (code 78) (name /CPU/AUX_UART_CTS/SPI_CLK)
+      (node (ref P701) (pin 12))
+
+      (node (ref U601) (pin 128)))
+
+    (net (code 79) (name /CPU/AUX_UART_RTS/SPI_CS)
+      (node (ref U601) (pin 127))
+
+      (node (ref P701) (pin 13)))
+
+    (net (code 80) (name /CPU/GPIO12)
+      (node (ref P702) (pin 5))
+
+      (node (ref U601) (pin 110))
+
+      (node (ref R24_T1) (pin 1)))
+
+    (net (code 81) (name /CPU/GPIO10)
+      (node (ref P702) (pin 4))
+
+      (node (ref U601) (pin 111)))
+
+    (net (code 82) (name /CPU/GPIO9)
+      (node (ref P702) (pin 8))
+
+      (node (ref U601) (pin 103)))
+
+    (net (code 83) (name /CPU/GPIO8)
+      (node (ref P701) (pin 4))
+
+      (node (ref U601) (pin 112)))
+
+    (net (code 84) (name /CPU/GPIO7/SPI2_SIN)
+      (node (ref U601) (pin 102))
+
+      (node (ref SH701) (pin 12))
+
+      (node (ref R52_P1) (pin 2)))
+
+    (net (code 85) (name /CPU/GPIO5/SPI2_SOUT)
+      (node (ref SH701) (pin 11))
+
+      (node (ref U601) (pin 101)))
+
+    (net (code 86) (name /CPU/AUX_UART_RX/SPI_MISO)
+      (node (ref U601) (pin 130))
+
+      (node (ref P701) (pin 10)))
+
+    (net (code 87) (name /CPU/GPIO3/SPI2_SCK)
+      (node (ref U601) (pin 100))
+
+      (node (ref SH701) (pin 13)))
+
+    (net (code 88) (name /CPU/GPIO2)
+      (node (ref U601) (pin 115))
+
+      (node (ref P701) (pin 8)))
+
+    (net (code 89) (name /CPU/GPIO1)
+      (node (ref P702) (pin 2))
+
+      (node (ref U601) (pin 99))
+
+      (node (ref R36_T2) (pin 1)))
+
+    (net (code 90) (name /CPU/GPIO0)
+      (node (ref U601) (pin 116))
+
+      (node (ref P701) (pin 9)))
+
+    (net (code 91) (name /I/O/ArefA)
+      (node (ref SH701) (pin AREF))
+
+      (node (ref JP601) (pin 3)))
+
+    (net (code 92) (name /CPU/AIN0)
+      (node (ref U601) (pin 77))
+
+      (node (ref P702) (pin 25)))
+
+    (net (code 93) (name /CPU/RS232_TXD)
+      (node (ref U601) (pin 92))
+
+      (node (ref P702) (pin 16)))
+
+    (net (code 94) (name /CPU/RS485_RXD)
+      (node (ref P701) (pin 6))
+
+      (node (ref U601) (pin 133)))
+
+    (net (code 95) (name /CPU/RS485_TXD)
+      (node (ref U601) (pin 136))
+
+      (node (ref P701) (pin 7)))
+
+    (net (code 96) (name /CPU/RS485_DIR)
+      (node (ref U601) (pin 131))
+
+      (node (ref P701) (pin 5)))
+
+    (net (code 97) (name /CPU/CAN_RD)
+      (node (ref U601) (pin 98))
+
+      (node (ref P702) (pin 10)))
+
+    (net (code 98) (name /CPU/CAN_TD)
+      (node (ref P702) (pin 9))
+
+      (node (ref U601) (pin 97)))
+
+    (net (code 99) (name /CPU/RS232_RXD)
+      (node (ref P702) (pin 17))
+
+      (node (ref U601) (pin 91)))
+
+    (net (code 100) (name /CPU/RS232_RTS)
+      (node (ref R44_P1_3) (pin 2))
+
+      (node (ref P702) (pin 19)))
+
+    (net (code 101) (name /CPU/RS232_CTS)
+      (node (ref U601) (pin 90))
+
+      (node (ref P702) (pin 18)))
+
+    (net (code 102) (name /CPU/DOUT7)
+      (node (ref U601) (pin 117))
+
+      (node (ref P701) (pin 29)))
+
+    (net (code 103) (name /CPU/DOUT6)
+      (node (ref P701) (pin 28))
+
+      (node (ref U601) (pin 118)))
+
+    (net (code 104) (name /CPU/DOUT5)
+      (node (ref P701) (pin 27))
+
+      (node (ref U601) (pin 119)))
+
+    (net (code 105) (name /CPU/DOUT4)
+      (node (ref U601) (pin 120))
+
+      (node (ref P701) (pin 26)))
+
+    (net (code 106) (name /CPU/DOUT3)
+      (node (ref U601) (pin 96))
+
+      (node (ref P702) (pin 11)))
+
+    (net (code 107) (name /CPU/DOUT2)
+      (node (ref U601) (pin 88))
+
+      (node (ref P702) (pin 20)))
+
+    (net (code 108) (name /CPU/DOUT1)
+      (node (ref U601) (pin 87))
+
+      (node (ref P702) (pin 21)))
+
+    (net (code 109) (name /CPU/DOUT0)
+      (node (ref U601) (pin 95))
+
+      (node (ref P702) (pin 12)))
+
+    (net (code 110) (name /CPU/AUX_UART_TX/SPI_MOSI/FTM3_CH2)
+      (node (ref U601) (pin 129))
+
+      (node (ref P701) (pin 11)))
+
+    (net (code 111) (name "Net-(F103-Pad1)")
+      (node (ref F103) (pin 1))
+
+      (node (ref R36_T2_2) (pin 1)))
+
+    (net (code 112) (name "Net-(F102-Pad1)")
+      (node (ref F102) (pin 1)))
+
+    (net (code 113) (name "Net-(F101-Pad1)")
+      (node (ref F101) (pin 1)))
+
+    (net (code 114) (name "Net-(C615-Pad1)")
+      (node (ref U601) (pin 21))
+
+      (node (ref C615) (pin 1)))
+
+    (net (code 115) (name "Net-(C601-Pad1)")
+      (node (ref C601) (pin 1))
+
+      (node (ref U601) (pin 41))
+
+      (node (ref X601) (pin 3)))
+
+    (net (code 116) (name "Net-(C605-Pad1)")
+      (node (ref C605) (pin 1))
+
+      (node (ref X601) (pin 1))
+
+      (node (ref U601) (pin 40)))
+
+    (net (code 117) (name +3.3VADC)
+      (node (ref FB501) (pin 2))
+
+      (node (ref U601) (pin 31))
+
+      (node (ref JP601) (pin 1)))
+
+    (net (code 118) (name "Net-(U601-Pad132)")
+      (node (ref U601) (pin 132))
+
+      (node (ref R38_T2_2) (pin 1)))
+
+    (net (code 119) (name "Net-(R605-Pad1)")
+      (node (ref U601) (pin 3))
+
+      (node (ref R605) (pin 1)))
+
+    (net (code 120) (name "Net-(U601-Pad28)")
+      (node (ref U601) (pin 28)))
+
+    (net (code 121) (name "Net-(U601-Pad27)")
+      (node (ref U601) (pin 27)))
+
+    (net (code 122) (name "Net-(U601-Pad26)")
+      (node (ref U601) (pin 26))
+
+      (node (ref R25_T1) (pin 1)))
+
+    (net (code 123) (name "Net-(U601-Pad25)")
+      (node (ref U601) (pin 25))
+
+      (node (ref R39_T2) (pin 1)))
+
+    (net (code 124) (name "Net-(U601-Pad24)")
+      (node (ref U601) (pin 24)))
+
+    (net (code 125) (name "Net-(U601-Pad23)")
+      (node (ref U601) (pin 23)))
+
+    (net (code 126) (name "Net-(C617-Pad2)")
+      (node (ref C617) (pin 2))
+
+      (node (ref R607) (pin 2))
+
+      (node (ref D603) (pin 1))
+
+      (node (ref U601) (pin 74))
+
+      (node (ref SW601) (pin 1)))
+
+    (net (code 127) (name "Net-(U601-Pad49)")
+      (node (ref U601) (pin 49)))
+
+    (net (code 128) (name "Net-(U601-Pad48)")
+      (node (ref U601) (pin 48)))
+
+    (net (code 129) (name "Net-(U601-Pad47)")
+      (node (ref U601) (pin 47))
+
+      (node (ref R37_T2) (pin 1)))
+
+    (net (code 130) (name "Net-(C613-Pad1)")
+      (node (ref C613) (pin 1))
+
+      (node (ref U601) (pin 37)))
+
+    (net (code 131) (name GNDA)
+      (node (ref C620) (pin 1))
+
+      (node (ref FB602) (pin 2))
+
+      (node (ref FB502) (pin 2))
+
+      (node (ref U601) (pin 34))
+
+      (node (ref C619) (pin 2)))
+
+    (net (code 132) (name "Net-(R603-Pad2)")
+      (node (ref U601) (pin 59))
+
+      (node (ref R603) (pin 2)))
+
+    (net (code 133) (name "Net-(R601-Pad2)")
+      (node (ref U601) (pin 58))
+
+      (node (ref R601) (pin 2)))
+
+    (net (code 134) (name "Net-(D602-Pad1)")
+      (node (ref R603) (pin 1))
+
+      (node (ref D602) (pin 1)))
+
+    (net (code 135) (name "Net-(D601-Pad1)")
+      (node (ref D601) (pin 1))
+
+      (node (ref R601) (pin 1)))
+
+    (net (code 136) (name /CPU/VREFH)
+      (node (ref C614) (pin 1))
+
+      (node (ref C616) (pin 2))
+
+      (node (ref FB601) (pin 1))
+
+      (node (ref U601) (pin 32)))
+
+    (net (code 137) (name /CPU/VREFL)
+      (node (ref C614) (pin 2))
+
+      (node (ref U601) (pin 33))
+
+      (node (ref C613) (pin 2))
+
+      (node (ref FB602) (pin 1))
+
+      (node (ref C616) (pin 1)))
+
+    (net (code 138) (name "Net-(C619-Pad1)")
+      (node (ref FB601) (pin 2))
+
+      (node (ref C619) (pin 1))
+
+      (node (ref JP601) (pin 2))
+
+      (node (ref C620) (pin 2))
+
+      (node (ref R37_T2_3) (pin 1)))
+
+    (net (code 139) (name "Net-(R606-Pad1)")
+      (node (ref U601) (pin 45))
+
+      (node (ref R606) (pin 1)))
+
+    (net (code 140) (name "Net-(R606-Pad2)")
+      (node (ref U602) (pin 3))
+
+      (node (ref R606) (pin 2))
+
+      (node (ref R39_T2_2) (pin 1)))
+
+    (net (code 141) (name "Net-(R416-Pad1)")
+      (node (ref U403) (pin 7))
+
+      (node (ref R416) (pin 1)))
+
+    (net (code 142) (name "Net-(R412-Pad2)")
+      (node (ref R412) (pin 2))
+
+      (node (ref U403) (pin 1)))
+
+    (net (code 143) (name "Net-(D401-Pad1)")
+      (node (ref D401) (pin 1))
+
+      (node (ref R408) (pin 2)))
+
+    (net (code 144) (name "Net-(R415-Pad1)")
+      (node (ref R415) (pin 1))
+
+      (node (ref U402) (pin 7)))
+
+    (net (code 145) (name "Net-(R413-Pad1)")
+      (node (ref R413) (pin 1))
+
+      (node (ref U403) (pin 2))
+
+      (node (ref R25_T1_3) (pin 1)))
+
+    (net (code 146) (name "Net-(R414-Pad1)")
+      (node (ref U403) (pin 3))
+
+      (node (ref R414) (pin 1))
+
+      (node (ref R38_T2_3) (pin 1)))
+
+    (net (code 147) (name "Net-(C401-Pad1)")
+      (node (ref Q401) (pin 3))
+
+      (node (ref R405) (pin 1))
+
+      (node (ref R403) (pin 1))
+
+      (node (ref R404) (pin 1))
+
+      (node (ref J401) (pin 4))
+
+      (node (ref C401) (pin 1))
+
+      (node (ref R407) (pin 1))
+
+      (node (ref C402) (pin 1))
+
+      (node (ref R408) (pin 1))
+
+      (node (ref R406) (pin 1)))
+
+    (net (code 148) (name "Net-(R409-Pad1)")
+      (node (ref R409) (pin 1))
+
+      (node (ref U402) (pin 3))
+
+      (node (ref R23_T1) (pin 1)))
+
+    (net (code 149) (name "Net-(R411-Pad1)")
+      (node (ref R411) (pin 1))
+
+      (node (ref U402) (pin 2)))
+
+    (net (code 150) (name "Net-(R410-Pad1)")
+      (node (ref U402) (pin 1))
+
+      (node (ref R410) (pin 1)))
+
+    (net (code 151) (name +5V)
+      (node (ref P701) (pin 1))
+
+      (node (ref P702) (pin 26))
+
+      (node (ref C501) (pin 1))
+
+      (node (ref D501) (pin 2))
+
+      (node (ref U501) (pin 3))
+
+      (node (ref D502) (pin 2))
+
+      (node (ref SH701) (pin 5V))
+
+      (node (ref C301) (pin 1))
+
+      (node (ref U301) (pin 7)))
+
+    (net (code 152) (name /Ethernet/LED_100M)
+      (node (ref R217) (pin 2))
+
+      (node (ref P201) (pin 15))
+
+      (node (ref U201) (pin 2)))
+
+    (net (code 153) (name /Ethernet/LED_LINK)
+      (node (ref U201) (pin 3))
+
+      (node (ref P201) (pin 12)))
+
+    (net (code 154) (name "Net-(R219-Pad1)")
+      (node (ref R219) (pin 1))
+
+      (node (ref U201) (pin 24))
+
+      (node (ref R25_T1_2) (pin 1))
+
+      (node (ref R39_T2_3) (pin 1)))
+
+    (net (code 155) (name "Net-(R210-Pad2)")
+      (node (ref R210) (pin 2))
+
+      (node (ref U201) (pin 7))
+
+      (node (ref R37_T2_2) (pin 1)))
+
+    (net (code 156) (name "Net-(R209-Pad2)")
+      (node (ref U201) (pin 8))
+
+      (node (ref R209) (pin 2)))
+
+    (net (code 157) (name "Net-(R208-Pad2)")
+      (node (ref R208) (pin 2))
+
+      (node (ref U201) (pin 16)))
+
+    (net (code 158) (name "Net-(R207-Pad2)")
+      (node (ref U201) (pin 18))
+
+      (node (ref R207) (pin 2)))
+
+    (net (code 159) (name "Net-(R206-Pad2)")
+      (node (ref U201) (pin 17))
+
+      (node (ref R206) (pin 2)))
+
+    (net (code 160) (name "Net-(R211-Pad2)")
+      (node (ref U201) (pin 11))
+
+      (node (ref R211) (pin 2)))
+
+    (net (code 161) (name "Net-(P201-Pad13)")
+      (node (ref R218) (pin 2))
+
+      (node (ref P201) (pin 13)))
+
+    (net (code 162) (name /Ethernet/RX_N)
+      (node (ref R205) (pin 2))
+
+      (node (ref C214) (pin 1))
+
+      (node (ref U201) (pin 22))
+
+      (node (ref P201) (pin 5)))
+
+    (net (code 163) (name "Net-(R220-Pad1)")
+      (node (ref U202) (pin 3))
+
+      (node (ref R220) (pin 1)))
+
+    (net (code 164) (name "Net-(U201-Pad4)")
+      (node (ref U201) (pin 4)))
+
+    (net (code 165) (name "Net-(R221-Pad1)")
+      (node (ref R221) (pin 1))
+
+      (node (ref U202) (pin 1)))
+
+    (net (code 166) (name VDD_ETH)
+      (node (ref R204) (pin 1))
+
+      (node (ref C210) (pin 1))
+
+      (node (ref R205) (pin 1))
+
+      (node (ref P201) (pin 2))
+
+      (node (ref C202) (pin 1))
+
+      (node (ref U201) (pin 19))
+
+      (node (ref C203) (pin 1))
+
+      (node (ref C201) (pin 1))
+
+      (node (ref R202) (pin 1))
+
+      (node (ref C209) (pin 1))
+
+      (node (ref R203) (pin 1))
+
+      (node (ref L201) (pin 2))
+
+      (node (ref R217) (pin 1)))
+
+    (net (code 167) (name "Net-(R215-Pad2)")
+      (node (ref U201) (pin 14))
+
+      (node (ref R215) (pin 2)))
+
+    (net (code 168) (name "Net-(R214-Pad2)")
+      (node (ref R214) (pin 2))
+
+      (node (ref U201) (pin 13)))
+
+    (net (code 169) (name "Net-(R201-Pad2)")
+      (node (ref R213) (pin 2))
+
+      (node (ref U201) (pin 12))
+
+      (node (ref R201) (pin 2)))
+
+    (net (code 170) (name "Net-(R212-Pad1)")
+      (node (ref U201) (pin 10))
+
+      (node (ref R212) (pin 1)))
+
+    (net (code 171) (name "Net-(C207-Pad1)")
+      (node (ref C207) (pin 1))
+
+      (node (ref U201) (pin 6))
+
+      (node (ref C208) (pin 1)))
+
+    (net (code 172) (name /Ethernet/TX_N)
+      (node (ref R203) (pin 2))
+
+      (node (ref C212) (pin 1))
+
+      (node (ref U201) (pin 20))
+
+      (node (ref P201) (pin 3)))
+
+    (net (code 173) (name /Ethernet/TX_P)
+      (node (ref R202) (pin 2))
+
+      (node (ref C211) (pin 1))
+
+      (node (ref P201) (pin 1))
+
+      (node (ref U201) (pin 21)))
+
+    (net (code 174) (name PoE_MB_-)
+      (node (ref P702) (pin 28))
+
+      (node (ref P201) (pin 11)))
+
+    (net (code 175) (name PoE_MB_+)
+      (node (ref P201) (pin 10))
+
+      (node (ref P702) (pin 27)))
+
+    (net (code 176) (name PoE_MA_-)
+      (node (ref P702) (pin 30))
+
+      (node (ref P201) (pin 9)))
+
+    (net (code 177) (name PoE_MA_+)
+      (node (ref P702) (pin 29))
+
+      (node (ref P201) (pin 8)))
+
+    (net (code 178) (name /Ethernet/RX_P)
+      (node (ref P201) (pin 4))
+
+      (node (ref C213) (pin 1))
+
+      (node (ref U201) (pin 23))
+
+      (node (ref R204) (pin 2)))
+
+    (net (code 179) (name "Net-(P201-Pad14)")
+      (node (ref R44_P1) (pin 2))
+
+      (node (ref R216) (pin 1))
+
+      (node (ref R26_T1) (pin 1)))
+
+    (net (code 180) (name "Net-(FB301-Pad2)")
+      (node (ref FB301) (pin 2))
+
+      (node (ref J301) (pin 1)))
+
+    (net (code 181) (name "Net-(U301-Pad4)")
+      (node (ref U301) (pin 4)))
+
+    (net (code 182) (name "Net-(U301-Pad5)")
+      (node (ref U301) (pin 5)))
+
+    (net (code 183) (name "/USB OTG/CHS_OTG")
+      (node (ref D301) (pin 1))
+
+      (node (ref U302) (pin 1))
+
+      (node (ref FB302) (pin 2))
+
+      (node (ref J301) (pin 9)))
+
+    (net (code 184) (name "/USB OTG/USB_D_OTG_P")
+      (node (ref J301) (pin 3))
+
+      (node (ref TR301) (pin 1)))
+
+    (net (code 185) (name "/USB OTG/USB_D_OTG_N")
+      (node (ref TR301) (pin 4))
+
+      (node (ref J301) (pin 2)))
+
+    (net (code 186) (name "Net-(SH701-PadVIN)")
+      (node (ref SH701) (pin VIN)))
+
+    (net (code 187) (name "Net-(SH701-PadNC)")
+      (node (ref SH701) (pin NC)))
+
+    (net (code 188) (name GND)
+      (node (ref T20_T2) (pin 1))
+
+      (node (ref T18_T2) (pin 1))
+
+      (node (ref T19_T2) (pin 1))
+
+      (node (ref T21_T2) (pin 1))
+
+      (node (ref R57_T1) (pin 1))
+
+      (node (ref T22_T1) (pin 1))
+
+      (node (ref D2) (pin 5))
+
+      (node (ref T11_T1) (pin 1))
+
+      (node (ref T16_T1) (pin 1))
+
+      (node (ref T17_T1) (pin 1))
+
+      (node (ref T10_T1) (pin 1))
+
+      (node (ref T12_T1) (pin 1))
+
+      (node (ref T13_T1) (pin 1))
+
+      (node (ref T14_T1) (pin 1))
+
+      (node (ref T15_T1) (pin 1))
+
+      (node (ref C8) (pin 2)))
+
+    (net (code 190) (name "Net-(C8-Pad1)")
+      (node (ref D2) (pin 1))
+
+      (node (ref R52_T1) (pin 2))
+
+      (node (ref C8) (pin 1)))
+
+    (net (code 191) (name "Net-(D2-Pad2)")
+      (node (ref R58_T1) (pin 1))
+
+      (node (ref R57_T1) (pin 2))
+
+      (node (ref D2) (pin 2)))
+
+    (net (code 192) (name +5V)
+      (node (ref R29_T1) (pin 1))
+
+      (node (ref R35_T1) (pin 1))
+
+      (node (ref R40_T2) (pin 1))
+
+      (node (ref R30_T1) (pin 1))
+
+      (node (ref D2) (pin 4))
+
+      (node (ref R58_T1) (pin 2))
+
+      (node (ref R27_T1) (pin 1))
+
+      (node (ref R28_T1) (pin 1)))
+
+    (net (code 197) (name /AND_TRIGGER/Trig_T1_O0)
+      (node (ref T16_T1) (pin 3))
+
+      (node (ref T15_T1) (pin 3))
+
+      (node (ref R35_T1_T) (pin 1))
+
+      (node (ref T14_T1) (pin 3))
+
+      (node (ref T17_T1) (pin 3))
+
+      (node (ref R35_T2) (pin 1)))
+
+    (net (code 200) (name /NOR_TRIGGER/Trig_T2_O1)
+      (node (ref T22_T1) (pin 2))
+
+      (node (ref T19_T2) (pin 3))
+
+      (node (ref T18_T2) (pin 3))
+
+      (node (ref R40_T2) (pin 2))
+
+      (node (ref T21_T2) (pin 3))
+
+      (node (ref T20_T2) (pin 3)))
+
+    (net (code 201) (name "Net-(R35_T2-Pad2)")
+      (node (ref R52_T1) (pin 1))
+
+      (node (ref R35_T2) (pin 2))
+
+      (node (ref T22_T1) (pin 3)))
+
+    (net (code 204) (name "Net-(R38_T2-Pad2)")
+      (node (ref T20_T2) (pin 2))
+
+      (node (ref R38_T2) (pin 2)))
+
+    (net (code 205) (name "Net-(R39_T2-Pad2)")
+      (node (ref T21_T2) (pin 2))
+
+      (node (ref R39_T2) (pin 2)))
+
+    (net (code 206) (name "Net-(R37_T2-Pad2)")
+      (node (ref R37_T2) (pin 2))
+
+      (node (ref T19_T2) (pin 2)))
+
+    (net (code 207) (name "Net-(R36_T2-Pad2)")
+      (node (ref R36_T2) (pin 2))
+
+      (node (ref T18_T2) (pin 2)))
+
+    (net (code 208) (name "Net-(R34_T1-Pad2)")
+      (node (ref R34_T1) (pin 2))
+
+      (node (ref T17_T1) (pin 2)))
+
+    (net (code 209) (name "Net-(R32_T1-Pad2)")
+      (node (ref T15_T1) (pin 2))
+
+      (node (ref R32_T1) (pin 2)))
+
+    (net (code 210) (name "Net-(R33_T1-Pad2)")
+      (node (ref T16_T1) (pin 2))
+
+      (node (ref R33_T1) (pin 2)))
+
+    (net (code 211) (name "Net-(R24_T1-Pad2)")
+      (node (ref R24_T1) (pin 2))
+
+      (node (ref T11_T1) (pin 2)))
+
+    (net (code 212) (name "Net-(R30_T1-Pad2)")
+      (node (ref R30_T1) (pin 2))
+
+      (node (ref R34_T1) (pin 1))
+
+      (node (ref T13_T1) (pin 3)))
+
+    (net (code 213) (name "Net-(R23_T1-Pad2)")
+      (node (ref T10_T1) (pin 2))
+
+      (node (ref R23_T1) (pin 2)))
+
+    (net (code 214) (name "Net-(R28_T1-Pad2)")
+      (node (ref R32_T1) (pin 1))
+
+      (node (ref R28_T1) (pin 2))
+
+      (node (ref T11_T1) (pin 3)))
+
+    (net (code 215) (name "Net-(R29_T1-Pad2)")
+      (node (ref R33_T1) (pin 1))
+
+      (node (ref R29_T1) (pin 2))
+
+      (node (ref T12_T1) (pin 3)))
+
+    (net (code 216) (name "Net-(R25_T1-Pad2)")
+      (node (ref R25_T1) (pin 2))
+
+      (node (ref T12_T1) (pin 2)))
+
+    (net (code 217) (name "Net-(R26_T1-Pad2)")
+      (node (ref R26_T1) (pin 2))
+
+      (node (ref T13_T1) (pin 2)))
+
+    (net (code 218) (name "Net-(R27_T1-Pad2)")
+      (node (ref T10_T1) (pin 3))
+
+      (node (ref R31_T1) (pin 1))
+
+      (node (ref R27_T1) (pin 2)))
+
+    (net (code 219) (name "Net-(R31_T1-Pad2)")
+      (node (ref R31_T1) (pin 2))
+
+      (node (ref T14_T1) (pin 2)))
+
+    (net (code 220) (name "/AND_TRIGGER/Trig_T1_O0_new")
+      (node (ref R35_T1_T) (pin 2))
+
+      (node (ref R35_T1) (pin 2)))
+
+    (net (code 221) (name "Net-(R50_P1-Pad2)")
+      (node (ref T26_P1) (pin 2))
+
+      (node (ref R50_P1) (pin 2)))
+
+    (net (code 222) (name GND)
+      (node (ref T26_P1) (pin 1))
+
+      (node (ref T24_P1) (pin 1))
+
+      (node (ref T29_P1) (pin 1))
+
+      (node (ref T28_P1) (pin 1)))
+
+    (net (code 223) (name "Net-(T25_P1-Pad1)")
+      (node (ref T29_P1) (pin 3))
+
+      (node (ref T25_P1) (pin 1)))
+
+    (net (code 224) (name "Net-(R48_P1-Pad1)")
+      (node (ref R48_P1) (pin 1))
+
+      (node (ref T25_P1) (pin 2)))
+
+    (net (code 225) (name "Net-(R53_P1-Pad1)")
+      (node (ref T29_P1) (pin 2))
+
+      (node (ref R53_P1) (pin 1)))
+
+    (net (code 226) (name "Net-(R43_P1-Pad2)")
+      (node (ref R48_P1) (pin 2))
+
+      (node (ref T23_P1) (pin 3))
+
+      (node (ref R43_P1) (pin 2)))
+
+    (net (code 228) (name "Net-(R52_P1-Pad1)")
+      (node (ref T28_P1) (pin 2))
+
+      (node (ref R52_P1) (pin 1)))
+
+    (net (code 229) (name +5V)
+      (node (ref R47_P1) (pin 1))
+
+      (node (ref R45_P1) (pin 1))
+
+      (node (ref R43_P1) (pin 1))
+
+      (node (ref R49_P1) (pin 1)))
+
+    (net (code 230) (name "Net-(R46_P1-Pad2)")
+      (node (ref T26_P1) (pin 3))
+
+      (node (ref R46_P1) (pin 2))
+
+      (node (ref R47_P1) (pin 2)))
+
+    (net (code 231) (name "Net-(R46_P1-Pad1)")
+      (node (ref T24_P1) (pin 2))
+
+      (node (ref R46_P1) (pin 1)))
+
+    (net (code 232) (name "Net-(R51_P1-Pad1)")
+      (node (ref T27_P1) (pin 2))
+
+      (node (ref R51_P1) (pin 1)))
+
+    (net (code 233) (name Victim_Mod)
+      (node (ref T25_P1) (pin 3))
+
+      (node (ref R45_P1) (pin 2))
+
+      (node (ref P201) (pin 14)))
+
+    (net (code 234) (name Trig_Out)
+      (node (ref R51_P1) (pin 2))
+
+      (node (ref R50_P1) (pin 1))
+
+      (node (ref D2) (pin 3)))
+
+    (net (code 236) (name "Net-(T23_P1-Pad1)")
+      (node (ref T23_P1) (pin 1))
+
+      (node (ref T24_P1) (pin 3)))
+
+    (net (code 237) (name "Net-(T27_P1-Pad1)")
+      (node (ref T28_P1) (pin 3))
+
+      (node (ref T27_P1) (pin 1)))
+
+    (net (code 238) (name "Net-(R44_P1-Pad1)")
+      (node (ref R44_P1) (pin 1))
+
+      (node (ref T23_P1) (pin 2)))
+
+    (net (code 239) (name "Net-(R49_P1-Pad2)")
+      (node (ref T27_P1) (pin 3))
+
+      (node (ref R53_P1) (pin 2))
+
+      (node (ref R49_P1) (pin 2)))
+
+    (net (code 240) (name "GND_2")
+      (node (ref T20_T2_2) (pin 1))
+
+      (node (ref T18_T2_2) (pin 1))
+
+      (node (ref T19_T2_2) (pin 1))
+
+      (node (ref T21_T2_2) (pin 1))
+
+      (node (ref R57_T1_2) (pin 1))
+
+      (node (ref T22_T1_2) (pin 1))
+
+      (node (ref D2_2) (pin 5))
+
+      (node (ref T11_T1_2) (pin 1))
+
+      (node (ref T16_T1_2) (pin 1))
+
+      (node (ref T17_T1_2) (pin 1))
+
+      (node (ref T10_T1_2) (pin 1))
+
+      (node (ref T12_T1_2) (pin 1))
+
+      (node (ref T13_T1_2) (pin 1))
+
+      (node (ref T14_T1_2) (pin 1))
+
+      (node (ref T15_T1_2) (pin 1))
+
+      (node (ref C8_2) (pin 2)))
+
+    (net (code 242) (name "Net-(C8-Pad1)_2")
+      (node (ref D2_2) (pin 1))
+
+      (node (ref R52_T1_2) (pin 2))
+
+      (node (ref C8_2) (pin 1)))
+
+    (net (code 243) (name "Net-(D2-Pad2)_2")
+      (node (ref R58_T1_2) (pin 1))
+
+      (node (ref R57_T1_2) (pin 2))
+
+      (node (ref D2_2) (pin 2)))
+
+    (net (code 244) (name "+5V_2")
+      (node (ref R29_T1_2) (pin 1))
+
+      (node (ref R35_T1_T_2) (pin 1))
+
+      (node (ref R40_T2_2) (pin 1))
+
+      (node (ref R30_T1_2) (pin 1))
+
+      (node (ref D2_2) (pin 4))
+
+      (node (ref R58_T1_2) (pin 2))
+
+      (node (ref R27_T1_2) (pin 1))
+
+      (node (ref R28_T1_2) (pin 1)))
+
+    (net (code 249) (name "/AND_TRIGGER/Trig_T1_O0_2")
+      (node (ref T16_T1_2) (pin 3))
+
+      (node (ref T15_T1_2) (pin 3))
+
+      (node (ref R35_T1_2) (pin 2))
+
+      (node (ref T14_T1_2) (pin 3))
+
+      (node (ref T17_T1_2) (pin 3))
+
+      (node (ref R35_T2_2) (pin 1)))
+
+    (net (code 252) (name "/NOR_TRIGGER/Trig_T2_O1_2")
+      (node (ref T22_T1_2) (pin 2))
+
+      (node (ref T19_T2_2) (pin 3))
+
+      (node (ref T18_T2_2) (pin 3))
+
+      (node (ref R40_T2_2) (pin 2))
+
+      (node (ref T21_T2_2) (pin 3))
+
+      (node (ref T20_T2_2) (pin 3)))
+
+    (net (code 253) (name "Net-(R35_T2-Pad2)_2")
+      (node (ref R52_T1_2) (pin 1))
+
+      (node (ref R35_T2_2) (pin 2))
+
+      (node (ref T22_T1_2) (pin 3)))
+
+    (net (code 256) (name "Net-(R38_T2-Pad2)_2")
+      (node (ref T20_T2_2) (pin 2))
+
+      (node (ref R38_T2_2) (pin 2)))
+
+    (net (code 257) (name "Net-(R39_T2-Pad2)_2")
+      (node (ref T21_T2_2) (pin 2))
+
+      (node (ref R39_T2_2) (pin 2)))
+
+    (net (code 258) (name "Net-(R37_T2-Pad2)_2")
+      (node (ref R37_T2_2) (pin 2))
+
+      (node (ref T19_T2_2) (pin 2)))
+
+    (net (code 259) (name "Net-(R36_T2-Pad2)_2")
+      (node (ref R36_T2_2) (pin 2))
+
+      (node (ref T18_T2_2) (pin 2)))
+
+    (net (code 260) (name "Net-(R34_T1-Pad2)_2")
+      (node (ref R34_T1_2) (pin 2))
+
+      (node (ref T17_T1_2) (pin 2)))
+
+    (net (code 261) (name "Net-(R32_T1-Pad2)_2")
+      (node (ref T15_T1_2) (pin 2))
+
+      (node (ref R32_T1_2) (pin 2)))
+
+    (net (code 262) (name "Net-(R33_T1-Pad2)_2")
+      (node (ref T16_T1_2) (pin 2))
+
+      (node (ref R33_T1_2) (pin 2)))
+
+    (net (code 263) (name "Net-(R24_T1-Pad2)_2")
+      (node (ref R24_T1_2) (pin 2))
+
+      (node (ref T11_T1_2) (pin 2)))
+
+    (net (code 264) (name "Net-(R30_T1-Pad2)_2")
+      (node (ref R30_T1_2) (pin 2))
+
+      (node (ref R34_T1_2) (pin 1))
+
+      (node (ref T13_T1_2) (pin 3)))
+
+    (net (code 265) (name "Net-(R23_T1-Pad2)_2")
+      (node (ref T10_T1_2) (pin 2))
+
+      (node (ref R23_T1_2) (pin 2)))
+
+    (net (code 266) (name "Net-(R28_T1-Pad2)_2")
+      (node (ref R32_T1_2) (pin 1))
+
+      (node (ref R28_T1_2) (pin 2))
+
+      (node (ref T11_T1_2) (pin 3)))
+
+    (net (code 267) (name "Net-(R29_T1-Pad2)_2")
+      (node (ref R33_T1_2) (pin 1))
+
+      (node (ref R29_T1_2) (pin 2))
+
+      (node (ref T12_T1_2) (pin 3)))
+
+    (net (code 268) (name "Net-(R25_T1-Pad2)_2")
+      (node (ref R25_T1_2) (pin 2))
+
+      (node (ref T12_T1_2) (pin 2)))
+
+    (net (code 269) (name "Net-(R26_T1-Pad2)_2")
+      (node (ref R26_T1_2) (pin 2))
+
+      (node (ref T13_T1_2) (pin 2)))
+
+    (net (code 270) (name "Net-(R27_T1-Pad2)_2")
+      (node (ref T10_T1_2) (pin 3))
+
+      (node (ref R31_T1_2) (pin 1))
+
+      (node (ref R27_T1_2) (pin 2)))
+
+    (net (code 271) (name "Net-(R31_T1-Pad2)_2")
+      (node (ref R31_T1_2) (pin 2))
+
+      (node (ref T14_T1_2) (pin 2)))
+
+    (net (code 272) (name "+5V_new_2")
+      (node (ref R35_T1_T_2) (pin 2))
+
+      (node (ref R35_T1_2) (pin 2)))
+
+    (net (code 273) (name "Net-(R50_P1-Pad2)_2")
+      (node (ref T26_P1_2) (pin 2))
+
+      (node (ref R50_P1_2) (pin 2)))
+
+    (net (code 274) (name "GND_2")
+      (node (ref T26_P1_2) (pin 1))
+
+      (node (ref T24_P1_2) (pin 1))
+
+      (node (ref T29_P1_2) (pin 1))
+
+      (node (ref T28_P1_2) (pin 1)))
+
+    (net (code 275) (name "Net-(T25_P1-Pad1)_2")
+      (node (ref T29_P1_2) (pin 3))
+
+      (node (ref T25_P1_2) (pin 1)))
+
+    (net (code 276) (name "Net-(R48_P1-Pad1)_2")
+      (node (ref R48_P1_2) (pin 1))
+
+      (node (ref T25_P1_2) (pin 2)))
+
+    (net (code 277) (name "Net-(R53_P1-Pad1)_2")
+      (node (ref T29_P1_2) (pin 2))
+
+      (node (ref R53_P1_2) (pin 1)))
+
+    (net (code 278) (name "Net-(R43_P1-Pad2)_2")
+      (node (ref R48_P1_2) (pin 2))
+
+      (node (ref T23_P1_2) (pin 3))
+
+      (node (ref R43_P1_2) (pin 2)))
+
+    (net (code 280) (name "Net-(R52_P1-Pad1)_2")
+      (node (ref T28_P1_2) (pin 2))
+
+      (node (ref R52_P1_2) (pin 1)))
+
+    (net (code 281) (name "+5V_2")
+      (node (ref R47_P1_2) (pin 1))
+
+      (node (ref R45_P1_2) (pin 1))
+
+      (node (ref R43_P1_2) (pin 1))
+
+      (node (ref R49_P1_2) (pin 1)))
+
+    (net (code 282) (name "Net-(R46_P1-Pad2)_2")
+      (node (ref T26_P1_2) (pin 3))
+
+      (node (ref R46_P1_2) (pin 2))
+
+      (node (ref R47_P1_2) (pin 2)))
+
+    (net (code 283) (name "Net-(R46_P1-Pad1)_2")
+      (node (ref T24_P1_2) (pin 2))
+
+      (node (ref R46_P1_2) (pin 1)))
+
+    (net (code 284) (name "Net-(R51_P1-Pad1)_2")
+      (node (ref T27_P1_2) (pin 2))
+
+      (node (ref R51_P1_2) (pin 1)))
+
+    (net (code 285) (name "Victim_Mod_2")
+      (node (ref T25_P1_2) (pin 3))
+
+      (node (ref R45_P1_2) (pin 2))
+
+      (node (ref U302) (pin 3)))
+
+    (net (code 286) (name "Trig_Out_2")
+      (node (ref R51_P1_2) (pin 2))
+
+      (node (ref R50_P1_2) (pin 1))
+
+      (node (ref D2_2) (pin 3)))
+
+    (net (code 288) (name "Net-(T23_P1-Pad1)_2")
+      (node (ref T23_P1_2) (pin 1))
+
+      (node (ref T24_P1_2) (pin 3)))
+
+    (net (code 289) (name "Net-(T27_P1-Pad1)_2")
+      (node (ref T28_P1_2) (pin 3))
+
+      (node (ref T27_P1_2) (pin 1)))
+
+    (net (code 290) (name "Net-(R44_P1-Pad1)_2")
+      (node (ref R44_P1_2) (pin 1))
+
+      (node (ref T23_P1_2) (pin 2)))
+
+    (net (code 291) (name "Net-(R49_P1-Pad2)_2")
+      (node (ref T27_P1_2) (pin 3))
+
+      (node (ref R53_P1_2) (pin 2))
+
+      (node (ref R49_P1_2) (pin 2)))
+
+    (net (code 292) (name "GND_3")
+      (node (ref T20_T2_3) (pin 1))
+
+      (node (ref T18_T2_3) (pin 1))
+
+      (node (ref T19_T2_3) (pin 1))
+
+      (node (ref T21_T2_3) (pin 1))
+
+      (node (ref R57_T1_3) (pin 1))
+
+      (node (ref T22_T1_3) (pin 1))
+
+      (node (ref D2_3) (pin 5))
+
+      (node (ref T11_T1_3) (pin 1))
+
+      (node (ref T16_T1_3) (pin 1))
+
+      (node (ref T17_T1_3) (pin 1))
+
+      (node (ref T10_T1_3) (pin 1))
+
+      (node (ref T12_T1_3) (pin 1))
+
+      (node (ref T13_T1_3) (pin 1))
+
+      (node (ref T14_T1_3) (pin 1))
+
+      (node (ref T15_T1_3) (pin 1))
+
+      (node (ref C8_3) (pin 2)))
+
+    (net (code 294) (name "Net-(C8-Pad1)_3")
+      (node (ref D2_3) (pin 1))
+
+      (node (ref R52_T1_3) (pin 2))
+
+      (node (ref C8_3) (pin 1)))
+
+    (net (code 295) (name "Net-(D2-Pad2)_3")
+      (node (ref R58_T1_3) (pin 1))
+
+      (node (ref R57_T1_T_3) (pin 1))
+
+      (node (ref D2_3) (pin 2)))
+
+    (net (code 296) (name "+5V_3")
+      (node (ref R29_T1_3) (pin 1))
+
+      (node (ref R35_T1_3) (pin 1))
+
+      (node (ref R40_T2_3) (pin 1))
+
+      (node (ref R30_T1_3) (pin 1))
+
+      (node (ref D2_3) (pin 4))
+
+      (node (ref R58_T1_3) (pin 2))
+
+      (node (ref R27_T1_3) (pin 1))
+
+      (node (ref R28_T1_3) (pin 1)))
+
+    (net (code 301) (name "/AND_TRIGGER/Trig_T1_O0_3")
+      (node (ref T16_T1_3) (pin 3))
+
+      (node (ref T15_T1_3) (pin 3))
+
+      (node (ref R35_T1_3) (pin 2))
+
+      (node (ref T14_T1_3) (pin 3))
+
+      (node (ref T17_T1_3) (pin 3))
+
+      (node (ref R35_T2_3) (pin 1)))
+
+    (net (code 304) (name "/NOR_TRIGGER/Trig_T2_O1_3")
+      (node (ref T22_T1_3) (pin 2))
+
+      (node (ref T19_T2_3) (pin 3))
+
+      (node (ref T18_T2_3) (pin 3))
+
+      (node (ref R40_T2_3) (pin 2))
+
+      (node (ref T21_T2_3) (pin 3))
+
+      (node (ref T20_T2_3) (pin 3)))
+
+    (net (code 305) (name "Net-(R35_T2-Pad2)_3")
+      (node (ref R52_T1_3) (pin 1))
+
+      (node (ref R35_T2_3) (pin 2))
+
+      (node (ref T22_T1_3) (pin 3)))
+
+    (net (code 308) (name "Net-(R38_T2-Pad2)_3")
+      (node (ref T20_T2_3) (pin 2))
+
+      (node (ref R38_T2_3) (pin 2)))
+
+    (net (code 309) (name "Net-(R39_T2-Pad2)_3")
+      (node (ref T21_T2_3) (pin 2))
+
+      (node (ref R39_T2_3) (pin 2)))
+
+    (net (code 310) (name "Net-(R37_T2-Pad2)_3")
+      (node (ref R37_T2_3) (pin 2))
+
+      (node (ref T19_T2_3) (pin 2)))
+
+    (net (code 311) (name "Net-(R36_T2-Pad2)_3")
+      (node (ref R36_T2_3) (pin 2))
+
+      (node (ref T18_T2_3) (pin 2)))
+
+    (net (code 312) (name "Net-(R34_T1-Pad2)_3")
+      (node (ref R34_T1_3) (pin 2))
+
+      (node (ref T17_T1_3) (pin 2)))
+
+    (net (code 313) (name "Net-(R32_T1-Pad2)_3")
+      (node (ref T15_T1_3) (pin 2))
+
+      (node (ref R32_T1_3) (pin 2)))
+
+    (net (code 314) (name "Net-(R33_T1-Pad2)_3")
+      (node (ref T16_T1_3) (pin 2))
+
+      (node (ref R33_T1_3) (pin 2)))
+
+    (net (code 315) (name "Net-(R24_T1-Pad2)_3")
+      (node (ref R24_T1_3) (pin 2))
+
+      (node (ref T11_T1_3) (pin 2)))
+
+    (net (code 316) (name "Net-(R30_T1-Pad2)_3")
+      (node (ref R30_T1_3) (pin 2))
+
+      (node (ref R34_T1_3) (pin 1))
+
+      (node (ref T13_T1_3) (pin 3)))
+
+    (net (code 317) (name "Net-(R23_T1-Pad2)_3")
+      (node (ref T10_T1_3) (pin 2))
+
+      (node (ref R23_T1_3) (pin 2)))
+
+    (net (code 318) (name "Net-(R28_T1-Pad2)_3")
+      (node (ref R32_T1_3) (pin 1))
+
+      (node (ref R28_T1_3) (pin 2))
+
+      (node (ref T11_T1_3) (pin 3)))
+
+    (net (code 319) (name "Net-(R29_T1-Pad2)_3")
+      (node (ref R33_T1_3) (pin 1))
+
+      (node (ref R29_T1_3) (pin 2))
+
+      (node (ref T12_T1_3) (pin 3)))
+
+    (net (code 320) (name "Net-(R25_T1-Pad2)_3")
+      (node (ref R25_T1_3) (pin 2))
+
+      (node (ref T12_T1_3) (pin 2)))
+
+    (net (code 321) (name "Net-(R26_T1-Pad2)_3")
+      (node (ref R26_T1_3) (pin 2))
+
+      (node (ref T13_T1_3) (pin 2)))
+
+    (net (code 322) (name "Net-(R27_T1-Pad2)_3")
+      (node (ref T10_T1_3) (pin 3))
+
+      (node (ref R31_T1_3) (pin 1))
+
+      (node (ref R27_T1_3) (pin 2)))
+
+    (net (code 323) (name "Net-(R31_T1-Pad2)_3")
+      (node (ref R31_T1_3) (pin 2))
+
+      (node (ref T14_T1_3) (pin 2)))
+
+    (net (code 324) (name "Net-(D2-Pad2)_new_3")
+      (node (ref R57_T1_T_3) (pin 2))
+
+      (node (ref R57_T1_3) (pin 2)))
+
+    (net (code 325) (name "Net-(R50_P1-Pad2)_3")
+      (node (ref T26_P1_3) (pin 2))
+
+      (node (ref R50_P1_3) (pin 2)))
+
+    (net (code 326) (name "GND_3")
+      (node (ref T26_P1_3) (pin 1))
+
+      (node (ref T24_P1_3) (pin 1))
+
+      (node (ref T29_P1_3) (pin 1))
+
+      (node (ref T28_P1_3) (pin 1)))
+
+    (net (code 327) (name "Net-(T25_P1-Pad1)_3")
+      (node (ref T29_P1_3) (pin 3))
+
+      (node (ref T25_P1_3) (pin 1)))
+
+    (net (code 328) (name "Net-(R48_P1-Pad1)_3")
+      (node (ref R48_P1_3) (pin 1))
+
+      (node (ref T25_P1_3) (pin 2)))
+
+    (net (code 329) (name "Net-(R53_P1-Pad1)_3")
+      (node (ref T29_P1_3) (pin 2))
+
+      (node (ref R53_P1_3) (pin 1)))
+
+    (net (code 330) (name "Net-(R43_P1-Pad2)_3")
+      (node (ref R48_P1_3) (pin 2))
+
+      (node (ref T23_P1_3) (pin 3))
+
+      (node (ref R43_P1_3) (pin 2)))
+
+    (net (code 332) (name "Net-(R52_P1-Pad1)_3")
+      (node (ref T28_P1_3) (pin 2))
+
+      (node (ref R52_P1_3) (pin 1)))
+
+    (net (code 333) (name "+5V_3")
+      (node (ref R47_P1_3) (pin 1))
+
+      (node (ref R45_P1_3) (pin 1))
+
+      (node (ref R43_P1_3) (pin 1))
+
+      (node (ref R49_P1_3) (pin 1)))
+
+    (net (code 334) (name "Net-(R46_P1-Pad2)_3")
+      (node (ref T26_P1_3) (pin 3))
+
+      (node (ref R46_P1_3) (pin 2))
+
+      (node (ref R47_P1_3) (pin 2)))
+
+    (net (code 335) (name "Net-(R46_P1-Pad1)_3")
+      (node (ref T24_P1_3) (pin 2))
+
+      (node (ref R46_P1_3) (pin 1)))
+
+    (net (code 336) (name "Net-(R51_P1-Pad1)_3")
+      (node (ref T27_P1_3) (pin 2))
+
+      (node (ref R51_P1_3) (pin 1)))
+
+    (net (code 337) (name "Victim_Mod_3")
+      (node (ref T25_P1_3) (pin 3))
+
+      (node (ref R45_P1_3) (pin 2))
+
+      (node (ref U601) (pin 89)))
+
+    (net (code 338) (name "Trig_Out_3")
+      (node (ref R51_P1_3) (pin 2))
+
+      (node (ref R50_P1_3) (pin 1))
+
+      (node (ref D2_3) (pin 3)))
+
+    (net (code 340) (name "Net-(T23_P1-Pad1)_3")
+      (node (ref T23_P1_3) (pin 1))
+
+      (node (ref T24_P1_3) (pin 3)))
+
+    (net (code 341) (name "Net-(T27_P1-Pad1)_3")
+      (node (ref T28_P1_3) (pin 3))
+
+      (node (ref T27_P1_3) (pin 1)))
+
+    (net (code 342) (name "Net-(R44_P1-Pad1)_3")
+      (node (ref R44_P1_3) (pin 1))
+
+      (node (ref T23_P1_3) (pin 2)))
+
+    (net (code 343) (name "Net-(R49_P1-Pad2)_3")
+      (node (ref T27_P1_3) (pin 3))
+
+      (node (ref R53_P1_3) (pin 2))
+
+      (node (ref R49_P1_3) (pin 2)))
+
+))

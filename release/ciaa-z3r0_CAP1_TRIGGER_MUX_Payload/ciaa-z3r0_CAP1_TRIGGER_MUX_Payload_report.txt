@@ -1,0 +1,46 @@
+ciaa-z3r0_CAP1_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/PA1 /PC3 /PA2 "Net-(R1-Pad1)" /PE11 /PD6 /PA8 +5V 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/vin
+Effect : The signal that is leaked...
+/B_USB-
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/PB11 /PA0 /PF4 /PD5 /PC1 "Net-(U2-Pad4)" /B_USB+ "Net-(J3-Pad6)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(R2-Pad1)"
+Effect : The signal that is leaked...
+/PA10
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/vusb /PA10 /PF2 /PF0/SWCLK /PC1 "Net-(J3-Pad4)" /PE10 GND 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(C9-Pad1)"
+Effect : The signal that is leaked...
+/PF2
+
+************************************************************

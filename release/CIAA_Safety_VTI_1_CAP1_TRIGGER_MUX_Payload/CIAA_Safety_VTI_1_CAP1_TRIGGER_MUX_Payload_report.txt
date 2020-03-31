@@ -1,0 +1,46 @@
+CIAA_Safety_VTI_1_CAP1_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/OSCIN /ISA_MIBSPI3NCS[0]/GPIO34 "/CAN 1/2/CAN2_L" /RSTI_A "Net-(P1-Pad6)" "Net-(J2-Pad1)" /ISA_GPIO21 "Net-(P5-Pad2)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(D5-Pad1)"
+Effect : The signal that is leaked...
+/TDI
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(R15-Pad1)" "Net-(R22-Pad1)" /ISA_GPIO3 /ISA_GPIO15 "Net-(R57-Pad2)" /ISA_MIBSPI3SOMI/GPIO30 "Net-(U8-Pad65)" "Net-(P7-Pad10)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"/USB HOST - MEM SD/SD_DO"
+Effect : The signal that is leaked...
+/ISA_GPIO11
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(C98-Pad1)" /CPU/GPIO7 "Net-(U5-Pad3)" "Net-(P1-Pad14)" "Net-(D13-Pad2)" /CPU/SPI4NCS[0] "Net-(P8-Pad4)" /ISA_MIBSPI3NCS[4]/GPIO27 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(D36-Pad2)"
+Effect : The signal that is leaked...
+/CPU/SPI4NCS[0]
+
+************************************************************

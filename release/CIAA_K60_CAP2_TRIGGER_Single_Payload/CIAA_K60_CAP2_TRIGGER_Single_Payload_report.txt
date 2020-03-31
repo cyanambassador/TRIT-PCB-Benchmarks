@@ -1,0 +1,37 @@
+CIAA_K60_CAP2_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/GPIO/AN1 /CPU/DAC_OUT "Net-(J1302-Pad2)" "Net-(U301-Pad3)" /USB_VBUS DCOM /CPU/CAN_RD GNDA 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/JTAG/EEDATA
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(D706-Pad2)" "Net-(D707-Pad2)" /CPU/CAN_TD "/Salidas Digitales/C_2" /CPU/ETH_RXER "Net-(R1001-Pad1)" "Net-(C403-Pad2)" "Net-(U201-Pad46)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(C408-Pad1)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SD_DAT2 "Net-(U1302-Pad40)" /CPU/SPIFI_MOSI /CPU/ETH_REF_CLK /CPU/DOUT5 "Net-(C1306-Pad1)" /GPIO/USR_5V "Net-(U201-Pad62)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(R411-Pad1)"
+
+************************************************************

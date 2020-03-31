@@ -1,0 +1,37 @@
+EDU_CIAA_K60_CAP1_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/GPIO/ENET_MDC "Net-(U10-Pad88)" /JTAG/FT_OE "Net-(U5-Pad22)" /GPIO/ENET_RXD0 "Net-(U5-Pad48)" "Net-(BT1-Pad1)" "Net-(U5-Pad55)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(R4-Pad2)"
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U10-Pad60)" "Net-(R5-Pad2)" "Net-(U8-Pad7)" "Net-(U10-Pad10)" +3.3VADC /CPU/LED3 "Net-(U5-Pad24)" "Net-(U1-Pad4)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(D13-Pad1)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(D14-Pad1)" "Net-(LED1-Pad1)" /CPU/USB_DM "Net-(U10-Pad76)" "Net-(U10-Pad23)" "Net-(U5-Pad52)" GNDA "Net-(Q3-PadG)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/JTAG/USB_JTAG_DM
+
+************************************************************

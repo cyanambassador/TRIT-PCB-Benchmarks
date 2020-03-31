@@ -1,0 +1,37 @@
+CIAA_Safety_VTI_1_MIX_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/ISA_nRST /ISA_GPIO1 "Net-(J2-Pad8)" "Net-(U14-Pad15)" "Net-(R13-Pad1)" "Net-(D47-Pad2)" /RTCK /TMS 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
++3V3
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(R50-Pad1)" "/CAN 1/2/CAN1_L" "Net-(P5-Pad4)" /ISA_GPIO13 "Net-(C98-Pad1)" /V_MONITOR "Net-(D26-Pad2)" /ISA_GPIO15 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(C11-Pad1)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/RMII_RXD[0] "Net-(R29-Pad2)" "Net-(R28-Pad1)" /ISA_AD1IN[3] "Net-(R22-Pad1)" "Net-(C70-Pad1)" "Net-(U14-Pad19)" /RESET_ETH 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/SPI4SIMO[0]
+
+************************************************************

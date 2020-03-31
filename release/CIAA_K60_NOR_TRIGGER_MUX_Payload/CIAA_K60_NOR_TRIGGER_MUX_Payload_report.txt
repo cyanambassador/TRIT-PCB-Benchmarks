@@ -1,0 +1,46 @@
+CIAA_K60_NOR_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(D1201-Pad2)" "Net-(JP905-Pad3)" "Net-(C907-Pad1)" /VBAT 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(Q808-Pad2)"
+Effect : The signal that is leaked...
+"Net-(C303-Pad1)"
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U302-Pad21)" "Net-(F3-Pad1)" "Net-(U201-Pad62)" /CPU/AUX_UART_RTS/SPI_CS 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/ETH_MDIO
+Effect : The signal that is leaked...
+"Net-(C403-Pad1)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(D702-Pad2)" "/USB OTG/USB0_PPWR" "Net-(D902-Pad3)" "Net-(FB1304-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(C210-Pad2)"
+Effect : The signal that is leaked...
+/CPU/AIN0
+
+************************************************************

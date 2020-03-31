@@ -1,0 +1,37 @@
+ciaa_acc_AND_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANK_502/DDR_A2 /Principal/BANK_502/DDR_DQ21 /Principal/BANK_502/DDR_DQ20 /Principal/BANK_501/SDIO_D2 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Principal/OneBank/BTM_2CK_N
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/Expansion/GPIO1_B /Principal/BANK_501/MDI2_N "Net-(R2-Pad1)" /Principal/BANK_502/DDR_DQ13 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(DS11-Pad2)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANK_501/ETH_LED2 "Net-(U1-PadE11)" "Net-(C100-Pad2)" /Principal/BANKS_HP/FMC_HB_17_P 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Principal/BANK_501/USB_CLK
+
+************************************************************

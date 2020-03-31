@@ -1,0 +1,37 @@
+ciaa_acc_MIX_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U1-PadF10)" "Net-(R102-Pad1)" "Net-(J3-Pad48)" "Net-(U1-PadL9)" /Principal/BANKS_HR/HDMI_OUT_EN "Net-(J12-Pad6)" "Net-(J5-PadB20)" /Principal/BANK_502/DDR_DQ10 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Principal/OneBank/BTM_2TX_N
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANKS_HR/FMC_LA_27_N /Principal/BANK_112/DP2_C2M_N /Principal/OneBank/BTM_3RX_P /Principal/OneBank/TOP_3RX_N "Net-(BT1-Pad1)" "Net-(R2-Pad1)" /Principal/BANKS_HP/FMC_HB_2_N "Net-(U41-Pad15)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(R62-Pad2)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U29-Pad5)" "Net-(U1-PadE12)" /Principal/BANKS_HR/FMC_LA_30_P "Net-(R59-Pad2)" /Principal/BANKS_HR/FMC_LA_8_N "Net-(DS15-Pad2)" "Net-(DS14-Pad2)" /Principal/BANK_502/DDR_DQ10 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Principal/BANK_502/DDR_A5
+
+************************************************************

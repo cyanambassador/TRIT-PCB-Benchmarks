@@ -1,0 +1,37 @@
+CIAA_K60_AND_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U303-Pad5)" "Net-(C906-Pad1)" "Net-(JP405-Pad2)" "Net-(FB501-Pad2)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(C210-Pad2)"
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U501-Pad4)" "Net-(U1302-Pad46)" /CPU/DOUT4 "Net-(D811-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"/USB OTG/USB_DP_OTG"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(R306-Pad2)" /CPU/RS485_RXD /CPU/GPIO14 "Net-(JP908-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/DOUT1
+
+************************************************************

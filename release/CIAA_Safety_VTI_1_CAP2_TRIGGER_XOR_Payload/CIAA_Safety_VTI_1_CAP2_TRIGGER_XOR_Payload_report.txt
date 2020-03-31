@@ -1,0 +1,37 @@
+CIAA_Safety_VTI_1_CAP2_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/ISA_GPIO21 "/USB HOST - MEM SD/SD_CS" /RSTI_A "Net-(U5-Pad5)" /ISA_GPIO5 /ISA_GPIO4 "Net-(D26-Pad2)" /CPU/nPORRST 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(R1-Pad1)"
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U8-Pad142)" /ISA_MIBSPI3SIMO/GPIO31 /ISA_GPIO17 /ISA_GPIO3 "Net-(C92-Pad1)" /ISA_SCITX/GPIO29 /RESET_ETH /CPU/RMII_TXEN 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(P5-Pad3)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/STATUS "Net-(U5-Pad5)" /ISA_GPIO4 /ISA_SCITX/GPIO29 "Net-(D36-Pad2)" "Net-(C93-Pad1)" "/CAN 1/2/CAN2_STB" /ETHERNET/RD+ 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/ETHERNET/TD-
+
+************************************************************

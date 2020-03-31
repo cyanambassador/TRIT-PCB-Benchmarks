@@ -1,0 +1,37 @@
+picociaa_CAP2_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U2-Pad40)" "Net-(C7-Pad1)" "Net-(U2-Pad38)" "Net-(J1-Pad51)" "Net-(J1-Pad49)" "Net-(J1-Pad32)" /IO41 "Net-(J1-Pad37)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/IO8
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(C20-Pad1)" /IO8 /P0_24 /Debugger/TGT_TXD /Debugger/DBG_SWCLK "Net-(C21-Pad1)" "Net-(D1-Pad2)" /Debugger/DBG_~ISP~ 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/IO22
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U2-Pad35)" /IO31 "Net-(LED1-Pad3)" /PCIe_3.3V /Debugger/PIO1_24 /IO41 /P0_24 "Net-(J1-Pad37)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/IO2
+
+************************************************************

@@ -1,0 +1,46 @@
+edk_NOR_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GP47 /CPU/SD_0_CD /CPU/CLK_OUT_32kHz /P1_13 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/GP165
+Effect : The signal that is leaked...
+/P2_19
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GP48 /CPU/RESET_OUT /CPU/USB_ID /P2_12 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/P2_20
+Effect : The signal that is leaked...
+/CPU/GP47
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GP13 /P2_10 /CPU/SPI_2_CLK "Net-(U8-Pad8)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/GP48
+Effect : The signal that is leaked...
+/CPU/GP183
+
+************************************************************

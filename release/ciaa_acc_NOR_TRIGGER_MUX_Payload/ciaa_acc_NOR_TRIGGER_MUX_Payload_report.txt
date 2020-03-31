@@ -1,0 +1,46 @@
+ciaa_acc_NOR_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANK_501/USB_D5 /Principal/BANKS_HR/FMC_LA_11_N /Principal/BANK_502/DDR_DQS0_N /Principal/BANKS_HP/FMC_HB_20_N 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/Principal/OneBank/OB_PG
+Effect : The signal that is leaked...
+/Principal/Expansion/GPIO5_B
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U17-Pad5)" /Principal/BANKS_HR/FMC_LA_10_N "Net-(R132-Pad2)" /Principal/BANKS_HR/TMDS_D1_P 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/Principal/BANKS_HR/FMC_CLK0_C2M_P
+Effect : The signal that is leaked...
+/Principal/BANKS_HP/FMC_HA_3_P
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANKS_HR/FMC_PRSNT /Principal/BANKS_HP/FMC_HB_11_P /Principal/BANKS_HP/FMC_HA_13_P "Net-(R137-Pad2)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/Principal/BANK_500/QSPI_CS
+Effect : The signal that is leaked...
+"Net-(R143-Pad2)"
+
+************************************************************

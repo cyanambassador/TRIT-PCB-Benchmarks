@@ -1,0 +1,46 @@
+ciaa-pic_NOR_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(IC2-Pad5)" /CPU/CAN_STB /CPU/DOUT0 "Net-(FB12-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(D17-Pad1)"
+Effect : The signal that is leaked...
+"Net-(J7-Pad2)"
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/DIN5 /RS485_RS232_CAN/CAN_L "Net-(C81-Pad2)" "Net-(JP13-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(Q1-Pad3)"
+Effect : The signal that is leaked...
+"Net-(C77-Pad1)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/PGED2 "Net-(U17-Pad59)" /CPU/AIN3 /CPU/AIN1 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"/Salida Analógica/OUT"
+Effect : The signal that is leaked...
+/JTAG/FT_TRST
+
+************************************************************

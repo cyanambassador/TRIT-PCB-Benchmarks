@@ -1,0 +1,46 @@
+CIAA_K60_MIX_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(J402-Pad1)" "Net-(D804-Pad2)" "/Salidas Digitales/C_1" /CPU/DOUT4 "Net-(D810-Pad1)" "Net-(U803-Pad1)" "Net-(U1302-Pad21)" /CPU/CAN_STB 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/Ethernet/ETH_RXP
+Effect : The signal that is leaked...
+"Net-(C306-Pad1)"
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"/USB OTG/USB0_PWR_FAULT" "Net-(U302-Pad20)" /CPU/SD_DAT0 "/Salidas Digitales/C_3" /CPU/TDI "Net-(U804-Pad1)" "Net-(J1102-Pad1)" "Net-(U801-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/ETH_MDIO
+Effect : The signal that is leaked...
+/JTAG/FT_TMS
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"/USB OTG/USB0_PPWR" /CPU/SPIFI_MISO "Net-(U1302-Pad3)" "Net-(JP404-Pad1)" "Net-(D1202-Pad3)" "Net-(U302-Pad33)" "Net-(R1006-Pad1)" "Net-(JP902-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/AUX_UART_RX/SPI_MISO
+Effect : The signal that is leaked...
+/RS485_RS232_CAN/CAN_L
+
+************************************************************

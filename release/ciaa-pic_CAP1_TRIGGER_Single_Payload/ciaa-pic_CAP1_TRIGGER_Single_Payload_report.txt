@@ -1,0 +1,37 @@
+ciaa-pic_CAP1_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(R145-Pad1)" "Net-(R21-Pad1)" "Net-(F3-Pad1)" /Ethernet/TX+ "Net-(JP7-Pad1)" "Net-(JP12-Pad1)" /JTAG/FT_TCK "Net-(U16-Pad67)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Ethernet/TX-
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(F3-Pad1)" /CPU/DIN7 "Net-(J3-Pad1)" "Net-(Q3-Pad4)" /CPU/DOUT5 "Net-(J13-Pad2)" /CPU/ENET_RXD0 "Net-(JP11-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Ethernet/LED_LINK
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(C97-Pad1)" "/USB OTG/USB0_PWR_FAULT" "Net-(C24-Pad1)" "Net-(U16-Pad134)" "Net-(FB15-Pad1)" "/Salida Analógica/DAC" /CPU/SPIFI_MOSI /CPU/AIN1 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(D34-Pad1)"
+
+************************************************************

@@ -1,0 +1,46 @@
+ciaa-pic_CAP1_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_RXD0 "Net-(D14-Pad1)" /CPU/CAN_TD /+USB_DEBUG "Net-(R88-Pad2)" "Net-(R97-Pad2)" "Net-(F5-Pad1)" "/USB OTG/USB0_PWR_FAULT" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/SPIFI_CS
+Effect : The signal that is leaked...
+"Net-(D21-Pad1)"
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(R98-Pad1)" /Ethernet/XTAL1 "Net-(U16-Pad79)" "Net-(U16-Pad19)" "Net-(C64-Pad1)" /Ethernet/RXCLK "Net-(C97-Pad1)" /JTAG/EECS 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/DOUT0
+Effect : The signal that is leaked...
+"Net-(D10-Pad2)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/Ethernet/RX+ "Net-(U16-Pad29)" /CPU/ENET_RXD1 "Net-(U1-Pad20)" "Net-(U17-Pad21)" "Net-(U16-Pad131)" /CPU/DOUT7 /CPU/AIN0 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(C64-Pad1)"
+Effect : The signal that is leaked...
+"Net-(J19-Pad1)"
+
+************************************************************

@@ -1,0 +1,37 @@
+CIAA_FSL_MINI_CAP1_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(R410-Pad1)" +3.3V /CPU/EC_GPIO0 /CPU/SPIFI_MOSI /Ethernet/TX_N /CPU/RS232_TXD "Net-(U301-Pad4)" "Net-(F102-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(C401-Pad1)"
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U601-Pad47)" /CPU/PTB5 GNDPWR "Net-(C207-Pad1)" /CPU/RS485_TXD GNDA /Ethernet/TX_P "Net-(U601-Pad132)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/AIN0
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GPIO14 /CPU/GPIO15 /CPU/ETH_RXER /Ethernet/RX_N /CPU/GPIO0 /CPU/SPIFI_MISO "Net-(C613-Pad1)" /CPU/DOUT2 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(R606-Pad2)"
+
+************************************************************

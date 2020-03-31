@@ -1,0 +1,46 @@
+EDU_CIAA_K60_CAP2_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U10-Pad41)" "Net-(U10-Pad15)" "Net-(J3-Pad4)" /JTAG/EECS "Net-(U10-Pad48)" /CPU/AUX_UART_TX/SPI_MOSI "Net-(JP4-Pad1)" "/USB-OTG/USB_DM_OTG" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(U10-Pad41)"
+Effect : The signal that is leaked...
+"Net-(F1-Pad2)"
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/JTAG/FT_TDI /CPU/LED1 "Net-(C8-Pad1)" "Net-(U10-Pad60)" /CPU/RS232_TXD "Net-(U6-Pad7)" /GPIO/GPIO1 "Net-(U10-Pad101)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"/USB-OTG/USB_DP_OTG"
+Effect : The signal that is leaked...
+/CPU/TEC_COL0
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(R4-Pad2)" /CPU/LED0_G "Net-(U10-Pad96)" "Net-(FD1-Pad1)" "Net-(U10-Pad9)" "Net-(D8-Pad2)" /CPU/GPIO9 "Net-(U5-Pad55)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/LCD_RS
+Effect : The signal that is leaked...
+/JTAG/CHS_DBG
+
+************************************************************

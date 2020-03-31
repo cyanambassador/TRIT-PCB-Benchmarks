@@ -1,0 +1,37 @@
+ciaa_acc_AND_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANK_500/QSPI_IO1 /Principal/BANKS_HR/FMC_LA_2_P "Net-(C101-Pad2)" "Net-(Q4-Pad3)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(R116-Pad1)"
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANK_502/DDR_DQ3 "Net-(Q4-Pad3)" "Net-(C85-Pad2)" "Net-(DS7-Pad2)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Principal/BANKS_HR/FMC_LA_9_N
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANK_501/SDIO_CLK /Principal/BANKS_HP/FMC_HA_7_N +1.8V "Net-(J5-PadA34)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(Q3-Pad3)"
+
+************************************************************

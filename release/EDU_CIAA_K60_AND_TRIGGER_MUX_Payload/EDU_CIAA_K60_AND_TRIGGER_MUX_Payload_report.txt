@@ -1,0 +1,46 @@
+EDU_CIAA_K60_AND_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U5-Pad36)" "Net-(F6-Pad1)" "Net-(U10-Pad13)" "Net-(C31-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(D12-Pad2)"
+Effect : The signal that is leaked...
+/GPIO/ENET_TXD1
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/USB_DEBUG_VBUS /GPIO/ENET_RXD0 "Net-(U5-Pad57)" "Net-(D8-Pad2)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/I2C_SDA
+Effect : The signal that is leaked...
+/CPU/USB_DP
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U5-Pad33)" "Net-(R6-Pad2)" "Net-(U5-Pad44)" /CPU/RS485_DIR 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(D12-Pad2)"
+Effect : The signal that is leaked...
+/GPIO/ENET_MDC
+
+************************************************************

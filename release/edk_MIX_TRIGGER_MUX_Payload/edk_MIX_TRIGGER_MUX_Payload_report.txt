@@ -1,0 +1,46 @@
+edk_MIX_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U8-Pad32)" /CPU/USB_ID GND "/SD-Card/DAT3" /CPU/GP48 "Net-(JP1-Pad1)" "Net-(U2-Pad49)" /CPU/GP45 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(GS1-Pad2)"
+Effect : The signal that is leaked...
++5V
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/P2_4 "Net-(U8-Pad22)" /CPU/USB_DM /P2_8 "Net-(U8-Pad28)" /CPU/GP135 "Net-(R16-Pad1)" /P2_12 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/P2_15
+Effect : The signal that is leaked...
+"Net-(J2-Pad2)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
++3V3 /CPU/I2C_6_SCL /CPU/GP49 /CPU/GP46 /CPU/CLK_OUT_32kHz "Net-(U8-Pad32)" /CPU/SD_0_CLK_FB "Net-(FB1-Pad2)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/TTY_RX
+Effect : The signal that is leaked...
+/CPU/CLK_OUT_32kHz
+
+************************************************************

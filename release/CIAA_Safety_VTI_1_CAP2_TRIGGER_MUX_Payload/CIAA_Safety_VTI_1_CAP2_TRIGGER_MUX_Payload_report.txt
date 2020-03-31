@@ -1,0 +1,46 @@
+CIAA_Safety_VTI_1_CAP2_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(R28-Pad1)" /ISA_SCITX/GPIO29 "Net-(R67-Pad2)" /RTCK "Net-(R22-Pad1)" /CPU/MDIO "Net-(D13-Pad2)" "Net-(U8-Pad79)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"/USB HOST - MEM SD/SD_CK"
+Effect : The signal that is leaked...
+"Net-(R48-Pad2)"
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(C88-Pad1)" /ISA_I2C_SDA /ISA_GPIO21 GND "Net-(U13-Pad9)" "Net-(R17-Pad1)" "/USB HOST - MEM SD/SD_CK" "/CAN 1/2/CAN1_H" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/ISA_AD1IN[1]
+Effect : The signal that is leaked...
+"/CAN 1/2/CAN2TX"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(R28-Pad1)" /CPU/SPI4SOMI[0] "Net-(R49-Pad1)" "Net-(C11-Pad1)" GND "Net-(U8-Pad65)" /CPU/MDCLK "/CAN 1/2/CAN2RX" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(D9-Pad2)"
+Effect : The signal that is leaked...
+/ISA_GPIO2
+
+************************************************************

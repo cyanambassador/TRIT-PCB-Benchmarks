@@ -1,0 +1,46 @@
+CIAA_FSL_MINI_NOR_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GPIO4 /TMS /CPU/DOUT3 "Net-(U301-Pad4)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/SD_DAT0
+Effect : The signal that is leaked...
+/CPU/ETH_REF_CLK
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/TCK /CPU/RS232_TXD /CPU/EC_PWM5 "Net-(D602-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/CAN_TD
+Effect : The signal that is leaked...
+/CPU/USBD_P
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/TDI/EC_UART_RX /CPU/RS485_TXD /TDO/EC_UART_TX /CPU/AUX_UART_RTS/SPI_CS 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/EC_AI3
+Effect : The signal that is leaked...
+/CPU/SD_POW
+
+************************************************************

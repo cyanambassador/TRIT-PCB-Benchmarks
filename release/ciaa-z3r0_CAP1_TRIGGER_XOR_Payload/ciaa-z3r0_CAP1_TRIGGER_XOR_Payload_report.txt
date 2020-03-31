@@ -1,0 +1,37 @@
+ciaa-z3r0_CAP1_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/PF3 /vin "Net-(J3-Pad4)" /PD4 /B_USB- "Net-(C7-Pad1)" /PF1/SWDIO /PE13 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/vin
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+/PC1 /PF5 /PF0/SWCLK /PF4 /USB+ /PC10 /PB13 "Net-(D1-Pad2)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/PE13
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(D3-Pad2)" /PC0 "Net-(C9-Pad1)" "Net-(J3-Pad6)" /PF2 "Net-(D1-Pad2)" /USB+ /PA0 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/PA0
+
+************************************************************

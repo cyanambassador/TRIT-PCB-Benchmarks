@@ -1,0 +1,37 @@
+edk_MIX_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Inserton 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/I2C_6_SCL "Net-(U2-Pad40)" /CPU/I2S_2_CLK "Net-(JP1-Pad1)" /P1_7 /CPU/SD_0_DAT0 /CPU/GP47 /P2_17 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(GS1-Pad2)"
+
+Trojan Inserton 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(JP1-Pad1)" +5V /CPU/GP165 /P1_9 /CPU/I2C_1_SCL /P2_1 "Net-(U2-Pad38)" "Net-(U8-Pad8)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(C15-Pad1)"
+
+Trojan Inserton 2
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GP14 /CPU/GP77 /CPU/GP46 /CPU/I2S_2_TXD "Net-(J1-Pad3)" "/SD-Card/DAT1" /CPU/GP49 /P1_16 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(FB4-Pad2)"
+
+************************************************************
