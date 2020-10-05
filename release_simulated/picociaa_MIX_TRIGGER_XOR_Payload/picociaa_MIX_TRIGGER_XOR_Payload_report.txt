@@ -1,0 +1,37 @@
+picociaa_MIX_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
++3V3 /Debugger/DBG_~ISP~ /Debugger/DBG_~RST~ /Debugger/DBG_SWCLK /IO35 "Net-(J1-Pad31)" /IO39 "Net-(J1-Pad48)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Debugger/PIO0_4
+
+Trojan Insertion 1
+
+The Trojan is Triggered by the following activation Signals
+
++3V3 /Debugger/DBG_~ISP~ /Debugger/DBG_~RST~ /Debugger/DBG_SWCLK /Debugger/PIO1_24 /IO31 "Net-(J1-Pad41)" /IO16 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(C21-Pad1)"
+
+Trojan Insertion 2
+
+The Trojan is Triggered by the following activation Signals
+
++3V3 /Debugger/DBG_~ISP~ /Debugger/DBG_~RST~ /Debugger/DBG_SWCLK "Net-(J1-Pad19)" /IO34 "Net-(J1-Pad17)" /IO17 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(C21-Pad1)"
+
+************************************************************

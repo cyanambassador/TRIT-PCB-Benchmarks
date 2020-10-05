@@ -1,0 +1,46 @@
+EDU_CIAA_K60_MIX_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
++3.3V +3.3VADC +5V /CPU/AUX_UART_CTS/SPI_CLK "Net-(JP3-Pad1)" /CPU/LED0_R "Net-(BT1-Pad1)" /CPU/TEC_F2 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/JTAG/EECS
+Effect : The signal that is leaked...
+/CPU/AUX_UART_TX/SPI_MOSI
+
+Trojan Insertion 1
+
+The Trojan is Triggered by the following activation Signals
+
++3.3V +3.3VADC +5V /CPU/AUX_UART_CTS/SPI_CLK "Net-(U5-Pad58)" /JTAG/USB_JTAG_DM /CPU/CAN_TD "Net-(U10-Pad26)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(U10-Pad40)"
+Effect : The signal that is leaked...
+/CPU/TDO
+
+Trojan Insertion 2
+
+The Trojan is Triggered by the following activation Signals
+
++3.3V +3.3VADC +5V /CPU/AUX_UART_CTS/SPI_CLK /GPIO/ENET_MDIO /CPU/TDO /CPU/TMS "Net-(U5-Pad48)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(C30-Pad1)"
+Effect : The signal that is leaked...
+"Net-(J5-Pad3)"
+
+************************************************************

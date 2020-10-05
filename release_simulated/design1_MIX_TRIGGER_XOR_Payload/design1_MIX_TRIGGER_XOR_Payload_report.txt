@@ -1,0 +1,37 @@
+design1_MIX_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(C1-Pad1)" "Net-(C7-Pad1)" "Net-(D2-Pad1)" "Net-(D3-Pad1)" "Net-(D8-Pad2)" "Net-(U4-Pad42)" BUSY "Net-(U4-Pad26)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(Q1-Pad3)"
+
+Trojan Insertion 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(C1-Pad1)" "Net-(C7-Pad1)" "Net-(D2-Pad1)" "Net-(D3-Pad1)" "Net-(R2-Pad1)" "Net-(U4-Pad37)" "Net-(U4-Pad41)" "Net-(U2-Pad3)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+BUSY
+
+Trojan Insertion 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(C1-Pad1)" "Net-(C7-Pad1)" "Net-(D2-Pad1)" "Net-(D3-Pad1)" "Net-(D9-Pad1)" "Net-(U4-Pad19)" "Net-(U4-Pad22)" BUSY 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(D7-Pad2)"
+
+************************************************************

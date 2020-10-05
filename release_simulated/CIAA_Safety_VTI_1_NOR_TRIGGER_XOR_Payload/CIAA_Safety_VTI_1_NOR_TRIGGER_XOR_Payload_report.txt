@@ -1,0 +1,37 @@
+CIAA_Safety_VTI_1_NOR_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
++1V2 +3V3 "Net-(R49-Pad1)" +3.3VADC 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(D57-Pad2)"
+
+Trojan Insertion 1
+
+The Trojan is Triggered by the following activation Signals
+
++1V2 +3V3 "Net-(R49-Pad1)" +3.3VADC 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(D52-Pad2)"
+
+Trojan Insertion 2
+
+The Trojan is Triggered by the following activation Signals
+
++1V2 +3V3 "Net-(R49-Pad1)" +3.3VADC 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/RMII_TXD[1]
+
+************************************************************

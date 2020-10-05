@@ -1,0 +1,37 @@
+edk_CAP2_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
++1V8 +3V3 "Net-(D5-Pad1)" +5V "Net-(FB4-Pad2)" /CPU/I2S_2_FS "Net-(U8-Pad28)" /P1_3 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/SD_0_DAT3
+
+Trojan Insertion 1
+
+The Trojan is Triggered by the following activation Signals
+
++1V8 +3V3 "Net-(D5-Pad1)" +5V /CPU/TTY_RX /P2_20 /CPU/SD_0_CD /CPU/SD_0_DAT1 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/SD_0_CD
+
+Trojan Insertion 2
+
+The Trojan is Triggered by the following activation Signals
+
++1V8 +3V3 "Net-(D5-Pad1)" +5V "Net-(U8-Pad6)" /CPU/I2C_6_SDA /P2_20 /CPU/GP182 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(GS1-Pad2)"
+
+************************************************************

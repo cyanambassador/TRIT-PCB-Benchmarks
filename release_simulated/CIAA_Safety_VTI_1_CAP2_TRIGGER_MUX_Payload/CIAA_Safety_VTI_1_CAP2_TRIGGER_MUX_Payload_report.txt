@@ -1,0 +1,46 @@
+CIAA_Safety_VTI_1_CAP2_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
++1V2 +3V3 "Net-(R49-Pad1)" +3.3VADC "/USB HOST - MEM SD/SD_CS" /ETHERNET/LED_100M GNDA "Net-(R66-Pad2)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/ISA_AD1IN[10]
+Effect : The signal that is leaked...
+"Net-(C79-Pad1)"
+
+Trojan Insertion 1
+
+The Trojan is Triggered by the following activation Signals
+
++1V2 +3V3 "Net-(R49-Pad1)" +3.3VADC /CPU/RMII_RXD[1] "Net-(U8-Pad2)" "Net-(C85-Pad2)" "Net-(C75-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+GNDA
+Effect : The signal that is leaked...
+"Net-(C98-Pad1)"
+
+Trojan Insertion 2
+
+The Trojan is Triggered by the following activation Signals
+
++1V2 +3V3 "Net-(R49-Pad1)" +3.3VADC /ISA_GPIO21 "Net-(L1-Pad2)" /CPU/SPI4SIMO[0] "/CAN 1/2/CAN2TX" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(D57-Pad2)"
+Effect : The signal that is leaked...
+"Net-(C98-Pad2)"
+
+************************************************************

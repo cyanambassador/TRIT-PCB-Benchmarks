@@ -1,0 +1,46 @@
+picociaa_AND_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
++3V3 /Debugger/DBG_~ISP~ /Debugger/DBG_~RST~ /Debugger/DBG_SWCLK 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(C22-Pad1)"
+Effect : The signal that is leaked...
+/VBUS
+
+Trojan Insertion 1
+
+The Trojan is Triggered by the following activation Signals
+
++3V3 /Debugger/DBG_~ISP~ /Debugger/DBG_~RST~ /Debugger/DBG_SWCLK 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/IO5
+Effect : The signal that is leaked...
+/Debugger/DBG_~RST~
+
+Trojan Insertion 2
+
+The Trojan is Triggered by the following activation Signals
+
++3V3 /Debugger/DBG_~ISP~ /Debugger/DBG_~RST~ /Debugger/DBG_SWCLK 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/IO18
+Effect : The signal that is leaked...
+/Debugger/PIO1_24
+
+************************************************************

@@ -1,0 +1,37 @@
+EDU_CIAA_K60_MIX_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
++3.3V +3.3VADC +5V /CPU/AUX_UART_CTS/SPI_CLK /LCD_EN "Net-(F5-Pad1)" "Net-(U1-Pad4)" "Net-(U8-Pad7)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/JTAG/EEDATA
+
+Trojan Insertion 1
+
+The Trojan is Triggered by the following activation Signals
+
++3.3V +3.3VADC +5V /CPU/AUX_UART_CTS/SPI_CLK "/USB-OTG/USB_DM_OTG" /JTAG/FT_TDI /GPIO/ADC0_1 "Net-(J3-Pad3)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/GPIO/GPIO0
+
+Trojan Insertion 2
+
+The Trojan is Triggered by the following activation Signals
+
++3.3V +3.3VADC +5V /CPU/AUX_UART_CTS/SPI_CLK /CPU/VREFL "/USB-OTG/USB_DM_OTG" "Net-(LED1-Pad2)" "Net-(U5-Pad24)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(LED1-Pad2)"
+
+************************************************************

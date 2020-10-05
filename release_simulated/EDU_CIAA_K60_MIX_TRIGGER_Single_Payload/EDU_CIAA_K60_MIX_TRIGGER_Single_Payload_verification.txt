@@ -1,0 +1,37 @@
+EDU_CIAA_K60_MIX_TRIGGER_Single_Payload
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Trigger Out Node
+Payload Input Successful
+Payload Output Successful
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Trigger Out Node
+Payload Input Successful
+Payload Output Successful
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Trigger Out Node
+Payload Input Successful
+Payload Output Successful

@@ -1,0 +1,34 @@
+EDU_CIAA_K60_CAP2_TRIGGER_XOR_Payload
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Payload Input Successful
+Payload Output Successful
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Payload Input Successful
+Payload Output Successful
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Payload Input Successful
+Payload Output Successful

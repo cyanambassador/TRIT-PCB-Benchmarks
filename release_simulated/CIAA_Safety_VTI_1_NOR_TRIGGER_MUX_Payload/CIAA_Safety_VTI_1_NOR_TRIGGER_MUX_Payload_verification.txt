@@ -1,0 +1,37 @@
+CIAA_Safety_VTI_1_NOR_TRIGGER_MUX_Payload
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Payload Input0 Successful
+Payload Input1 Successful
+Payload Output Successful
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Payload Input0 Successful
+Payload Input1 Successful
+Payload Output Successful
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Payload Input0 Successful
+Payload Input1 Successful
+Payload Output Successful

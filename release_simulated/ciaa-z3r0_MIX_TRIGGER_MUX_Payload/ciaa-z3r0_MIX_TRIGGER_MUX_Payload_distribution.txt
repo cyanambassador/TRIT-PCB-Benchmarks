@@ -1,0 +1,3 @@
+ciaa-z3r0_MIX_TRIGGER_MUX_Payload
+{'15R': 2, '1K': 4}
+{}

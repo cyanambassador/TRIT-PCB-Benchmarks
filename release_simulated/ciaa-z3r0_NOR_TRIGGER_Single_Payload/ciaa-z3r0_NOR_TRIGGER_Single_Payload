@@ -1,0 +1,1413 @@
+graph {
+	0 [label="(0) U1"]
+	9 [label="(9) J2"]
+	21 [label="(21) J5"]
+	26 [label="(26) R6"]
+	10 [label="(10) J1"]
+	28 [label="(28) R5"]
+	22 [label="(22) J6"]
+	27 [label="(27) SW2"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	30 [label="(30) J4"]
+	4 [label="(4) C7"]
+	33 [label="(33) R36_T1"]
+	46 [label="(46) R36_T1_2"]
+	59 [label="(59) R36_T1_3"]
+	18 [label="(18) C1"]
+	17 [label="(17) SW1"]
+	13 [label="(13) J3"]
+	32 [label="(32) D2"]
+	29 [label="(29) C12"]
+	15 [label="(15) R2"]
+	14 [label="(14) R1"]
+	45 [label="(45) R82_P3"]
+	58 [label="(58) R82_P3_2"]
+	1 [label="(1) C9"]
+	56 [label="(56) R81_P3_2"]
+	35 [label="(35) R38_T1"]
+	48 [label="(48) R38_T1_2"]
+	61 [label="(61) R38_T1_3"]
+	2 [label="(2) C8"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	3 [label="(3) C6"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	4 [label="(4) C7"]
+	0 [label="(0) U1"]
+	33 [label="(33) R36_T1"]
+	46 [label="(46) R36_T1_2"]
+	59 [label="(59) R36_T1_3"]
+	5 [label="(5) C2"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	71 [label="(71) R82_P3_3"]
+	6 [label="(6) C3"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	69 [label="(69) R81_P3_3"]
+	7 [label="(7) C5"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	8 [label="(8) C4"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	21 [label="(21) J5"]
+	26 [label="(26) R6"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	32 [label="(32) D2"]
+	18 [label="(18) C1"]
+	30 [label="(30) J4"]
+	17 [label="(17) SW1"]
+	10 [label="(10) J1"]
+	28 [label="(28) R5"]
+	0 [label="(0) U1"]
+	22 [label="(22) J6"]
+	27 [label="(27) SW2"]
+	43 [label="(43) R81_P3"]
+	30 [label="(30) J4"]
+	11 [label="(11) U2"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	19 [label="(19) C11"]
+	32 [label="(32) D2"]
+	12 [label="(12) C10"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	13 [label="(13) J3"]
+	0 [label="(0) U1"]
+	32 [label="(32) D2"]
+	29 [label="(29) C12"]
+	16 [label="(16) U3"]
+	14 [label="(14) R1"]
+	16 [label="(16) U3"]
+	0 [label="(0) U1"]
+	15 [label="(15) R2"]
+	16 [label="(16) U3"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	14 [label="(14) R1"]
+	15 [label="(15) R2"]
+	13 [label="(13) J3"]
+	17 [label="(17) SW1"]
+	18 [label="(18) C1"]
+	0 [label="(0) U1"]
+	30 [label="(30) J4"]
+	21 [label="(21) J5"]
+	20 [label="(20) R4"]
+	9 [label="(9) J2"]
+	18 [label="(18) C1"]
+	0 [label="(0) U1"]
+	30 [label="(30) J4"]
+	21 [label="(21) J5"]
+	17 [label="(17) SW1"]
+	20 [label="(20) R4"]
+	9 [label="(9) J2"]
+	19 [label="(19) C11"]
+	32 [label="(32) D2"]
+	31 [label="(31) D4"]
+	11 [label="(11) U2"]
+	20 [label="(20) R4"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	18 [label="(18) C1"]
+	30 [label="(30) J4"]
+	17 [label="(17) SW1"]
+	21 [label="(21) J5"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	26 [label="(26) R6"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	32 [label="(32) D2"]
+	18 [label="(18) C1"]
+	30 [label="(30) J4"]
+	17 [label="(17) SW1"]
+	22 [label="(22) J6"]
+	10 [label="(10) J1"]
+	28 [label="(28) R5"]
+	0 [label="(0) U1"]
+	27 [label="(27) SW2"]
+	43 [label="(43) R81_P3"]
+	30 [label="(30) J4"]
+	23 [label="(23) D1"]
+	24 [label="(24) R3"]
+	36 [label="(36) R39_T1"]
+	49 [label="(49) R39_T1_2"]
+	62 [label="(62) R39_T1_3"]
+	24 [label="(24) R3"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	23 [label="(23) D1"]
+	36 [label="(36) R39_T1"]
+	49 [label="(49) R39_T1_2"]
+	62 [label="(62) R39_T1_3"]
+	25 [label="(25) D3"]
+	26 [label="(26) R6"]
+	26 [label="(26) R6"]
+	25 [label="(25) D3"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	21 [label="(21) J5"]
+	27 [label="(27) SW2"]
+	10 [label="(10) J1"]
+	28 [label="(28) R5"]
+	0 [label="(0) U1"]
+	22 [label="(22) J6"]
+	28 [label="(28) R5"]
+	10 [label="(10) J1"]
+	0 [label="(0) U1"]
+	22 [label="(22) J6"]
+	27 [label="(27) SW2"]
+	9 [label="(9) J2"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	29 [label="(29) C12"]
+	0 [label="(0) U1"]
+	13 [label="(13) J3"]
+	32 [label="(32) D2"]
+	30 [label="(30) J4"]
+	22 [label="(22) J6"]
+	10 [label="(10) J1"]
+	0 [label="(0) U1"]
+	18 [label="(18) C1"]
+	21 [label="(21) J5"]
+	17 [label="(17) SW1"]
+	20 [label="(20) R4"]
+	9 [label="(9) J2"]
+	31 [label="(31) D4"]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	19 [label="(19) C11"]
+	32 [label="(32) D2"]
+	32 [label="(32) D2"]
+	9 [label="(9) J2"]
+	21 [label="(21) J5"]
+	0 [label="(0) U1"]
+	13 [label="(13) J3"]
+	29 [label="(29) C12"]
+	19 [label="(19) C11"]
+	31 [label="(31) D4"]
+	11 [label="(11) U2"]
+	33 [label="(33) R36_T1"]
+	4 [label="(4) C7"]
+	0 [label="(0) U1"]
+	46 [label="(46) R36_T1_2"]
+	59 [label="(59) R36_T1_3"]
+	38 [label="(38) T18_T1"]
+	34 [label="(34) R37_T1" color=red]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	47 [label="(47) R37_T1_2"]
+	60 [label="(60) R37_T1_3"]
+	39 [label="(39) T19_T1"]
+	35 [label="(35) R38_T1" color=red]
+	1 [label="(1) C9"]
+	56 [label="(56) R81_P3_2"]
+	48 [label="(48) R38_T1_2"]
+	61 [label="(61) R38_T1_3"]
+	40 [label="(40) T20_T1"]
+	36 [label="(36) R39_T1" color=red]
+	23 [label="(23) D1"]
+	24 [label="(24) R3"]
+	49 [label="(49) R39_T1_2"]
+	62 [label="(62) R39_T1_3"]
+	41 [label="(41) T21_T1"]
+	37 [label="(37) R40_T1" color=red]
+	44 [label="(44) R80_P3"]
+	38 [label="(38) T18_T1"]
+	41 [label="(41) T21_T1"]
+	40 [label="(40) T20_T1"]
+	39 [label="(39) T19_T1"]
+	38 [label="(38) T18_T1" color=red]
+	33 [label="(33) R36_T1"]
+	44 [label="(44) R80_P3"]
+	41 [label="(41) T21_T1"]
+	40 [label="(40) T20_T1"]
+	39 [label="(39) T19_T1"]
+	37 [label="(37) R40_T1"]
+	39 [label="(39) T19_T1" color=red]
+	34 [label="(34) R37_T1"]
+	44 [label="(44) R80_P3"]
+	38 [label="(38) T18_T1"]
+	41 [label="(41) T21_T1"]
+	40 [label="(40) T20_T1"]
+	37 [label="(37) R40_T1"]
+	40 [label="(40) T20_T1" color=red]
+	35 [label="(35) R38_T1"]
+	44 [label="(44) R80_P3"]
+	38 [label="(38) T18_T1"]
+	41 [label="(41) T21_T1"]
+	39 [label="(39) T19_T1"]
+	37 [label="(37) R40_T1"]
+	41 [label="(41) T21_T1" color=red]
+	36 [label="(36) R39_T1"]
+	44 [label="(44) R80_P3"]
+	38 [label="(38) T18_T1"]
+	40 [label="(40) T20_T1"]
+	39 [label="(39) T19_T1"]
+	37 [label="(37) R40_T1"]
+	42 [label="(42) T80_P3" color=red]
+	43 [label="(43) R81_P3"]
+	45 [label="(45) R82_P3"]
+	44 [label="(44) R80_P3"]
+	43 [label="(43) R81_P3" color=red]
+	22 [label="(22) J6"]
+	10 [label="(10) J1"]
+	42 [label="(42) T80_P3"]
+	44 [label="(44) R80_P3" color=red]
+	38 [label="(38) T18_T1"]
+	41 [label="(41) T21_T1"]
+	40 [label="(40) T20_T1"]
+	39 [label="(39) T19_T1"]
+	37 [label="(37) R40_T1"]
+	42 [label="(42) T80_P3"]
+	45 [label="(45) R82_P3" color=red]
+	0 [label="(0) U1"]
+	42 [label="(42) T80_P3"]
+	46 [label="(46) R36_T1_2" color=red]
+	4 [label="(4) C7"]
+	0 [label="(0) U1"]
+	33 [label="(33) R36_T1"]
+	59 [label="(59) R36_T1_3"]
+	51 [label="(51) T18_T1_2"]
+	47 [label="(47) R37_T1_2" color=red]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	60 [label="(60) R37_T1_3"]
+	52 [label="(52) T19_T1_2"]
+	48 [label="(48) R38_T1_2" color=red]
+	1 [label="(1) C9"]
+	56 [label="(56) R81_P3_2"]
+	35 [label="(35) R38_T1"]
+	61 [label="(61) R38_T1_3"]
+	53 [label="(53) T20_T1_2"]
+	49 [label="(49) R39_T1_2" color=red]
+	23 [label="(23) D1"]
+	24 [label="(24) R3"]
+	36 [label="(36) R39_T1"]
+	62 [label="(62) R39_T1_3"]
+	54 [label="(54) T21_T1_2"]
+	50 [label="(50) R40_T1_2" color=red]
+	57 [label="(57) R80_P3_2"]
+	51 [label="(51) T18_T1_2"]
+	54 [label="(54) T21_T1_2"]
+	53 [label="(53) T20_T1_2"]
+	52 [label="(52) T19_T1_2"]
+	51 [label="(51) T18_T1_2" color=red]
+	53 [label="(53) T20_T1_2"]
+	52 [label="(52) T19_T1_2"]
+	54 [label="(54) T21_T1_2"]
+	46 [label="(46) R36_T1_2"]
+	57 [label="(57) R80_P3_2"]
+	50 [label="(50) R40_T1_2"]
+	52 [label="(52) T19_T1_2" color=red]
+	53 [label="(53) T20_T1_2"]
+	51 [label="(51) T18_T1_2"]
+	54 [label="(54) T21_T1_2"]
+	47 [label="(47) R37_T1_2"]
+	57 [label="(57) R80_P3_2"]
+	50 [label="(50) R40_T1_2"]
+	53 [label="(53) T20_T1_2" color=red]
+	52 [label="(52) T19_T1_2"]
+	51 [label="(51) T18_T1_2"]
+	54 [label="(54) T21_T1_2"]
+	48 [label="(48) R38_T1_2"]
+	57 [label="(57) R80_P3_2"]
+	50 [label="(50) R40_T1_2"]
+	54 [label="(54) T21_T1_2" color=red]
+	53 [label="(53) T20_T1_2"]
+	52 [label="(52) T19_T1_2"]
+	51 [label="(51) T18_T1_2"]
+	49 [label="(49) R39_T1_2"]
+	57 [label="(57) R80_P3_2"]
+	50 [label="(50) R40_T1_2"]
+	55 [label="(55) T80_P3_2" color=red]
+	56 [label="(56) R81_P3_2"]
+	58 [label="(58) R82_P3_2"]
+	57 [label="(57) R80_P3_2"]
+	56 [label="(56) R81_P3_2" color=red]
+	1 [label="(1) C9"]
+	35 [label="(35) R38_T1"]
+	48 [label="(48) R38_T1_2"]
+	61 [label="(61) R38_T1_3"]
+	55 [label="(55) T80_P3_2"]
+	57 [label="(57) R80_P3_2" color=red]
+	51 [label="(51) T18_T1_2"]
+	54 [label="(54) T21_T1_2"]
+	53 [label="(53) T20_T1_2"]
+	52 [label="(52) T19_T1_2"]
+	50 [label="(50) R40_T1_2"]
+	55 [label="(55) T80_P3_2"]
+	58 [label="(58) R82_P3_2" color=red]
+	0 [label="(0) U1"]
+	55 [label="(55) T80_P3_2"]
+	59 [label="(59) R36_T1_3" color=red]
+	4 [label="(4) C7"]
+	0 [label="(0) U1"]
+	33 [label="(33) R36_T1"]
+	46 [label="(46) R36_T1_2"]
+	64 [label="(64) T18_T1_3"]
+	60 [label="(60) R37_T1_3" color=red]
+	9 [label="(9) J2"]
+	0 [label="(0) U1"]
+	16 [label="(16) U3"]
+	5 [label="(5) C2"]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	20 [label="(20) R4"]
+	12 [label="(12) C10"]
+	8 [label="(8) C4"]
+	11 [label="(11) U2"]
+	7 [label="(7) C5"]
+	6 [label="(6) C3"]
+	24 [label="(24) R3"]
+	31 [label="(31) D4"]
+	21 [label="(21) J5"]
+	28 [label="(28) R5"]
+	34 [label="(34) R37_T1"]
+	47 [label="(47) R37_T1_2"]
+	65 [label="(65) T19_T1_3"]
+	61 [label="(61) R38_T1_3" color=red]
+	1 [label="(1) C9"]
+	56 [label="(56) R81_P3_2"]
+	35 [label="(35) R38_T1"]
+	48 [label="(48) R38_T1_2"]
+	66 [label="(66) T20_T1_3"]
+	62 [label="(62) R39_T1_3" color=red]
+	23 [label="(23) D1"]
+	24 [label="(24) R3"]
+	36 [label="(36) R39_T1"]
+	49 [label="(49) R39_T1_2"]
+	67 [label="(67) T21_T1_3"]
+	63 [label="(63) R40_T1_3" color=red]
+	70 [label="(70) R80_P3_3"]
+	64 [label="(64) T18_T1_3"]
+	67 [label="(67) T21_T1_3"]
+	66 [label="(66) T20_T1_3"]
+	65 [label="(65) T19_T1_3"]
+	64 [label="(64) T18_T1_3" color=red]
+	66 [label="(66) T20_T1_3"]
+	65 [label="(65) T19_T1_3"]
+	67 [label="(67) T21_T1_3"]
+	59 [label="(59) R36_T1_3"]
+	70 [label="(70) R80_P3_3"]
+	63 [label="(63) R40_T1_3"]
+	65 [label="(65) T19_T1_3" color=red]
+	66 [label="(66) T20_T1_3"]
+	64 [label="(64) T18_T1_3"]
+	67 [label="(67) T21_T1_3"]
+	60 [label="(60) R37_T1_3"]
+	70 [label="(70) R80_P3_3"]
+	63 [label="(63) R40_T1_3"]
+	66 [label="(66) T20_T1_3" color=red]
+	65 [label="(65) T19_T1_3"]
+	64 [label="(64) T18_T1_3"]
+	67 [label="(67) T21_T1_3"]
+	61 [label="(61) R38_T1_3"]
+	70 [label="(70) R80_P3_3"]
+	63 [label="(63) R40_T1_3"]
+	67 [label="(67) T21_T1_3" color=red]
+	66 [label="(66) T20_T1_3"]
+	65 [label="(65) T19_T1_3"]
+	64 [label="(64) T18_T1_3"]
+	62 [label="(62) R39_T1_3"]
+	70 [label="(70) R80_P3_3"]
+	63 [label="(63) R40_T1_3"]
+	68 [label="(68) T80_P3_3" color=red]
+	69 [label="(69) R81_P3_3"]
+	71 [label="(71) R82_P3_3"]
+	70 [label="(70) R80_P3_3"]
+	69 [label="(69) R81_P3_3" color=red]
+	68 [label="(68) T80_P3_3"]
+	6 [label="(6) C3"]
+	70 [label="(70) R80_P3_3" color=red]
+	64 [label="(64) T18_T1_3"]
+	67 [label="(67) T21_T1_3"]
+	66 [label="(66) T20_T1_3"]
+	65 [label="(65) T19_T1_3"]
+	63 [label="(63) R40_T1_3"]
+	68 [label="(68) T80_P3_3"]
+	71 [label="(71) R82_P3_3" color=red]
+	5 [label="(5) C2"]
+	68 [label="(68) T80_P3_3"]
+	72 [label="(72) GND" color=red]
+	3 [label="(3) C6"]
+	2 [label="(2) C8"]
+	1 [label="(1) C9"]
+	21 [label="(21) J5"]
+	7 [label="(7) C5"]
+	0 [label="(0) U1"]
+	4 [label="(4) C7"]
+	69 [label="(69) R81_P3_3"]
+	6 [label="(6) C3"]
+	8 [label="(8) C4"]
+	25 [label="(25) D3"]
+	29 [label="(29) C12"]
+	30 [label="(30) J4"]
+	17 [label="(17) SW1"]
+	18 [label="(18) C1"]
+	19 [label="(19) C11"]
+	9 [label="(9) J2"]
+	27 [label="(27) SW2"]
+	23 [label="(23) D1"]
+	13 [label="(13) J3"]
+	11 [label="(11) U2"]
+	16 [label="(16) U3"]
+	12 [label="(12) C10"]
+	40 [label="(40) T20_T1"]
+	39 [label="(39) T19_T1"]
+	38 [label="(38) T18_T1"]
+	41 [label="(41) T21_T1"]
+	0 -- 9
+	0 -- 21
+	0 -- 26
+	0 -- 10
+	0 -- 28
+	0 -- 22
+	0 -- 27
+	0 -- 16
+	0 -- 5
+	0 -- 3
+	0 -- 2
+	0 -- 20
+	0 -- 12
+	0 -- 8
+	0 -- 11
+	0 -- 7
+	0 -- 6
+	0 -- 24
+	0 -- 31
+	0 -- 34
+	0 -- 47
+	0 -- 60
+	0 -- 30
+	0 -- 4
+	0 -- 33
+	0 -- 46
+	0 -- 59
+	0 -- 18
+	0 -- 17
+	0 -- 13
+	0 -- 32
+	0 -- 29
+	0 -- 15
+	0 -- 14
+	0 -- 45
+	0 -- 58
+	1 -- 56
+	1 -- 35
+	1 -- 48
+	1 -- 61
+	2 -- 9
+	2 -- 0
+	2 -- 16
+	2 -- 5
+	2 -- 3
+	2 -- 20
+	2 -- 12
+	2 -- 8
+	2 -- 11
+	2 -- 7
+	2 -- 6
+	2 -- 24
+	2 -- 31
+	2 -- 21
+	2 -- 28
+	2 -- 34
+	2 -- 47
+	2 -- 60
+	3 -- 9
+	3 -- 0
+	3 -- 16
+	3 -- 5
+	3 -- 2
+	3 -- 20
+	3 -- 12
+	3 -- 8
+	3 -- 11
+	3 -- 7
+	3 -- 6
+	3 -- 24
+	3 -- 31
+	3 -- 21
+	3 -- 28
+	3 -- 34
+	3 -- 47
+	3 -- 60
+	4 -- 0
+	4 -- 33
+	4 -- 46
+	4 -- 59
+	5 -- 9
+	5 -- 0
+	5 -- 16
+	5 -- 3
+	5 -- 2
+	5 -- 20
+	5 -- 12
+	5 -- 8
+	5 -- 11
+	5 -- 7
+	5 -- 6
+	5 -- 24
+	5 -- 31
+	5 -- 21
+	5 -- 28
+	5 -- 34
+	5 -- 47
+	5 -- 60
+	5 -- 71
+	6 -- 9
+	6 -- 0
+	6 -- 16
+	6 -- 5
+	6 -- 3
+	6 -- 2
+	6 -- 20
+	6 -- 12
+	6 -- 8
+	6 -- 11
+	6 -- 7
+	6 -- 24
+	6 -- 31
+	6 -- 21
+	6 -- 28
+	6 -- 34
+	6 -- 47
+	6 -- 60
+	6 -- 69
+	7 -- 9
+	7 -- 0
+	7 -- 16
+	7 -- 5
+	7 -- 3
+	7 -- 2
+	7 -- 20
+	7 -- 12
+	7 -- 8
+	7 -- 11
+	7 -- 6
+	7 -- 24
+	7 -- 31
+	7 -- 21
+	7 -- 28
+	7 -- 34
+	7 -- 47
+	7 -- 60
+	8 -- 9
+	8 -- 0
+	8 -- 16
+	8 -- 5
+	8 -- 3
+	8 -- 2
+	8 -- 20
+	8 -- 12
+	8 -- 11
+	8 -- 7
+	8 -- 6
+	8 -- 24
+	8 -- 31
+	8 -- 21
+	8 -- 28
+	8 -- 34
+	8 -- 47
+	8 -- 60
+	9 -- 0
+	9 -- 21
+	9 -- 26
+	9 -- 16
+	9 -- 5
+	9 -- 3
+	9 -- 2
+	9 -- 20
+	9 -- 12
+	9 -- 8
+	9 -- 11
+	9 -- 7
+	9 -- 6
+	9 -- 24
+	9 -- 31
+	9 -- 28
+	9 -- 34
+	9 -- 47
+	9 -- 60
+	9 -- 32
+	9 -- 18
+	9 -- 30
+	9 -- 17
+	10 -- 28
+	10 -- 0
+	10 -- 22
+	10 -- 27
+	10 -- 43
+	10 -- 30
+	11 -- 9
+	11 -- 0
+	11 -- 16
+	11 -- 5
+	11 -- 3
+	11 -- 2
+	11 -- 20
+	11 -- 12
+	11 -- 8
+	11 -- 7
+	11 -- 6
+	11 -- 24
+	11 -- 31
+	11 -- 21
+	11 -- 28
+	11 -- 34
+	11 -- 47
+	11 -- 60
+	11 -- 19
+	11 -- 32
+	12 -- 9
+	12 -- 0
+	12 -- 16
+	12 -- 5
+	12 -- 3
+	12 -- 2
+	12 -- 20
+	12 -- 8
+	12 -- 11
+	12 -- 7
+	12 -- 6
+	12 -- 24
+	12 -- 31
+	12 -- 21
+	12 -- 28
+	12 -- 34
+	12 -- 47
+	12 -- 60
+	13 -- 0
+	13 -- 32
+	13 -- 29
+	13 -- 16
+	14 -- 16
+	14 -- 0
+	15 -- 16
+	15 -- 0
+	16 -- 9
+	16 -- 0
+	16 -- 5
+	16 -- 3
+	16 -- 2
+	16 -- 20
+	16 -- 12
+	16 -- 8
+	16 -- 11
+	16 -- 7
+	16 -- 6
+	16 -- 24
+	16 -- 31
+	16 -- 21
+	16 -- 28
+	16 -- 34
+	16 -- 47
+	16 -- 60
+	16 -- 14
+	16 -- 15
+	16 -- 13
+	17 -- 18
+	17 -- 0
+	17 -- 30
+	17 -- 21
+	17 -- 20
+	17 -- 9
+	18 -- 0
+	18 -- 30
+	18 -- 21
+	18 -- 17
+	18 -- 20
+	18 -- 9
+	19 -- 32
+	19 -- 31
+	19 -- 11
+	20 -- 9
+	20 -- 0
+	20 -- 16
+	20 -- 5
+	20 -- 3
+	20 -- 2
+	20 -- 12
+	20 -- 8
+	20 -- 11
+	20 -- 7
+	20 -- 6
+	20 -- 24
+	20 -- 31
+	20 -- 21
+	20 -- 28
+	20 -- 34
+	20 -- 47
+	20 -- 60
+	20 -- 18
+	20 -- 30
+	20 -- 17
+	21 -- 9
+	21 -- 0
+	21 -- 26
+	21 -- 16
+	21 -- 5
+	21 -- 3
+	21 -- 2
+	21 -- 20
+	21 -- 12
+	21 -- 8
+	21 -- 11
+	21 -- 7
+	21 -- 6
+	21 -- 24
+	21 -- 31
+	21 -- 28
+	21 -- 34
+	21 -- 47
+	21 -- 60
+	21 -- 32
+	21 -- 18
+	21 -- 30
+	21 -- 17
+	22 -- 10
+	22 -- 28
+	22 -- 0
+	22 -- 27
+	22 -- 43
+	22 -- 30
+	23 -- 24
+	23 -- 36
+	23 -- 49
+	23 -- 62
+	24 -- 9
+	24 -- 0
+	24 -- 16
+	24 -- 5
+	24 -- 3
+	24 -- 2
+	24 -- 20
+	24 -- 12
+	24 -- 8
+	24 -- 11
+	24 -- 7
+	24 -- 6
+	24 -- 31
+	24 -- 21
+	24 -- 28
+	24 -- 34
+	24 -- 47
+	24 -- 60
+	24 -- 23
+	24 -- 36
+	24 -- 49
+	24 -- 62
+	25 -- 26
+	26 -- 25
+	26 -- 9
+	26 -- 0
+	26 -- 21
+	27 -- 10
+	27 -- 28
+	27 -- 0
+	27 -- 22
+	28 -- 10
+	28 -- 0
+	28 -- 22
+	28 -- 27
+	28 -- 9
+	28 -- 16
+	28 -- 5
+	28 -- 3
+	28 -- 2
+	28 -- 20
+	28 -- 12
+	28 -- 8
+	28 -- 11
+	28 -- 7
+	28 -- 6
+	28 -- 24
+	28 -- 31
+	28 -- 21
+	28 -- 34
+	28 -- 47
+	28 -- 60
+	29 -- 0
+	29 -- 13
+	29 -- 32
+	30 -- 22
+	30 -- 10
+	30 -- 0
+	30 -- 18
+	30 -- 21
+	30 -- 17
+	30 -- 20
+	30 -- 9
+	31 -- 9
+	31 -- 0
+	31 -- 16
+	31 -- 5
+	31 -- 3
+	31 -- 2
+	31 -- 20
+	31 -- 12
+	31 -- 8
+	31 -- 11
+	31 -- 7
+	31 -- 6
+	31 -- 24
+	31 -- 21
+	31 -- 28
+	31 -- 34
+	31 -- 47
+	31 -- 60
+	31 -- 19
+	31 -- 32
+	32 -- 9
+	32 -- 21
+	32 -- 0
+	32 -- 13
+	32 -- 29
+	32 -- 19
+	32 -- 31
+	32 -- 11
+	33 -- 4 [color=red]
+	33 -- 0 [color=red]
+	33 -- 46 [color=red]
+	33 -- 59 [color=red]
+	33 -- 38 [color=red]
+	34 -- 9 [color=red]
+	34 -- 0 [color=red]
+	34 -- 16 [color=red]
+	34 -- 5 [color=red]
+	34 -- 3 [color=red]
+	34 -- 2 [color=red]
+	34 -- 20 [color=red]
+	34 -- 12 [color=red]
+	34 -- 8 [color=red]
+	34 -- 11 [color=red]
+	34 -- 7 [color=red]
+	34 -- 6 [color=red]
+	34 -- 24 [color=red]
+	34 -- 31 [color=red]
+	34 -- 21 [color=red]
+	34 -- 28 [color=red]
+	34 -- 47 [color=red]
+	34 -- 60 [color=red]
+	34 -- 39 [color=red]
+	35 -- 1 [color=red]
+	35 -- 56 [color=red]
+	35 -- 48 [color=red]
+	35 -- 61 [color=red]
+	35 -- 40 [color=red]
+	36 -- 23 [color=red]
+	36 -- 24 [color=red]
+	36 -- 49 [color=red]
+	36 -- 62 [color=red]
+	36 -- 41 [color=red]
+	37 -- 44 [color=red]
+	37 -- 38 [color=red]
+	37 -- 41 [color=red]
+	37 -- 40 [color=red]
+	37 -- 39 [color=red]
+	38 -- 33 [color=red]
+	38 -- 44 [color=red]
+	38 -- 41 [color=red]
+	38 -- 40 [color=red]
+	38 -- 39 [color=red]
+	38 -- 37 [color=red]
+	39 -- 34 [color=red]
+	39 -- 44 [color=red]
+	39 -- 38 [color=red]
+	39 -- 41 [color=red]
+	39 -- 40 [color=red]
+	39 -- 37 [color=red]
+	40 -- 35 [color=red]
+	40 -- 44 [color=red]
+	40 -- 38 [color=red]
+	40 -- 41 [color=red]
+	40 -- 39 [color=red]
+	40 -- 37 [color=red]
+	41 -- 36 [color=red]
+	41 -- 44 [color=red]
+	41 -- 38 [color=red]
+	41 -- 40 [color=red]
+	41 -- 39 [color=red]
+	41 -- 37 [color=red]
+	42 -- 43 [color=red]
+	42 -- 45 [color=red]
+	42 -- 44 [color=red]
+	43 -- 22 [color=red]
+	43 -- 10 [color=red]
+	43 -- 42 [color=red]
+	44 -- 38 [color=red]
+	44 -- 41 [color=red]
+	44 -- 40 [color=red]
+	44 -- 39 [color=red]
+	44 -- 37 [color=red]
+	44 -- 42 [color=red]
+	45 -- 0 [color=red]
+	45 -- 42 [color=red]
+	46 -- 4 [color=red]
+	46 -- 0 [color=red]
+	46 -- 33 [color=red]
+	46 -- 59 [color=red]
+	46 -- 51 [color=red]
+	47 -- 9 [color=red]
+	47 -- 0 [color=red]
+	47 -- 16 [color=red]
+	47 -- 5 [color=red]
+	47 -- 3 [color=red]
+	47 -- 2 [color=red]
+	47 -- 20 [color=red]
+	47 -- 12 [color=red]
+	47 -- 8 [color=red]
+	47 -- 11 [color=red]
+	47 -- 7 [color=red]
+	47 -- 6 [color=red]
+	47 -- 24 [color=red]
+	47 -- 31 [color=red]
+	47 -- 21 [color=red]
+	47 -- 28 [color=red]
+	47 -- 34 [color=red]
+	47 -- 60 [color=red]
+	47 -- 52 [color=red]
+	48 -- 1 [color=red]
+	48 -- 56 [color=red]
+	48 -- 35 [color=red]
+	48 -- 61 [color=red]
+	48 -- 53 [color=red]
+	49 -- 23 [color=red]
+	49 -- 24 [color=red]
+	49 -- 36 [color=red]
+	49 -- 62 [color=red]
+	49 -- 54 [color=red]
+	50 -- 57 [color=red]
+	50 -- 51 [color=red]
+	50 -- 54 [color=red]
+	50 -- 53 [color=red]
+	50 -- 52 [color=red]
+	51 -- 53 [color=red]
+	51 -- 52 [color=red]
+	51 -- 54 [color=red]
+	51 -- 46 [color=red]
+	51 -- 57 [color=red]
+	51 -- 50 [color=red]
+	52 -- 53 [color=red]
+	52 -- 51 [color=red]
+	52 -- 54 [color=red]
+	52 -- 47 [color=red]
+	52 -- 57 [color=red]
+	52 -- 50 [color=red]
+	53 -- 52 [color=red]
+	53 -- 51 [color=red]
+	53 -- 54 [color=red]
+	53 -- 48 [color=red]
+	53 -- 57 [color=red]
+	53 -- 50 [color=red]
+	54 -- 53 [color=red]
+	54 -- 52 [color=red]
+	54 -- 51 [color=red]
+	54 -- 49 [color=red]
+	54 -- 57 [color=red]
+	54 -- 50 [color=red]
+	55 -- 56 [color=red]
+	55 -- 58 [color=red]
+	55 -- 57 [color=red]
+	56 -- 1 [color=red]
+	56 -- 35 [color=red]
+	56 -- 48 [color=red]
+	56 -- 61 [color=red]
+	56 -- 55 [color=red]
+	57 -- 51 [color=red]
+	57 -- 54 [color=red]
+	57 -- 53 [color=red]
+	57 -- 52 [color=red]
+	57 -- 50 [color=red]
+	57 -- 55 [color=red]
+	58 -- 0 [color=red]
+	58 -- 55 [color=red]
+	59 -- 4 [color=red]
+	59 -- 0 [color=red]
+	59 -- 33 [color=red]
+	59 -- 46 [color=red]
+	59 -- 64 [color=red]
+	60 -- 9 [color=red]
+	60 -- 0 [color=red]
+	60 -- 16 [color=red]
+	60 -- 5 [color=red]
+	60 -- 3 [color=red]
+	60 -- 2 [color=red]
+	60 -- 20 [color=red]
+	60 -- 12 [color=red]
+	60 -- 8 [color=red]
+	60 -- 11 [color=red]
+	60 -- 7 [color=red]
+	60 -- 6 [color=red]
+	60 -- 24 [color=red]
+	60 -- 31 [color=red]
+	60 -- 21 [color=red]
+	60 -- 28 [color=red]
+	60 -- 34 [color=red]
+	60 -- 47 [color=red]
+	60 -- 65 [color=red]
+	61 -- 1 [color=red]
+	61 -- 56 [color=red]
+	61 -- 35 [color=red]
+	61 -- 48 [color=red]
+	61 -- 66 [color=red]
+	62 -- 23 [color=red]
+	62 -- 24 [color=red]
+	62 -- 36 [color=red]
+	62 -- 49 [color=red]
+	62 -- 67 [color=red]
+	63 -- 70 [color=red]
+	63 -- 64 [color=red]
+	63 -- 67 [color=red]
+	63 -- 66 [color=red]
+	63 -- 65 [color=red]
+	64 -- 66 [color=red]
+	64 -- 65 [color=red]
+	64 -- 67 [color=red]
+	64 -- 59 [color=red]
+	64 -- 70 [color=red]
+	64 -- 63 [color=red]
+	65 -- 66 [color=red]
+	65 -- 64 [color=red]
+	65 -- 67 [color=red]
+	65 -- 60 [color=red]
+	65 -- 70 [color=red]
+	65 -- 63 [color=red]
+	66 -- 65 [color=red]
+	66 -- 64 [color=red]
+	66 -- 67 [color=red]
+	66 -- 61 [color=red]
+	66 -- 70 [color=red]
+	66 -- 63 [color=red]
+	67 -- 66 [color=red]
+	67 -- 65 [color=red]
+	67 -- 64 [color=red]
+	67 -- 62 [color=red]
+	67 -- 70 [color=red]
+	67 -- 63 [color=red]
+	68 -- 69 [color=red]
+	68 -- 71 [color=red]
+	68 -- 70 [color=red]
+	69 -- 68 [color=red]
+	69 -- 6 [color=red]
+	70 -- 64 [color=red]
+	70 -- 67 [color=red]
+	70 -- 66 [color=red]
+	70 -- 65 [color=red]
+	70 -- 63 [color=red]
+	70 -- 68 [color=red]
+	71 -- 5 [color=red]
+	71 -- 68 [color=red]
+	72 -- 3
+	72 -- 2
+	72 -- 1
+	72 -- 21
+	72 -- 7
+	72 -- 0
+	72 -- 4
+	72 -- 69
+	72 -- 6
+	72 -- 8
+	72 -- 25
+	72 -- 29
+	72 -- 30
+	72 -- 17
+	72 -- 18
+	72 -- 19
+	72 -- 9
+	72 -- 27
+	72 -- 23
+	72 -- 13
+	72 -- 11
+	72 -- 16
+	72 -- 12
+	72 -- 40
+	72 -- 39
+	72 -- 38
+	72 -- 41
+}

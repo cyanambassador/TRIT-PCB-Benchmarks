@@ -1,0 +1,38 @@
+edk_AND_TRIGGER_MUX_Payload
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Payload Input0 Successful
+Payload Input1 Successful
+Payload Output Successful
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Payload Input0 Successful
+Payload Input1 Successful
+Payload Output Successful
+Payload Output connected to Input
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Trigger Out Node
+Payload Input0 Successful
+Payload Input1 Successful
+Payload Output Successful

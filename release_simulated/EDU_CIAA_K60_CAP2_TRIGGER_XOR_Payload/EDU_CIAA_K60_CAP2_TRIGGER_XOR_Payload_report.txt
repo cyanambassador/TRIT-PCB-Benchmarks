@@ -1,0 +1,37 @@
+EDU_CIAA_K60_CAP2_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
++3.3V +3.3VADC +5V /CPU/AUX_UART_CTS/SPI_CLK "Net-(U5-Pad29)" "Net-(U5-Pad41)" "Net-(R51-Pad2)" "Net-(C29-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(Q3-PadG)"
+
+Trojan Insertion 1
+
+The Trojan is Triggered by the following activation Signals
+
++3.3V +3.3VADC +5V /CPU/AUX_UART_CTS/SPI_CLK /CPU/LED3 /CPU/USB_ID "Net-(D8-Pad2)" "Net-(U10-Pad101)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/GPIO/ADC0_1
+
+Trojan Insertion 2
+
+The Trojan is Triggered by the following activation Signals
+
++3.3V +3.3VADC +5V /CPU/AUX_UART_CTS/SPI_CLK /LCD_D3 "Net-(U10-Pad30)" /JTAG/FT_RST "Net-(C8-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(F3-Pad1)"
+
+************************************************************

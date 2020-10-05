@@ -1,0 +1,37 @@
+CIAA_Safety_VTI_1_MIX_TRIGGER_XOR_Payload
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Trigger Out Node
+Payload Input Successful
+Payload Output Successful
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Trigger Out Node
+Payload Input Successful
+Payload Output Successful
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Inserted
+Trigger Out Node
+Trigger Out Node
+Payload Input Successful
+Payload Output Successful

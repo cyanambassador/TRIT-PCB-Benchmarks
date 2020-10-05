@@ -1,0 +1,46 @@
+CIAA_FSL_MINI_MIX_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(D401-Pad1)" "Net-(D601-Pad1)" "Net-(D602-Pad1)" +3.3V /CPU/RS485_DIR "Net-(U601-Pad24)" /CPU/DOUT6 GNDA 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/USB_ID
+Effect : The signal that is leaked...
+"Net-(C601-Pad1)"
+
+Trojan Insertion 1
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(D401-Pad1)" "Net-(D601-Pad1)" "Net-(D602-Pad1)" +3.3V /CPU/RS232_CTS "Net-(C601-Pad1)" /CPU/RS232_RXD /CPU/DIN2 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/USBD_P
+Effect : The signal that is leaked...
+"Net-(R409-Pad1)"
+
+Trojan Insertion 2
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(D401-Pad1)" "Net-(D601-Pad1)" "Net-(D602-Pad1)" +3.3V /CPU/AIN2 /CPU/ETH_RXD0 /CPU/VBAT /CPU/PGA1_DP 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/RS485_RXD
+Effect : The signal that is leaked...
+/CPU/SPIFI_MOSI
+
+************************************************************
