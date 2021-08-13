@@ -1,3 +1,0 @@
-picociaa_NOR_TRIGGER_XOR_Payload
-{}
-{}

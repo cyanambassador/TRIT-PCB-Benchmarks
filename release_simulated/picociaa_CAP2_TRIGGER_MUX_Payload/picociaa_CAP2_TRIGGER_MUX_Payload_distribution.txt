@@ -1,3 +1,0 @@
-picociaa_CAP2_TRIGGER_MUX_Payload
-{}
-{}

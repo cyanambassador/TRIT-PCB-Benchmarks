@@ -1,3 +1,0 @@
-ciaa-z3r0_NOR_TRIGGER_MUX_Payload
-{'15R': 2, '1K': 4}
-{}

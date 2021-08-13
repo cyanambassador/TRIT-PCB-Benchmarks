@@ -1,3 +1,0 @@
-picociaa_CAP1_TRIGGER_Single_Payload
-{}
-{}
