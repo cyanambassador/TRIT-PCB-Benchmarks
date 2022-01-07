@@ -1,0 +1,22 @@
+CIAA_FSL_MINI_CAP1_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPIFI_WP "/USBOTG/USB0_PWR_FAULT" /CPU/ETH_TXD0 /I/O/ArefA /CPU/EC_AI0 /5VPIN "Net-(U601-Pad48)" /CPU/GPIO9 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/DAC_OUT
+Effect : The signal that is leaked...
+/CPU/GPIO15
+
+************************************************************

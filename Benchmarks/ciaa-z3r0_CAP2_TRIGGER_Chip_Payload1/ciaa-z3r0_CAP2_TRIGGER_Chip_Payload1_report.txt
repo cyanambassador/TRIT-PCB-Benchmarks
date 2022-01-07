@@ -1,0 +1,19 @@
+ciaa-z3r0_CAP2_TRIGGER_Chip_Payload1 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/PF2 /PD4 /PB8 /B_USB- /PB7 /PC4 /PA0 /vin 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/B_USB+
+
+************************************************************

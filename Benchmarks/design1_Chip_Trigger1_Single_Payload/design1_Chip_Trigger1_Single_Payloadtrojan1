@@ -1,0 +1,59 @@
+graph {
+	49 [label="(49) U1_T1" color=red]
+	50 [label="(50) R1_T1"]
+	51 [label="(51) R2_T1"]
+	52 [label="(52) R3_T1"]
+	53 [label="(53) R4_T1"]
+	56 [label="(56) R80_P3"]
+	50 [label="(50) R1_T1" color=red]
+	22 [label="(22) R3"]
+	14 [label="(14) Q1"]
+	49 [label="(49) U1_T1"]
+	51 [label="(51) R2_T1" color=red]
+	34 [label="(34) U4"]
+	49 [label="(49) U1_T1"]
+	52 [label="(52) R3_T1" color=red]
+	34 [label="(34) U4"]
+	49 [label="(49) U1_T1"]
+	53 [label="(53) R4_T1" color=red]
+	39 [label="(39) U2"]
+	27 [label="(27) C6"]
+	49 [label="(49) U1_T1"]
+	54 [label="(54) T80_P3" color=red]
+	55 [label="(55) R81_P3"]
+	57 [label="(57) R82_P3"]
+	56 [label="(56) R80_P3"]
+	55 [label="(55) R81_P3" color=red]
+	45 [label="(45) D9"]
+	54 [label="(54) T80_P3"]
+	56 [label="(56) R80_P3" color=red]
+	49 [label="(49) U1_T1"]
+	54 [label="(54) T80_P3"]
+	57 [label="(57) R82_P3" color=red]
+	40 [label="(40) U5"]
+	54 [label="(54) T80_P3"]
+	49 -- 50
+	49 -- 51
+	49 -- 52
+	49 -- 53
+	49 -- 56
+	50 -- 22
+	50 -- 14
+	50 -- 49
+	51 -- 34
+	51 -- 49
+	52 -- 34
+	52 -- 49
+	53 -- 39
+	53 -- 27
+	53 -- 49
+	54 -- 55
+	54 -- 57
+	54 -- 56
+	55 -- 45
+	55 -- 54
+	56 -- 49
+	56 -- 54
+	57 -- 40
+	57 -- 54
+}

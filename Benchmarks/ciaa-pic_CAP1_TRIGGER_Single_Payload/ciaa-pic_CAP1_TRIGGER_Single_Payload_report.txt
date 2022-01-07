@@ -1,0 +1,19 @@
+ciaa-pic_CAP1_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 "Net-(Q14-Pad3)" /CPU/CAN_STB "Net-(F3-Pad1)" /CPU/SPIFI_MOSI "Net-(C88-Pad2)" "Net-(U16-Pad30)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Ethernet/CRS_DV
+
+************************************************************

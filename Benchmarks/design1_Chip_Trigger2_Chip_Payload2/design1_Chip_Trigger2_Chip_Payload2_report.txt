@@ -1,0 +1,22 @@
+design1_Chip_Trigger2_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U4-Pad18)" "Net-(U2-Pad7)" "Net-(U4-Pad4)" "Net-(U3-Pad5)" "Net-(Q3-Pad2)" SWB+ "Net-(U2-Pad6)" "Net-(U4-Pad17)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(C5-Pad1)"
+Effect : The signal that is leaked...
+SWB+
+
+************************************************************

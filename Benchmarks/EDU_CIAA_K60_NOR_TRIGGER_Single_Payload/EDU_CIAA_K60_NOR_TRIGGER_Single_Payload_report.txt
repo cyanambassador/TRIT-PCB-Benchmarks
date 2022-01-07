@@ -1,0 +1,19 @@
+EDU_CIAA_K60_NOR_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 /CPU/AUX_UART_TX/SPI_MOSI "Net-(U1-Pad5)" "Net-(U8-Pad7)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(U10-Pad40)"
+
+************************************************************

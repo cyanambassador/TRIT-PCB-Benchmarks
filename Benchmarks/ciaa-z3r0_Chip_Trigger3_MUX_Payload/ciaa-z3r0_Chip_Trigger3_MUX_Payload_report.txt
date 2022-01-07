@@ -1,0 +1,22 @@
+ciaa-z3r0_Chip_Trigger3_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/PF2 /PC3 /PB8 /PE12 /PD6 /PC2 /PB14 /PB13 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/USB+
+Effect : The signal that is leaked...
+/PC2
+
+************************************************************

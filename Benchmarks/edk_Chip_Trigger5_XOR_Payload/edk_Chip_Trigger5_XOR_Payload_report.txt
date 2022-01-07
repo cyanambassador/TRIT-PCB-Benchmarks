@@ -1,0 +1,19 @@
+edk_Chip_Trigger5_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX /CPU/SD_0_CMD /P1_12 /P1_15 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/CLK_OUT_19.2MHz
+
+************************************************************

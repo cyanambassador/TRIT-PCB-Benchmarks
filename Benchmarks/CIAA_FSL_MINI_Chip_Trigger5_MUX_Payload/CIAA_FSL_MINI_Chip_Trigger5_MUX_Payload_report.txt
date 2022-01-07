@@ -1,0 +1,22 @@
+CIAA_FSL_MINI_Chip_Trigger5_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPIFI_WP "/USBOTG/USB0_PWR_FAULT" /Ethernet/TX_P /CPU/EC_PWM4 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(R219-Pad1)"
+Effect : The signal that is leaked...
+/CPU/SPIFI_MOSI
+
+************************************************************

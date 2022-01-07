@@ -1,0 +1,19 @@
+CIAA_FSL_MINI_Chip_Trigger2_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPIFI_WP "/USBOTG/USB0_PWR_FAULT" /CPU/ETH_TXD0 /CPU/SD_POW "Net-(SH701-PadNC)" "Net-(R207-Pad2)" /CPU/RS232_RTS "Net-(R411-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/RS232_TXD
+
+************************************************************

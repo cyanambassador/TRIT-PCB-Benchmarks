@@ -1,0 +1,3 @@
+ciaa-z3r0_CAP2_TRIGGER_Single_Payload
+{'15R': 2, '1K': 4}
+{}

@@ -1,0 +1,136 @@
+graph {
+	83 [label="(83) U1_T1" color=red]
+	88 [label="(88) U2_T1"]
+	93 [label="(93) U3_T1"]
+	94 [label="(94) R10_T1"]
+	87 [label="(87) R4_T1"]
+	85 [label="(85) R2_T1"]
+	86 [label="(86) R3_T1"]
+	84 [label="(84) R1_T1"]
+	84 [label="(84) R1_T1" color=red]
+	39 [label="(39) U4"]
+	3 [label="(3) U2"]
+	83 [label="(83) U1_T1"]
+	85 [label="(85) R2_T1" color=red]
+	59 [label="(59) U8"]
+	83 [label="(83) U1_T1"]
+	86 [label="(86) R3_T1" color=red]
+	30 [label="(30) U1"]
+	1 [label="(1) P2"]
+	83 [label="(83) U1_T1"]
+	87 [label="(87) R4_T1" color=red]
+	3 [label="(3) U2"]
+	69 [label="(69) U10"]
+	83 [label="(83) U1_T1"]
+	88 [label="(88) U2_T1" color=red]
+	91 [label="(91) R7_T1"]
+	92 [label="(92) R8_T1"]
+	89 [label="(89) R5_T1"]
+	90 [label="(90) R6_T1"]
+	93 [label="(93) U3_T1"]
+	83 [label="(83) U1_T1"]
+	95 [label="(95) R9_T1"]
+	89 [label="(89) R5_T1" color=red]
+	36 [label="(36) U5"]
+	3 [label="(3) U2"]
+	88 [label="(88) U2_T1"]
+	90 [label="(90) R6_T1" color=red]
+	59 [label="(59) U8"]
+	88 [label="(88) U2_T1"]
+	91 [label="(91) R7_T1" color=red]
+	73 [label="(73) R19"]
+	72 [label="(72) D5"]
+	88 [label="(88) U2_T1"]
+	92 [label="(92) R8_T1" color=red]
+	59 [label="(59) U8"]
+	40 [label="(40) GS1"]
+	88 [label="(88) U2_T1"]
+	93 [label="(93) U3_T1" color=red]
+	88 [label="(88) U2_T1"]
+	83 [label="(83) U1_T1"]
+	95 [label="(95) R9_T1"]
+	94 [label="(94) R10_T1"]
+	98 [label="(98) R1_P1"]
+	94 [label="(94) R10_T1" color=red]
+	93 [label="(93) U3_T1"]
+	83 [label="(83) U1_T1"]
+	95 [label="(95) R9_T1" color=red]
+	88 [label="(88) U2_T1"]
+	93 [label="(93) U3_T1"]
+	96 [label="(96) U1_P1" color=red]
+	97 [label="(97) D1_P1"]
+	99 [label="(99) R2_P1"]
+	100 [label="(100) R3_P1"]
+	98 [label="(98) R1_P1"]
+	97 [label="(97) D1_P1" color=red]
+	1 [label="(1) P2"]
+	96 [label="(96) U1_P1"]
+	98 [label="(98) R1_P1" color=red]
+	93 [label="(93) U3_T1"]
+	96 [label="(96) U1_P1"]
+	99 [label="(99) R2_P1" color=red]
+	30 [label="(30) U1"]
+	96 [label="(96) U1_P1"]
+	100 [label="(100) R3_P1" color=red]
+	3 [label="(3) U2"]
+	33 [label="(33) U3"]
+	96 [label="(96) U1_P1"]
+	83 -- 88
+	83 -- 93
+	83 -- 94
+	83 -- 87
+	83 -- 85
+	83 -- 86
+	83 -- 84
+	84 -- 39
+	84 -- 3
+	84 -- 83
+	85 -- 59
+	85 -- 83
+	86 -- 30
+	86 -- 1
+	86 -- 83
+	87 -- 3
+	87 -- 69
+	87 -- 83
+	88 -- 91
+	88 -- 92
+	88 -- 89
+	88 -- 90
+	88 -- 93
+	88 -- 83
+	88 -- 95
+	89 -- 36
+	89 -- 3
+	89 -- 88
+	90 -- 59
+	90 -- 88
+	91 -- 73
+	91 -- 72
+	91 -- 88
+	92 -- 59
+	92 -- 40
+	92 -- 88
+	93 -- 88
+	93 -- 83
+	93 -- 95
+	93 -- 94
+	93 -- 98
+	94 -- 93
+	94 -- 83
+	95 -- 88
+	95 -- 93
+	96 -- 97
+	96 -- 99
+	96 -- 100
+	96 -- 98
+	97 -- 1
+	97 -- 96
+	98 -- 93
+	98 -- 96
+	99 -- 30
+	99 -- 96
+	100 -- 3
+	100 -- 33
+	100 -- 96
+}

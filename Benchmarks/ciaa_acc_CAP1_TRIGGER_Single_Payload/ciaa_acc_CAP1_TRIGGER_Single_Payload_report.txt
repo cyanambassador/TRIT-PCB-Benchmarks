@@ -1,0 +1,19 @@
+ciaa_acc_CAP1_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANKS_HR/TMDS_D1_N /Principal/BANKS_HP/FMC_CLK1_C2M_N "Net-(R35-Pad2)" /Principal/BANK_0/POWERGOOD /Principal/OneBank/BTM_2TX_N "Net-(U21-Pad6)" "Net-(R143-Pad1)" /Principal/BANK_501/USB_D3 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Principal/BANKS_HR/FMC_LA_27_P
+
+************************************************************

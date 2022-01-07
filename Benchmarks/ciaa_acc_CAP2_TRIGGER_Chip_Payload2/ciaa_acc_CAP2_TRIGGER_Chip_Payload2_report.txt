@@ -1,0 +1,22 @@
+ciaa_acc_CAP2_TRIGGER_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANKS_HR/TMDS_D1_N /Principal/BANKS_HP/FMC_CLK1_C2M_N /Principal/BANK_0/DBG_VBUS /Principal/BANK_0/POWERGOOD "Net-(Q1-Pad3)" /Principal/BANK_502/DDR_DQ11 /Principal/OneBank/OB_USB1_N /Principal/BANKS_HR/FMC_LA_13_P 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/Principal/BANK_502/DDR_DQ10
+Effect : The signal that is leaked...
+/Principal/BANKS_HP/FMC_HB_21_N
+
+************************************************************

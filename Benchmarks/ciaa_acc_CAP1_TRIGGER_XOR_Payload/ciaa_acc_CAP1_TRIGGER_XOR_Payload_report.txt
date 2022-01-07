@@ -1,0 +1,19 @@
+ciaa_acc_CAP1_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANKS_HR/TMDS_D1_N /Principal/BANKS_HP/FMC_CLK1_C2M_N "Net-(J5-PadA39)" /Principal/BANK_0/POWERGOOD "Net-(J11-Pad1)" "Net-(R136-Pad1)" /Principal/BANK_502/DDR_DQ5 "Net-(R29-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(DS12-Pad2)"
+
+************************************************************

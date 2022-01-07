@@ -1,0 +1,19 @@
+ciaa-pic_NOR_TRIGGER_Chip_Payload1 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 "Net-(U16-Pad9)" /GPIO/AN1 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(IC1-Pad5)"
+
+************************************************************

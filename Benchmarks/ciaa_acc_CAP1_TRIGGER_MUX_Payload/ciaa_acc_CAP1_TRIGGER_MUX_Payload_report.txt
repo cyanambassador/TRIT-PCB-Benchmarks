@@ -1,0 +1,22 @@
+ciaa_acc_CAP1_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANKS_HR/TMDS_D1_N /Principal/BANKS_HP/FMC_CLK1_C2M_N /Principal/BANK_500/QSPI_CS /Principal/BANK_0/POWERGOOD /Principal/OneBank/OB_USB0_P /Principal/BANKS_HP/FMC_HB_18_N /Principal/BANKS_HR/MGTREFCLK1_N "Net-(C91-Pad2)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/Principal/BANKS_HR/FMC_LA_25_P
+Effect : The signal that is leaked...
+/Principal/BANKS_HP/FMC_HA_7_N
+
+************************************************************

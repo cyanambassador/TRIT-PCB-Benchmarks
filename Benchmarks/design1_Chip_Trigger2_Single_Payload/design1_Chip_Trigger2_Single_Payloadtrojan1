@@ -1,0 +1,114 @@
+graph {
+	49 [label="(49) U2_T1" color=red]
+	58 [label="(58) R8_T1"]
+	57 [label="(57) R7_T1"]
+	56 [label="(56) R6_T1"]
+	55 [label="(55) R5_T1"]
+	54 [label="(54) U1_T1"]
+	60 [label="(60) R9_T1"]
+	50 [label="(50) R1_T1" color=red]
+	34 [label="(34) U4"]
+	54 [label="(54) U1_T1"]
+	51 [label="(51) R2_T1" color=red]
+	39 [label="(39) U2"]
+	27 [label="(27) C6"]
+	54 [label="(54) U1_T1"]
+	52 [label="(52) R3_T1" color=red]
+	34 [label="(34) U4"]
+	54 [label="(54) U1_T1"]
+	53 [label="(53) R4_T1" color=red]
+	1 [label="(1) Q4"]
+	35 [label="(35) D8"]
+	38 [label="(38) U3"]
+	54 [label="(54) U1_T1"]
+	54 [label="(54) U1_T1" color=red]
+	49 [label="(49) U2_T1"]
+	52 [label="(52) R3_T1"]
+	51 [label="(51) R2_T1"]
+	50 [label="(50) R1_T1"]
+	59 [label="(59) Q1_T1"]
+	53 [label="(53) R4_T1"]
+	55 [label="(55) R5_T1" color=red]
+	39 [label="(39) U2"]
+	49 [label="(49) U2_T1"]
+	56 [label="(56) R6_T1" color=red]
+	34 [label="(34) U4"]
+	49 [label="(49) U2_T1"]
+	57 [label="(57) R7_T1" color=red]
+	11 [label="(11) R11"]
+	13 [label="(13) Q3"]
+	49 [label="(49) U2_T1"]
+	58 [label="(58) R8_T1" color=red]
+	34 [label="(34) U4"]
+	49 [label="(49) U2_T1"]
+	59 [label="(59) Q1_T1" color=red]
+	54 [label="(54) U1_T1"]
+	63 [label="(63) R80_P3"]
+	60 [label="(60) R9_T1"]
+	60 [label="(60) R9_T1" color=red]
+	49 [label="(49) U2_T1"]
+	63 [label="(63) R80_P3"]
+	59 [label="(59) Q1_T1"]
+	61 [label="(61) T80_P3" color=red]
+	62 [label="(62) R81_P3"]
+	64 [label="(64) R82_P3"]
+	63 [label="(63) R80_P3"]
+	62 [label="(62) R81_P3" color=red]
+	16 [label="(16) R5"]
+	61 [label="(61) T80_P3"]
+	63 [label="(63) R80_P3" color=red]
+	60 [label="(60) R9_T1"]
+	59 [label="(59) Q1_T1"]
+	61 [label="(61) T80_P3"]
+	64 [label="(64) R82_P3" color=red]
+	34 [label="(34) U4"]
+	61 [label="(61) T80_P3"]
+	49 -- 58
+	49 -- 57
+	49 -- 56
+	49 -- 55
+	49 -- 54
+	49 -- 60
+	50 -- 34
+	50 -- 54
+	51 -- 39
+	51 -- 27
+	51 -- 54
+	52 -- 34
+	52 -- 54
+	53 -- 1
+	53 -- 35
+	53 -- 38
+	53 -- 54
+	54 -- 49
+	54 -- 52
+	54 -- 51
+	54 -- 50
+	54 -- 59
+	54 -- 53
+	55 -- 39
+	55 -- 49
+	56 -- 34
+	56 -- 49
+	57 -- 11
+	57 -- 13
+	57 -- 49
+	58 -- 34
+	58 -- 49
+	59 -- 54
+	59 -- 63
+	59 -- 60
+	60 -- 49
+	60 -- 63
+	60 -- 59
+	61 -- 62
+	61 -- 64
+	61 -- 63
+	62 -- 16
+	62 -- 61
+	63 -- 60
+	63 -- 59
+	63 -- 61
+	64 -- 34
+	64 -- 61
+}

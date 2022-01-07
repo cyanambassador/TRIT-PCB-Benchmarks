@@ -1,0 +1,3 @@
+ciaa-z3r0_Chip_Trigger3_Chip_Payload1
+{'15R': 2, '1K': 4}
+{}

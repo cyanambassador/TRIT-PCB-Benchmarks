@@ -1,0 +1,22 @@
+ciaa_acc_Chip_Trigger2_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANKS_HR/TMDS_D1_N /Principal/BANKS_HP/FMC_CLK1_C2M_N "Net-(C97-Pad2)" /Principal/BANK_0/POWERGOOD "Net-(D3-Pad2)" /Principal/BANK_502/DDR_A1 /Principal/BANKS_HP/GPIO1 /Principal/BANKS_HR/FMC_LA_30_N 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(C103-Pad2)"
+Effect : The signal that is leaked...
+/Principal/BANK_501/USB_B_P
+
+************************************************************

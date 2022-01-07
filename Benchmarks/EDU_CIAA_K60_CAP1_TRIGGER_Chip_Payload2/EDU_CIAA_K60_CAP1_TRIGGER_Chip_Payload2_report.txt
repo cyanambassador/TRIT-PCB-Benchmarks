@@ -1,0 +1,22 @@
+EDU_CIAA_K60_CAP1_TRIGGER_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 "Net-(U10-Pad40)" "Net-(R5-Pad2)" /GPIO/ADC0_1 "/USB-OTG/CHS_OTG" /CPU/USB_ID /CPU/PULS_3 "Net-(U10-Pad47)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/GPIO/ADC0_3
+Effect : The signal that is leaked...
+"Net-(Q3-PadD)"
+
+************************************************************

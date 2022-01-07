@@ -1,0 +1,19 @@
+CIAA_FSL_MINI_Chip_Trigger4_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPIFI_WP "/USBOTG/USB0_PWR_FAULT" /CPU/GPIO8 "Net-(D401-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(R414-Pad1)"
+
+************************************************************

@@ -1,0 +1,22 @@
+EDU_CIAA_K60_Chip_Trigger1_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 /CPU/I2C_SCL "Net-(U10-Pad101)" "Net-(U8-Pad7)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/GPIO/GPIO4
+Effect : The signal that is leaked...
+/CPU/TMS
+
+************************************************************

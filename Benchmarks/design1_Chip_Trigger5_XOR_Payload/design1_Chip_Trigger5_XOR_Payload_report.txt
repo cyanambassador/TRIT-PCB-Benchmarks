@@ -1,0 +1,19 @@
+design1_Chip_Trigger5_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U4-Pad18)" "Net-(U4-Pad39)" "Net-(U4-Pad33)" "Net-(U4-Pad17)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(R5-Pad2)"
+
+************************************************************

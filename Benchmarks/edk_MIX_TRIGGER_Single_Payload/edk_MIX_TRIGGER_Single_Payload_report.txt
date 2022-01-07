@@ -1,0 +1,19 @@
+edk_MIX_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX /P1_8 "Net-(U8-Pad6)" /CPU/SD_0_CLK /CPU/UART_1_TX /CPU/SD_0_DAT0 /USB/EN "Net-(FB3-Pad2)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/SPI_2_RXD
+
+************************************************************

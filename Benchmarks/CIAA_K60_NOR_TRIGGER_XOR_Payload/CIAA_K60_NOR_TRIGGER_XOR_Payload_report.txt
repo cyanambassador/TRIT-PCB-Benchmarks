@@ -1,0 +1,19 @@
+CIAA_K60_NOR_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GPIO2 /CPU/DIN6 "Net-(C903-Pad1)" "Net-(D401-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"/SalidasDigitales/C_3"
+
+************************************************************

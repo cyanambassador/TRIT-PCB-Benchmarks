@@ -1,0 +1,22 @@
+ciaa-pic_NOR_TRIGGER_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 "Net-(D10-Pad2)" +3.3VADC 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+GND
+Effect : The signal that is leaked...
+"/SalidaAnalógica/24V_A"
+
+************************************************************

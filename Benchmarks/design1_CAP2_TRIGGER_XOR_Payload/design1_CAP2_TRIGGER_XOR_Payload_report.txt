@@ -1,0 +1,19 @@
+design1_CAP2_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U4-Pad18)" "Net-(U4-Pad17)" SWB+ "Net-(U5-Pad1)" "Net-(U5-Pad8)" "Net-(U4-Pad33)" "Net-(U2-Pad6)" "Net-(U4-Pad24)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(Q2-Pad2)"
+
+************************************************************

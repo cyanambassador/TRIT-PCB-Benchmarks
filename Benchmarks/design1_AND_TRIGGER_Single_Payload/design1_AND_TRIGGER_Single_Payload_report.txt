@@ -1,0 +1,19 @@
+design1_AND_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U4-Pad18)" "Net-(U4-Pad17)" "Net-(U2-Pad7)" "Net-(D9-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(C2-Pad1)"
+
+************************************************************

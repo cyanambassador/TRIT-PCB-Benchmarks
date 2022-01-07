@@ -1,0 +1,22 @@
+CIAA_K60_MIX_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GPIO2 /CPU/DIN6 "Net-(U1302-Pad52)" "Net-(J401-Pad3)" "Net-(D1102-Pad2)" /JTAG/EEDATA "Net-(Q808-Pad1)" "Net-(J603-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(C1004-Pad1)"
+Effect : The signal that is leaked...
+/CPU/SPIFI_HOLD
+
+************************************************************

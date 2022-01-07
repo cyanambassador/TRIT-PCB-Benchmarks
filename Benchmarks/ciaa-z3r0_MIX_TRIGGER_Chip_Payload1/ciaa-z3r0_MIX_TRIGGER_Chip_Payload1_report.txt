@@ -1,0 +1,19 @@
+ciaa-z3r0_MIX_TRIGGER_Chip_Payload1 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/PF2 /PD6 /PB8 /PB13 /B_USB+ /PA8 /PD5 "Net-(J3-Pad6)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/PC1
+
+************************************************************

@@ -1,0 +1,22 @@
+ciaa-pic_CAP2_TRIGGER_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 "Net-(D6-Pad2)" "Net-(R80-Pad2)" "Net-(U16-Pad67)" /CPU/DOUT5 /GPIO/AN2 "Net-(JP9-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(C93-Pad1)"
+Effect : The signal that is leaked...
+/CPU/DIN3
+
+************************************************************

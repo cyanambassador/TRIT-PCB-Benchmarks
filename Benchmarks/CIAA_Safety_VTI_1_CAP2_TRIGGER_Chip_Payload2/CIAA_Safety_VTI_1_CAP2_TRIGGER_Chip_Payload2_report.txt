@@ -1,0 +1,22 @@
+CIAA_Safety_VTI_1_CAP2_TRIGGER_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPI4SIMO[0] /ISA_GPIO3 /ISA_AD1IN[9] "Net-(D40-Pad2)" "Net-(U5-Pad11)" "Net-(D9-Pad1)" /nTRST /CPU/GPIO6 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(R29-Pad2)"
+Effect : The signal that is leaked...
+"Net-(C1-Pad2)"
+
+************************************************************

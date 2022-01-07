@@ -1,0 +1,19 @@
+ciaa-z3r0_NOR_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/PF2 /PD4 /PB8 /PD7 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/PD6
+
+************************************************************

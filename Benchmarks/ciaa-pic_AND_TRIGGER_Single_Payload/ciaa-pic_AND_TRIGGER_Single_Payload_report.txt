@@ -1,0 +1,19 @@
+ciaa-pic_AND_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 /CPU/RS232_RXD "Net-(R24-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/RX_ER
+
+************************************************************

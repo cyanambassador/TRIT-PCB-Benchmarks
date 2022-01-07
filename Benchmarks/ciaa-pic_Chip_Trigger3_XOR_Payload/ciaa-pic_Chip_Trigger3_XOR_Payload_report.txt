@@ -1,0 +1,19 @@
+ciaa-pic_Chip_Trigger3_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 "Net-(D3-Pad2)" "Net-(JP9-Pad1)" "Net-(R98-Pad1)" "/SalidasDigitales/NC1A" "Net-(IC1-Pad5)" "Net-(C38-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(FB12-Pad2)"
+
+************************************************************

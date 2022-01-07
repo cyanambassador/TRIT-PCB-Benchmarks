@@ -1,0 +1,19 @@
+EDU_CIAA_K60_Chip_Trigger4_Chip_Payload1 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 /GPIO/GPIO6 /GPIO/GPIO3 "Net-(U8-Pad7)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/RS485_TXD
+
+************************************************************

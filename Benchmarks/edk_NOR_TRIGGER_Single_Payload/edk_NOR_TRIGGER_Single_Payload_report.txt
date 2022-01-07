@@ -1,0 +1,19 @@
+edk_NOR_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX /P2_20 "Net-(U8-Pad3)" "Net-(D5-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/P1_10
+
+************************************************************

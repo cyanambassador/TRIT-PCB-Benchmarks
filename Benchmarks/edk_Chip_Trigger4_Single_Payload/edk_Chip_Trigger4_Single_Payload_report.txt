@@ -1,0 +1,19 @@
+edk_Chip_Trigger4_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX "Net-(J1-Pad2)" "/SD-Card/DAT3" /P2_2 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/I2C_1_SCL
+
+************************************************************

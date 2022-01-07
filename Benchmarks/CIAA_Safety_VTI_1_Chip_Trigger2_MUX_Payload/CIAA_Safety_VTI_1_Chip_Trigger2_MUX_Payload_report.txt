@@ -1,0 +1,22 @@
+CIAA_Safety_VTI_1_Chip_Trigger2_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPI4SIMO[0] /ISA_GPIO3 /ISA_AD1IN[9] "Net-(C11-Pad1)" "Net-(C90-Pad1)" /CPU/SPI4CLK "Net-(P1-Pad6)" "Net-(C92-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/ISA_GPIO18
+Effect : The signal that is leaked...
+"/CAN1/2/CAN1_STB"
+
+************************************************************

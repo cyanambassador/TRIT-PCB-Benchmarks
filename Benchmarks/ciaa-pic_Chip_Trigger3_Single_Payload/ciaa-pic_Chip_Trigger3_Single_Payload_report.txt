@@ -1,0 +1,19 @@
+ciaa-pic_Chip_Trigger3_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 "Net-(FB19-Pad2)" /Ethernet/RXD0 "Net-(R96-Pad1)" "Net-(FB12-Pad2)" "Net-(R86-Pad2)" "Net-(J15-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/SPI_MOSI
+
+************************************************************

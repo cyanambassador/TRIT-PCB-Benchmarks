@@ -1,0 +1,19 @@
+EDU_CIAA_K60_Chip_Trigger5_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 "Net-(C48-Pad2)" "Net-(F1-Pad2)" "Net-(D5-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/RS485_RXD
+
+************************************************************

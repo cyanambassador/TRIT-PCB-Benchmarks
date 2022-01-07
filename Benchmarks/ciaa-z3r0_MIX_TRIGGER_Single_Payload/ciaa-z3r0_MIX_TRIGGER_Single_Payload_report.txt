@@ -1,0 +1,19 @@
+ciaa-z3r0_MIX_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/PF2 /PA1 /PB8 "Net-(D3-Pad2)" /PB13 /PB14 /PD4 /PA9 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/PD7
+
+************************************************************

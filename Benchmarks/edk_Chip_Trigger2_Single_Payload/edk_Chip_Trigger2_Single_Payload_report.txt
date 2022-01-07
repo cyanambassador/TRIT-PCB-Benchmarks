@@ -1,0 +1,19 @@
+edk_Chip_Trigger2_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX "Net-(FB4-Pad2)" +1V8 "Net-(FB2-Pad2)" "Net-(J1-Pad3)" /P1_14 /CPU/GP165 /CPU/UART_1_RTS 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/P2_1
+
+************************************************************

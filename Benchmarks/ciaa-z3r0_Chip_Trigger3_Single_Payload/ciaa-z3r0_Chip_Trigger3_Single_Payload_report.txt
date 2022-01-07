@@ -1,0 +1,19 @@
+ciaa-z3r0_Chip_Trigger3_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/PF2 /PF0/SWCLK /PB8 /PF1/SWDIO /PD6 /PC0 /vin /PC9 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/PF1/SWDIO
+
+************************************************************

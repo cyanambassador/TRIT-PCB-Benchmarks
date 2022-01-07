@@ -1,0 +1,22 @@
+EDU_CIAA_K60_NOR_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 /CPU/TDO "Net-(R4-Pad2)" "Net-(Q5-PadG)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/TMS
+Effect : The signal that is leaked...
+"Net-(C11-Pad1)"
+
+************************************************************

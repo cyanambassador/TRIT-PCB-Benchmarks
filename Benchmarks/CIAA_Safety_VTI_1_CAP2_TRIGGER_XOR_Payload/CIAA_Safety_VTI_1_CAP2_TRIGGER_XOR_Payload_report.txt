@@ -1,0 +1,19 @@
+CIAA_Safety_VTI_1_CAP2_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPI4SIMO[0] /ISA_GPIO3 /ISA_AD1IN[9] "Net-(R14-Pad1)" "Net-(P7-Pad32)" /ISA_AD1IN[12] +3.3VADC "Net-(R13-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(R49-Pad1)"
+
+************************************************************

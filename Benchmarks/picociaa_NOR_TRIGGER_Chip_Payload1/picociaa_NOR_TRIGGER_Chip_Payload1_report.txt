@@ -1,0 +1,19 @@
+picociaa_NOR_TRIGGER_Chip_Payload1 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/P0_24 "Net-(C28-Pad1)" "Net-(R10-Pad2)" /Debugger/DBG_~ISP~ 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/P0_30
+
+************************************************************

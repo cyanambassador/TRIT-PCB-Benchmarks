@@ -1,0 +1,22 @@
+EDU_CIAA_K60_Chip_Trigger5_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 /GPIO/ENET_RXD0 "Net-(U6-Pad3)" /GPIO/ENET_MDC 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/JTAG/FT_RST
+Effect : The signal that is leaked...
+"Net-(C28-Pad1)"
+
+************************************************************

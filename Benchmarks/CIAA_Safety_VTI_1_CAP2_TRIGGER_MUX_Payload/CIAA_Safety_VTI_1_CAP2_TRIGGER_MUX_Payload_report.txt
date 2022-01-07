@@ -1,0 +1,22 @@
+CIAA_Safety_VTI_1_CAP2_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPI4SIMO[0] /ISA_GPIO3 /ISA_AD1IN[9] /RTCK "Net-(D15-Pad2)" "Net-(U8-Pad82)" /ISA_AD1IN[3] /ISA_GPIO10 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/ISA_GPIO2
+Effect : The signal that is leaked...
+/ISA_AD1IN[1]
+
+************************************************************

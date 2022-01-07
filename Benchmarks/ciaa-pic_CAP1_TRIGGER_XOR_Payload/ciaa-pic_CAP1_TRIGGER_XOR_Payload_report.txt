@@ -1,0 +1,19 @@
+ciaa-pic_CAP1_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 "Net-(U17-Pad48)" /CPU/DIN6 "Net-(R88-Pad2)" "Net-(U17-Pad60)" /CPU/ENET_TXD1 /JTAG/USB_JTAG_DM 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(D47-Pad2)"
+
+************************************************************

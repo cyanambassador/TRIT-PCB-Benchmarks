@@ -1,0 +1,22 @@
+CIAA_FSL_MINI_Chip_Trigger2_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPIFI_WP "/USBOTG/USB0_PWR_FAULT" /CPU/ETH_TXD0 /CPU/AUX_UART_CTS/SPI_CLK /CPU/RS232_RXD "Net-(C601-Pad1)" "Net-(R603-Pad2)" /Ethernet/LED_100M 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/USB_ID
+Effect : The signal that is leaked...
+/CPU/DOUT7
+
+************************************************************

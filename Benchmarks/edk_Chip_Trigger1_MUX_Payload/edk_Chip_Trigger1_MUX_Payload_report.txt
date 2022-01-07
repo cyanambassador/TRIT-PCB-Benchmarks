@@ -1,0 +1,22 @@
+edk_Chip_Trigger1_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX /USB/FAULT /CPU/I2C_6_SCL /CPU/GP165 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/USB_DP
+Effect : The signal that is leaked...
+/P2_16
+
+************************************************************

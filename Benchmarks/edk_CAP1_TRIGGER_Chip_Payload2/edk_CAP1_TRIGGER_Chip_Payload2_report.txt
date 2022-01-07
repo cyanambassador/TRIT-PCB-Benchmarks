@@ -1,0 +1,22 @@
+edk_CAP1_TRIGGER_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX /P2_13 "Net-(JP1-Pad1)" /CPU/TTY_TX /CPU/RESET_OUT +1V8 "Net-(C15-Pad1)" /P1_12 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(J2-Pad3)"
+Effect : The signal that is leaked...
+/P1_11
+
+************************************************************

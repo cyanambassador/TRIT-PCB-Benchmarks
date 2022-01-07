@@ -1,0 +1,19 @@
+CIAA_K60_CAP1_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GPIO2 /CPU/DIN6 "Net-(F4-Pad1)" /JTAG/EECS "Net-(FB403-Pad1)" "Net-(JP404-Pad1)" "Net-(JP902-Pad1)" /CPU/GPIO8 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/ETH_RXD0
+
+************************************************************

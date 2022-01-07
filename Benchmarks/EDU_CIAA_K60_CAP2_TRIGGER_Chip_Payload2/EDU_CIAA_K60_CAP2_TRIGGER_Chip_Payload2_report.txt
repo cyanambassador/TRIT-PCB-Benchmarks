@@ -1,0 +1,22 @@
+EDU_CIAA_K60_CAP2_TRIGGER_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 "Net-(U10-Pad48)" /LCD_EN "Net-(Q3-PadG)" "Net-(D14-Pad1)" "Net-(Q5-PadD)" "Net-(U5-Pad21)" "Net-(C52-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/JTAG/EEDATA
+Effect : The signal that is leaked...
+"Net-(D12-Pad2)"
+
+************************************************************

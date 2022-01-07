@@ -1,0 +1,19 @@
+CIAA_Safety_VTI_1_Chip_Trigger3_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPI4SIMO[0] /ISA_GPIO3 /ISA_AD1IN[9] "Net-(D47-Pad2)" "Net-(P7-Pad32)" "Net-(U5-Pad14)" /RESET_ETH "Net-(R66-Pad2)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/ISA_GPIO21
+
+************************************************************

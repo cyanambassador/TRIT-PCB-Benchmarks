@@ -1,0 +1,19 @@
+ciaa-pic_MIX_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 "Net-(Q14-Pad2)" /CPU/TCK /Ethernet/+Filter "Net-(D48-Pad2)" /CPU/ENET_MDIO "Net-(JP8-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/GPIO/AN0
+
+************************************************************

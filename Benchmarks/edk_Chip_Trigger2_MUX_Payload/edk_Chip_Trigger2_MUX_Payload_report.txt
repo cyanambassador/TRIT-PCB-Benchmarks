@@ -1,0 +1,22 @@
+edk_Chip_Trigger2_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX /P2_11 /USB_VBUS "Net-(JP1-Pad1)" /CPU/GP14 /P2_8 "Net-(FB4-Pad2)" "/SD-Card/DAT1" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/GP48
+Effect : The signal that is leaked...
+/CPU/GP13
+
+************************************************************

@@ -1,0 +1,19 @@
+CIAA_FSL_MINI_Chip_Trigger5_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPIFI_WP "/USBOTG/USB0_PWR_FAULT" "/USBOTG/USB0_PPWR" /CPU/EC_PWM0 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/TDO/EC_UART_TX
+
+************************************************************

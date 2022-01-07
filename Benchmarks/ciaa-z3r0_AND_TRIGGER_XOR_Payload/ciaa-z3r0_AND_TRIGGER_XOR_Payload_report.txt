@@ -1,0 +1,19 @@
+ciaa-z3r0_AND_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/PF2 /vusb /PB8 /PF5 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/PD4
+
+************************************************************

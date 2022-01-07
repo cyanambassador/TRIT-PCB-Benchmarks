@@ -1,0 +1,129 @@
+graph {
+	66 [label="(66) U1_T1" color=red]
+	71 [label="(71) U2_T1"]
+	76 [label="(76) U3_T1"]
+	77 [label="(77) R10_T1"]
+	70 [label="(70) R4_T1"]
+	68 [label="(68) R2_T1"]
+	69 [label="(69) R3_T1"]
+	67 [label="(67) R1_T1"]
+	67 [label="(67) R1_T1" color=red]
+	31 [label="(31) U2"]
+	66 [label="(66) U1_T1"]
+	68 [label="(68) R2_T1" color=red]
+	53 [label="(53) U5"]
+	25 [label="(25) P6"]
+	66 [label="(66) U1_T1"]
+	69 [label="(69) R3_T1" color=red]
+	8 [label="(8) P2"]
+	53 [label="(53) U5"]
+	66 [label="(66) U1_T1"]
+	70 [label="(70) R4_T1" color=red]
+	0 [label="(0) J1"]
+	66 [label="(66) U1_T1"]
+	71 [label="(71) U2_T1" color=red]
+	74 [label="(74) R7_T1"]
+	75 [label="(75) R8_T1"]
+	72 [label="(72) R5_T1"]
+	73 [label="(73) R6_T1"]
+	76 [label="(76) U3_T1"]
+	66 [label="(66) U1_T1"]
+	78 [label="(78) R9_T1"]
+	72 [label="(72) R5_T1" color=red]
+	8 [label="(8) P2"]
+	53 [label="(53) U5"]
+	71 [label="(71) U2_T1"]
+	73 [label="(73) R6_T1" color=red]
+	53 [label="(53) U5"]
+	31 [label="(31) U2"]
+	71 [label="(71) U2_T1"]
+	74 [label="(74) R7_T1" color=red]
+	20 [label="(20) U1"]
+	21 [label="(21) C28"]
+	71 [label="(71) U2_T1"]
+	75 [label="(75) R8_T1" color=red]
+	16 [label="(16) R5"]
+	24 [label="(24) P8"]
+	53 [label="(53) U5"]
+	71 [label="(71) U2_T1"]
+	76 [label="(76) U3_T1" color=red]
+	71 [label="(71) U2_T1"]
+	66 [label="(66) U1_T1"]
+	78 [label="(78) R9_T1"]
+	77 [label="(77) R10_T1"]
+	81 [label="(81) R80_P3"]
+	77 [label="(77) R10_T1" color=red]
+	76 [label="(76) U3_T1"]
+	66 [label="(66) U1_T1"]
+	78 [label="(78) R9_T1" color=red]
+	71 [label="(71) U2_T1"]
+	76 [label="(76) U3_T1"]
+	79 [label="(79) T80_P3" color=red]
+	80 [label="(80) R81_P3"]
+	82 [label="(82) R82_P3"]
+	81 [label="(81) R80_P3"]
+	80 [label="(80) R81_P3" color=red]
+	1 [label="(1) VR1"]
+	79 [label="(79) T80_P3"]
+	81 [label="(81) R80_P3" color=red]
+	76 [label="(76) U3_T1"]
+	79 [label="(79) T80_P3"]
+	82 [label="(82) R82_P3" color=red]
+	0 [label="(0) J1"]
+	79 [label="(79) T80_P3"]
+	66 -- 71
+	66 -- 76
+	66 -- 77
+	66 -- 70
+	66 -- 68
+	66 -- 69
+	66 -- 67
+	67 -- 31
+	67 -- 66
+	68 -- 53
+	68 -- 25
+	68 -- 66
+	69 -- 8
+	69 -- 53
+	69 -- 66
+	70 -- 0
+	70 -- 66
+	71 -- 74
+	71 -- 75
+	71 -- 72
+	71 -- 73
+	71 -- 76
+	71 -- 66
+	71 -- 78
+	72 -- 8
+	72 -- 53
+	72 -- 71
+	73 -- 53
+	73 -- 31
+	73 -- 71
+	74 -- 20
+	74 -- 21
+	74 -- 71
+	75 -- 16
+	75 -- 24
+	75 -- 53
+	75 -- 71
+	76 -- 71
+	76 -- 66
+	76 -- 78
+	76 -- 77
+	76 -- 81
+	77 -- 76
+	77 -- 66
+	78 -- 71
+	78 -- 76
+	79 -- 80
+	79 -- 82
+	79 -- 81
+	80 -- 1
+	80 -- 79
+	81 -- 76
+	81 -- 79
+	82 -- 0
+	82 -- 79
+}

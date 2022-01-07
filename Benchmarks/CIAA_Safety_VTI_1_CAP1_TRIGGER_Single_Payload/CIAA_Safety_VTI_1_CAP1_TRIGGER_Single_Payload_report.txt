@@ -1,0 +1,19 @@
+CIAA_Safety_VTI_1_CAP1_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPI4SIMO[0] /ISA_GPIO3 /ISA_AD1IN[9] "Net-(C3-Pad1)" /ISA_LINTX/GPIO36 /V_MONITOR /ISA_GPIO23 /ETHERNET/LED_100M 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(C6-Pad1)"
+
+************************************************************

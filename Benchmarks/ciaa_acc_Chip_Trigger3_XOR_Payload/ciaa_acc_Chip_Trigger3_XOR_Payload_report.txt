@@ -1,0 +1,19 @@
+ciaa_acc_Chip_Trigger3_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANKS_HR/TMDS_D1_N /Principal/BANKS_HP/FMC_CLK1_C2M_N /Principal/BANKS_HP/FMC_HA_13_P /Principal/BANK_0/POWERGOOD "Net-(C105-Pad1)" /Principal/BANK_502/DDR_DQS0_N /Principal/BANK_501/MDI4_P /Principal/BANKS_HP/FMC_HB_11_P 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Principal/BANKS_HP/FMC_HA_14_N
+
+************************************************************

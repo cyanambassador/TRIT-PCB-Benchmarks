@@ -1,0 +1,19 @@
+edk_AND_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX /CPU/I2C_6_SDA /P1_4 /CPU/I2C_1_SCL 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/UART_1_RX
+
+************************************************************

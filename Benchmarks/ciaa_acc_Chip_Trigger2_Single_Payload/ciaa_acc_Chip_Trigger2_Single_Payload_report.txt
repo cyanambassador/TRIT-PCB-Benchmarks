@@ -1,0 +1,19 @@
+ciaa_acc_Chip_Trigger2_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANKS_HR/TMDS_D1_N /Principal/BANKS_HP/FMC_CLK1_C2M_N "Net-(J20-Pad2)" /Principal/BANK_0/POWERGOOD "Net-(D7-Pad1)" /Principal/BANKS_HR/FMC_LA_22_P "Net-(U36-Pad5)" "Net-(DS17-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Principal/BANKS_HP/GPIO3
+
+************************************************************

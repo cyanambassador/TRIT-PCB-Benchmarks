@@ -1,0 +1,19 @@
+edk_CAP1_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX /P2_9 /CPU/SD_0_DAT2 "Net-(J2-Pad3)" "Net-(R5-Pad2)" /CPU/GP13 "Net-(C15-Pad1)" "Net-(U8-Pad27)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/GPIO_ENABLE
+
+************************************************************

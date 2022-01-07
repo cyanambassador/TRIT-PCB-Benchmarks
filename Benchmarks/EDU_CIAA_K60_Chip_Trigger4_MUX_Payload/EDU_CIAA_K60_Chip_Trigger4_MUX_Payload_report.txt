@@ -1,0 +1,22 @@
+EDU_CIAA_K60_Chip_Trigger4_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 /JTAG/CHS_DBG "Net-(U10-Pad88)" /JTAG/USB_JTAG_DP 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/JTAG/FT_TMS
+Effect : The signal that is leaked...
+/CPU/USB_DP
+
+************************************************************

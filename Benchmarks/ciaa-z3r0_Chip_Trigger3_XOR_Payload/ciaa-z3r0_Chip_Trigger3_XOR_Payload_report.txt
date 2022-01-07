@@ -1,0 +1,19 @@
+ciaa-z3r0_Chip_Trigger3_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/PF2 /PF0/SWCLK /PB8 /PC9 "Net-(J3-Pad4)" "Net-(D3-Pad2)" /PC1 /vusb 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/PA8
+
+************************************************************

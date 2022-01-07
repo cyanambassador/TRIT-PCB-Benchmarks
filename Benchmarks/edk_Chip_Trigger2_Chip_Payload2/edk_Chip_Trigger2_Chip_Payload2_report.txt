@@ -1,0 +1,22 @@
+edk_Chip_Trigger2_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX "Net-(U8-Pad10)" /CPU/SPI_2_CLK /CPU/SPI_2_TXD +3V3 /CPU/I2C_1_SCL "Net-(D5-Pad1)" /CPU/SPI_2_RXD 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/GP44
+Effect : The signal that is leaked...
+/CPU/SPI_2_TXD
+
+************************************************************

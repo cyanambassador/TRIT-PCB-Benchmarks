@@ -1,0 +1,19 @@
+CIAA_K60_MIX_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GPIO2 /CPU/DIN6 "Net-(C908-Pad2)" "Net-(JP905-Pad3)" /Ethernet/ETX_RXM /CPU/ETH_TXD1 /CPU/SPIFI_CS "Net-(U1302-Pad60)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(R702-Pad2)"
+
+************************************************************

@@ -1,0 +1,22 @@
+ciaa_acc_Chip_Trigger4_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANKS_HR/TMDS_D1_N /Principal/BANKS_HP/FMC_CLK1_C2M_N /Principal/BANKS_HP/FMC_HA_14_P "Net-(J10-Pad1)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/Principal/BANKS_HP/FMC_HB_5_P
+Effect : The signal that is leaked...
+"Net-(J11-Pad5)"
+
+************************************************************

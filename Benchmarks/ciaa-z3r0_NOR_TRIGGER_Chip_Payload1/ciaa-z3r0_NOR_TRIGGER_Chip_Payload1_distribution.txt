@@ -1,0 +1,3 @@
+ciaa-z3r0_NOR_TRIGGER_Chip_Payload1
+{'15R': 2, '1K': 4}
+{}

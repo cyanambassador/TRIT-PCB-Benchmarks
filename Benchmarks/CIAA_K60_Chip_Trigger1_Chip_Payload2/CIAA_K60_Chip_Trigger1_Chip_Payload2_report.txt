@@ -1,0 +1,22 @@
+CIAA_K60_Chip_Trigger1_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GPIO2 /CPU/DIN6 /CPU/GPIO11 "Net-(J301-Pad11)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/GPIO11
+Effect : The signal that is leaked...
+"Net-(Q1202-Pad3)"
+
+************************************************************

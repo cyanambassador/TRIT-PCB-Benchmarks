@@ -1,0 +1,19 @@
+edk_Chip_Trigger5_Chip_Payload1 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX /P2_20 "Net-(J1-Pad2)" /P2_6 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/P2_13
+
+************************************************************

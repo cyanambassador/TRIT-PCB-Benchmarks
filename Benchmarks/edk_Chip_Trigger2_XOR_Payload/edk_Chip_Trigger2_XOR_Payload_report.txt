@@ -1,0 +1,19 @@
+edk_Chip_Trigger2_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX /P1_10 "Net-(U8-Pad31)" /P2_1 /CPU/SPI_2_RXD "Net-(J2-Pad4)" /CPU/SD_0_CMD "/SD-Card/DAT2" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(C15-Pad1)"
+
+************************************************************

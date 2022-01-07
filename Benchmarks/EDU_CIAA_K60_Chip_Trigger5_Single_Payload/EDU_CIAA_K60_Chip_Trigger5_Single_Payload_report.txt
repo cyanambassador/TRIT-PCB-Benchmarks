@@ -1,0 +1,19 @@
+EDU_CIAA_K60_Chip_Trigger5_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 /GPIO/ADC0_3 "Net-(Q6-PadD)" /GPIO/ENET_TXD0 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(J3-Pad1)"
+
+************************************************************

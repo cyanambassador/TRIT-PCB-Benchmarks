@@ -1,0 +1,22 @@
+CIAA_K60_MIX_TRIGGER_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GPIO2 /CPU/DIN6 /CPU/AIN1 +3.3VADC "Net-(D401-Pad1)" "Net-(D802-Pad2)" "Net-(JP901-Pad1)" /CPU/RS232_CTS 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/GPIO5
+Effect : The signal that is leaked...
+"Net-(J1201-Pad2)"
+
+************************************************************

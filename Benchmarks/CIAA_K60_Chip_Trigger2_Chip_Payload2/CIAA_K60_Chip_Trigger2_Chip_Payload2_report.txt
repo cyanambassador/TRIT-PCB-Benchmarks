@@ -1,0 +1,22 @@
+CIAA_K60_Chip_Trigger2_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GPIO2 /CPU/DIN6 /USB_DEBUG_VBUS /JTAG/FT_TDI "Net-(JP905-Pad1)" "Net-(J401-Pad1)" "Net-(D902-Pad3)" "Net-(U302-Pad45)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(JP907-Pad3)"
+Effect : The signal that is leaked...
+"Net-(JP905-Pad1)"
+
+************************************************************

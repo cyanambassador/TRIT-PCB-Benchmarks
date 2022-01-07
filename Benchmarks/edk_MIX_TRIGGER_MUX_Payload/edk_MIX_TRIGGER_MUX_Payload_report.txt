@@ -1,0 +1,22 @@
+edk_MIX_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX "Net-(TR2-Pad3)" "Net-(J2-Pad3)" /CPU/USB_ID "Net-(FB2-Pad2)" "Net-(D1-Pad2)" /CPU/GP15 /P2_1 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/P2_10
+Effect : The signal that is leaked...
+/USB/EN
+
+************************************************************

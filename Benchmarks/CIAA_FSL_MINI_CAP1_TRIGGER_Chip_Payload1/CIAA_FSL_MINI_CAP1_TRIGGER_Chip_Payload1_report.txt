@@ -1,0 +1,19 @@
+CIAA_FSL_MINI_CAP1_TRIGGER_Chip_Payload1 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPIFI_WP "/USBOTG/USB0_PWR_FAULT" /CPU/ETH_TXD0 /CPU/EC_AI2 /CPU/USBD_P "Net-(P201-Pad13)" "Net-(R219-Pad1)" /CPU/AIN1 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+PoE_MA_+
+
+************************************************************

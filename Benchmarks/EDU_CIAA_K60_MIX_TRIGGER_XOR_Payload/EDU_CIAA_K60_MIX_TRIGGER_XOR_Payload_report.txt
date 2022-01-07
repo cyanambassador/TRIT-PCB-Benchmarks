@@ -1,0 +1,19 @@
+EDU_CIAA_K60_MIX_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 +5V /GPIO/ENET_RXD0 "Net-(U10-Pad101)" "Net-(D10-Pad2)" "/USB-OTG/USB_DM_OTG" /JTAG/FT_TCK /CPU/RS485_TXD 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/LCD_EN
+
+************************************************************

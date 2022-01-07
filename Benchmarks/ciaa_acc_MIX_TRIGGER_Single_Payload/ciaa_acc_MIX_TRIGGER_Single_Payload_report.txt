@@ -1,0 +1,19 @@
+ciaa_acc_MIX_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANKS_HR/TMDS_D1_N /Principal/BANKS_HP/FMC_CLK1_C2M_N /Principal/BANK_0/FPGA_DONE /Principal/BANK_0/POWERGOOD /Principal/BANKS_HP/FMC_HB_7_N "Net-(J12-Pad8)" /Principal/BANK_501/MDI1_P "Net-(J5-PadB40)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Principal/BANK_112/DP2_M2C_P
+
+************************************************************

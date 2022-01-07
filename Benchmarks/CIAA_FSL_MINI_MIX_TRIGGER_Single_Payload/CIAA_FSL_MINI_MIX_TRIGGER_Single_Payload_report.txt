@@ -1,0 +1,19 @@
+CIAA_FSL_MINI_MIX_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPIFI_WP "/USBOTG/USB0_PWR_FAULT" /CPU/ETH_TXD0 "Net-(P201-Pad13)" +3.3VADC /CPU/DOUT5 "Net-(F102-Pad1)" /CPU/EC_GPIO1 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/GPIO3/SPI2_SCK
+
+************************************************************

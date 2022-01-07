@@ -1,0 +1,22 @@
+ciaa-pic_MIX_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 "Net-(Q4-Pad4)" "Net-(D12-Pad2)" "Net-(C84-Pad2)" "Net-(D19-Pad1)" "Net-(D11-Pad2)" /GPIO/AN2 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(C91-Pad1)"
+Effect : The signal that is leaked...
+/Ethernet/TXEN
+
+************************************************************

@@ -1,0 +1,19 @@
+CIAA_K60_Chip_Trigger4_Chip_Payload1 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/GPIO2 /CPU/DIN6 +5V "Net-(JP405-Pad2)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/ETH_TXD1
+
+************************************************************

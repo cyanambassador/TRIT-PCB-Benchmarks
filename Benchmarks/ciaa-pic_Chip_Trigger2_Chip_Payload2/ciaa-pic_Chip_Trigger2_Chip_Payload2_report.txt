@@ -1,0 +1,22 @@
+ciaa-pic_Chip_Trigger2_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 "Net-(J1-Pad1)" "Net-(C38-Pad2)" /CPU/AIN0 /CPU/RS232_RXD "Net-(U16-Pad15)" /CPU/RS485_RXD 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(GS4-Pad1)"
+Effect : The signal that is leaked...
+/CPU/SPIFI_IO2
+
+************************************************************

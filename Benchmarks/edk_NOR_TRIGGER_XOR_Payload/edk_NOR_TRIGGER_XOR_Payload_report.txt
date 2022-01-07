@@ -1,0 +1,19 @@
+edk_NOR_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX /CPU/GP183 /CPU/I2S_2_CLK "Net-(U8-Pad10)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/P2_15
+
+************************************************************

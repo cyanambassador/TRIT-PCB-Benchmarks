@@ -1,0 +1,19 @@
+picociaa_CAP1_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/P0_24 "Net-(C28-Pad1)" /IO28 "Net-(J1-Pad8)" "Net-(J1-Pad46)" /USB_P /IO33 /Debugger/DBG_SWDIO 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/PCIe_3.3V
+
+************************************************************

@@ -1,0 +1,19 @@
+CIAA_Safety_VTI_1_CAP2_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPI4SIMO[0] /ISA_GPIO3 /ISA_AD1IN[9] "Net-(C4-Pad2)" /CPU/nRST "Net-(R1-Pad1)" "Net-(D31-Pad2)" "Net-(R41-Pad1)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"/USBHOST-MEMSD/SD_DO"
+
+************************************************************

@@ -1,0 +1,19 @@
+ciaa-pic_Chip_Trigger5_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 "Net-(JP9-Pad1)" /CPU/RS232_CTS 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Ethernet/+Filter
+
+************************************************************

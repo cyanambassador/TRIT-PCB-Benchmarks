@@ -1,0 +1,22 @@
+EDU_CIAA_K60_CAP1_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 "Net-(C29-Pad1)" /CPU/TCK "Net-(R10-Pad2)" "Net-(U10-Pad47)" /JTAG/FT_RST "Net-(U10-Pad49)" "Net-(D2-Pad2)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(Q2-PadG)"
+Effect : The signal that is leaked...
+/CPU/WAKEUP
+
+************************************************************

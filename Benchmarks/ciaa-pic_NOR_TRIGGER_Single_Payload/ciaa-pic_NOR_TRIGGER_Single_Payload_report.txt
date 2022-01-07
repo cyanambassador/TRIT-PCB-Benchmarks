@@ -1,0 +1,19 @@
+ciaa-pic_NOR_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 /RS485_RS232_CAN/CAN_L "/USBOTG/USB0_PWR_FAULT" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+"Net-(J19-Pad1)"
+
+************************************************************

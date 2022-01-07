@@ -1,0 +1,22 @@
+ciaa-pic_Chip_Trigger3_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/ENET_TX_EN /CPU/AIN2 /CPU/ENET_REF_CLK "Net-(R44-Pad2)" "Net-(U1-Pad4)" "Net-(FB18-Pad1)" "Net-(FB13-Pad1)" GNDA 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(C27-Pad1)"
+Effect : The signal that is leaked...
+/CPU/USB_ID
+
+************************************************************

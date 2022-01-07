@@ -1,0 +1,19 @@
+CIAA_FSL_MINI_Chip_Trigger2_Chip_Payload1 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPIFI_WP "/USBOTG/USB0_PWR_FAULT" /CPU/ETH_TXD0 "Net-(U601-Pad47)" /Ethernet/LED_100M /TDO/EC_UART_TX /CPU/AUX_UART_RX/SPI_MISO /CPU/ETH_REF_CLK 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
++5V
+
+************************************************************

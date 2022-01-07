@@ -1,0 +1,22 @@
+ciaa-z3r0_Chip_Trigger4_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/PF2 /PE12 /PC3 /PC8 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/PF3
+Effect : The signal that is leaked...
+/PE13
+
+************************************************************

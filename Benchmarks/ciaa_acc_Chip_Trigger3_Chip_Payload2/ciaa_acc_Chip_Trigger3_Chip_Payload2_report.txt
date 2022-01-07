@@ -1,0 +1,22 @@
+ciaa_acc_Chip_Trigger3_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANKS_HR/TMDS_D1_N /Principal/BANKS_HP/FMC_CLK1_C2M_N /Principal/BANKS_HP/FMC_CLK1_M2C_P /Principal/BANK_0/POWERGOOD "Net-(U1-PadF15)" /Principal/BANKS_HP/FMC_HA_0_P "Net-(U1-PadD11)" /Principal/BANK_501/SDIO_D3 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(DS17-Pad1)"
+Effect : The signal that is leaked...
+/Principal/BANK_501/ETH_RX_CLK
+
+************************************************************

@@ -1,0 +1,19 @@
+EDU_CIAA_K60_CAP2_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 /CPU/TEC_F1 "Net-(C44-Pad1)" /GPIO/ENET_TXD0 "Net-(F6-Pad1)" "Net-(C8-Pad1)" "Net-(U10-Pad77)" /JTAG/EECLK 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/TEC_COL2
+
+************************************************************

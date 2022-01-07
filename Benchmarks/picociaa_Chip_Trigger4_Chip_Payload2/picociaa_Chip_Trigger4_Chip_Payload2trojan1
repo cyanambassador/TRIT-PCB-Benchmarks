@@ -1,0 +1,97 @@
+graph {
+	66 [label="(66) R1_T1" color=red]
+	41 [label="(41) R12"]
+	40 [label="(40) R14"]
+	38 [label="(38) Q1"]
+	39 [label="(39) R13"]
+	70 [label="(70) U2_T1"]
+	67 [label="(67) R2_T1" color=red]
+	70 [label="(70) U2_T1"]
+	68 [label="(68) Q1_T1" color=red]
+	70 [label="(70) U2_T1"]
+	76 [label="(76) R1_P1"]
+	69 [label="(69) R5_T1"]
+	69 [label="(69) R5_T1" color=red]
+	72 [label="(72) U1_T1"]
+	76 [label="(76) R1_P1"]
+	68 [label="(68) Q1_T1"]
+	70 [label="(70) U2_T1" color=red]
+	67 [label="(67) R2_T1"]
+	72 [label="(72) U1_T1"]
+	66 [label="(66) R1_T1"]
+	68 [label="(68) Q1_T1"]
+	71 [label="(71) R4_T1" color=red]
+	16 [label="(16) R5"]
+	24 [label="(24) P8"]
+	53 [label="(53) U5"]
+	72 [label="(72) U1_T1"]
+	72 [label="(72) U1_T1" color=red]
+	73 [label="(73) R3_T1"]
+	71 [label="(71) R4_T1"]
+	70 [label="(70) U2_T1"]
+	69 [label="(69) R5_T1"]
+	73 [label="(73) R3_T1" color=red]
+	20 [label="(20) U1"]
+	21 [label="(21) C28"]
+	72 [label="(72) U1_T1"]
+	74 [label="(74) U1_P1" color=red]
+	75 [label="(75) D1_P1"]
+	77 [label="(77) R2_P1"]
+	78 [label="(78) R3_P1"]
+	76 [label="(76) R1_P1"]
+	75 [label="(75) D1_P1" color=red]
+	25 [label="(25) P6"]
+	74 [label="(74) U1_P1"]
+	76 [label="(76) R1_P1" color=red]
+	69 [label="(69) R5_T1"]
+	68 [label="(68) Q1_T1"]
+	74 [label="(74) U1_P1"]
+	77 [label="(77) R2_P1" color=red]
+	53 [label="(53) U5"]
+	74 [label="(74) U1_P1"]
+	78 [label="(78) R3_P1" color=red]
+	8 [label="(8) P2"]
+	53 [label="(53) U5"]
+	74 [label="(74) U1_P1"]
+	66 -- 41
+	66 -- 40
+	66 -- 38
+	66 -- 39
+	66 -- 70
+	67 -- 70
+	68 -- 70
+	68 -- 76
+	68 -- 69
+	69 -- 72
+	69 -- 76
+	69 -- 68
+	70 -- 67
+	70 -- 72
+	70 -- 66
+	70 -- 68
+	71 -- 16
+	71 -- 24
+	71 -- 53
+	71 -- 72
+	72 -- 73
+	72 -- 71
+	72 -- 70
+	72 -- 69
+	73 -- 20
+	73 -- 21
+	73 -- 72
+	74 -- 75
+	74 -- 77
+	74 -- 78
+	74 -- 76
+	75 -- 25
+	75 -- 74
+	76 -- 69
+	76 -- 68
+	76 -- 74
+	77 -- 53
+	77 -- 74
+	78 -- 8
+	78 -- 53
+	78 -- 74
+}

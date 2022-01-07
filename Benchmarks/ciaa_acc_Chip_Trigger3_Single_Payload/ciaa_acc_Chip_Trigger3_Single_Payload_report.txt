@@ -1,0 +1,19 @@
+ciaa_acc_Chip_Trigger3_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/Principal/BANKS_HR/TMDS_D1_N /Principal/BANKS_HP/FMC_CLK1_C2M_N /Principal/OneBank/MGTXTX0_B_N /Principal/BANK_0/POWERGOOD "Net-(J4-Pad19)" /Principal/BANKS_HR/DIN3 "Net-(U12-Pad7)" /Principal/BANK_501/ETH_TX2 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/Principal/BANKS_HP/FMC_CLK1_C2M_N
+
+************************************************************

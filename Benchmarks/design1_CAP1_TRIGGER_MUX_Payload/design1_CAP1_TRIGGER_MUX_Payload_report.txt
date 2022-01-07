@@ -1,0 +1,22 @@
+design1_CAP1_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+"Net-(U4-Pad18)" "Net-(C2-Pad1)" "Net-(D9-Pad1)" "Net-(D9-Pad2)" "Net-(D6-Pad2)" "Net-(U5-Pad1)" "Net-(U4-Pad6)" "Net-(U4-Pad25)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"Net-(D2-Pad1)"
+Effect : The signal that is leaked...
+"Net-(D8-Pad2)"
+
+************************************************************

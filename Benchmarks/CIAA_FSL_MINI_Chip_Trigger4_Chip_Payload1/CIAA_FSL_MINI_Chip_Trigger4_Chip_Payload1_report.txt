@@ -1,0 +1,19 @@
+CIAA_FSL_MINI_Chip_Trigger4_Chip_Payload1 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/SPIFI_WP "/USBOTG/USB0_PWR_FAULT" /CPU/SD_CMD /CPU/RS485_RXD 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/CPU/EC_PWM5
+
+************************************************************

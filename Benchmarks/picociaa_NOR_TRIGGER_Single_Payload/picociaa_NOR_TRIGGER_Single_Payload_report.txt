@@ -1,0 +1,19 @@
+picociaa_NOR_TRIGGER_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/P0_24 "Net-(C28-Pad1)" "Net-(J1-Pad23)" "Net-(J1-Pad5)" 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/IO36
+
+************************************************************

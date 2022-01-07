@@ -1,0 +1,19 @@
+edk_Chip_Trigger5_Single_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TTY_RX "Net-(U8-Pad22)" "Net-(GS3-Pad2)" /CPU/RCVR_MODE 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/P2_16
+
+************************************************************

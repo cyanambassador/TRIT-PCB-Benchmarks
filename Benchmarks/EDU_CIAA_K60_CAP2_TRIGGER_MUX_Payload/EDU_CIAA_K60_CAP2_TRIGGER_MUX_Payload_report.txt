@@ -1,0 +1,22 @@
+EDU_CIAA_K60_CAP2_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/CPU/TEC_COL0 "Net-(U10-Pad99)" /LCD_D3 /JTAG/USB_JTAG_DP "Net-(Q3-PadD)" "Net-(U10-Pad89)" "Net-(C12-Pad1)" /CPU/TMS 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/CPU/USB_DM
+Effect : The signal that is leaked...
+"Net-(LED1-Pad2)"
+
+************************************************************

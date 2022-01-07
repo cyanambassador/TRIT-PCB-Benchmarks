@@ -1,0 +1,22 @@
+picociaa_CAP2_TRIGGER_Chip_Payload2 LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/P0_24 "Net-(C28-Pad1)" "Net-(J1-Pad37)" /Debugger/DBG_~RST~ /IO20 /IO35 /IO33 /IO9 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+/IO1
+Effect : The signal that is leaked...
+"Net-(R3-Pad1)"
+
+************************************************************

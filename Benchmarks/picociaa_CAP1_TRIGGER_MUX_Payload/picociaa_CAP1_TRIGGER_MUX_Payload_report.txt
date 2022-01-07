@@ -1,0 +1,22 @@
+picociaa_CAP1_TRIGGER_MUX_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/P0_24 "Net-(C28-Pad1)" /IO29 "Net-(J1-Pad44)" "Net-(U2-Pad18)" /IO25 /IO38 "Net-(J1-Pad48)" 
+
+Type : Leakage
+Effect : The Trojan leaks though the following signals...
+"/Target-CPU/RXD"
+Effect : The signal that is leaked...
+/IO28
+
+************************************************************

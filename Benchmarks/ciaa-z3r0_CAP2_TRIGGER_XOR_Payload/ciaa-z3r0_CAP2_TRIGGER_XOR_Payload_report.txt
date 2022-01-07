@@ -1,0 +1,19 @@
+ciaa-z3r0_CAP2_TRIGGER_XOR_Payload LOG
+************************************************************
+
+Trojan Insertion
+
+************************************************************
+
+TROJAN STATS
+
+Trojan Insertion 0
+
+The Trojan is Triggered by the following activation Signals
+
+/PF2 "Net-(R2-Pad1)" /PB8 /PA2 /PD7 /USB+ /PD4 /PF0/SWCLK 
+
+Type : CombinationalEffect : The Trojan alters the following signals...
+/PF3
+
+************************************************************
